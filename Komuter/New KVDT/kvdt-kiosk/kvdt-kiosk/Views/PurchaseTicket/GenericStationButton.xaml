@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="kvdt_kiosk.Views.PurchaseTicket.GenericStationButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:kvdt_kiosk.Views.PurchaseTicket"
+             mc:Ignorable="d" FontFamily="Inter"
+              d:DesignHeight="65" d:DesignWidth="250">
+    <UserControl.Resources>
+        <Style x:Key="BtnStation" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="#000000"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border  CornerRadius="0,15,15,0" >
+                            <ContentPresenter Content="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="BtnSelected" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="#000000"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="Height" Value="65"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="#FBD012" CornerRadius="6" >
+                            <ContentPresenter Content="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid x:Name="GridBtnStation" Background="#FFFFFF">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="26"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border x:Name="StationColorCode" Background="#355596" CornerRadius="15,0,0,15" ></Border>
+        <Grid x:Name="BtnGenericStation" Background="#FFFFFF"  Grid.Column="1" MouseLeftButtonDown="BtnGenericStation_Click" Cursor="Hand" >
+            <TextBlock x:Name="LblStationName" Text="Station Name" TextWrapping="WrapWithOverflow" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14"
+                       x:FieldModifier="public"></TextBlock>
+            <TextBlock x:Name="LblStationId" Visibility="Hidden" Text="Station Name" VerticalAlignment="Center" HorizontalAlignment="Center"
+                       x:FieldModifier="public"></TextBlock>
+        </Grid>
+    </Grid>
+</UserControl>

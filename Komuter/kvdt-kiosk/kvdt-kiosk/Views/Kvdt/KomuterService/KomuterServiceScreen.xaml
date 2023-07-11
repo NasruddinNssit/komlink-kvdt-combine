@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="kvdt_kiosk.Views.Kvdt.KomuterService.KomuterServiceScreen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:kvdt_kiosk.Views.Kvdt.KomuterService"
+             mc:Ignorable="d" 
+             d:DesignHeight="1920" d:DesignWidth="1080">
+    <UserControl.Resources>
+        <Style x:Key="BtnStation" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="#000000"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="30"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="#FBD012" CornerRadius="15" >
+                            <ContentPresenter Content="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Grid.RowSpan="4" Source="/Assets/TVM-bg.png" Stretch="UniformToFill" Width="auto" Height="1920"/>
+        <TextBlock Text="KOMUTER SERVICES" Foreground="White" FontSize="70" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,40,0,50
+                   "></TextBlock>
+        <TextBlock Grid.Row="1" Text="Please select the available service" Foreground="White" FontSize="40" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <UniformGrid Grid.Row="2" x:Name="GridAFC" Margin="0,150,0,0">
+            
+        </UniformGrid>
+        <!--<Button Grid.Row="3" Content="KOMLINK CARD" Style="{StaticResource BtnStation}" ></Button>-->
+    </Grid>
+</UserControl>

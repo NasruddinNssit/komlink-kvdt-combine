@@ -1,0 +1,87 @@
+﻿<UserControl x:Class="Komlink.Views.Komlink.CardDetail"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Komlink.Views.Komlink"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1010">
+
+    <UserControl.Resources>
+        <Style x:Key="TextStyle" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontSize" Value="32"/>
+            <Setter Property="Foreground" Value="#fff"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="20 0 0 0 "/>
+        </Style>
+    </UserControl.Resources>
+    <Grid >
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/CardDetail-bg.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="PNR"  Style="{StaticResource TextStyle}" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Column="1" Text=":" Style="{StaticResource TextStyle}" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Column="2" x:Name="KomlinkCardId" Text="PNR-5FBd4FF8" Style="{StaticResource TextStyle}" HorizontalAlignment="Left"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Name"  Style="{StaticResource TextStyle}" HorizontalAlignment="Left" Name="NameText"/>
+            <TextBlock Grid.Column="1" Text=":" Style="{StaticResource TextStyle}" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Column="2" x:Name="KomlinkCardName" Text="Nor Amira Binti Rosni" Style="{StaticResource TextStyle}" HorizontalAlignment="Left"/>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Card Type"  Style="{StaticResource TextStyle}" HorizontalAlignment="Left" Name="CardTypeText"/>
+            <TextBlock Grid.Column="1" Text=":" Style="{StaticResource TextStyle}" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Column="2" x:Name="KomlinkCardType" Text="Child" Style="{StaticResource TextStyle}" HorizontalAlignment="Left"/>
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Card Balance"  Style="{StaticResource TextStyle}" HorizontalAlignment="Left" Name="CardBalanceText"/>
+            <TextBlock Grid.Column="1" Text=":" Style="{StaticResource TextStyle}" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Column="2" x:Name="KomlinkCardBalance" Text="MYR 21.90" Style="{StaticResource TextStyle}" HorizontalAlignment="Left"/>
+        </Grid>
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Active Season Pass"  Style="{StaticResource TextStyle}" HorizontalAlignment="Left" Name="SeasonPassText"/>
+            <TextBlock Grid.Column="1" Text=":" Style="{StaticResource TextStyle}" HorizontalAlignment="Left"/>
+            
+            <WrapPanel Grid.Column="2"  Orientation="Horizontal" FlowDirection="LeftToRight" Name="WpnSeason" VerticalAlignment="Center" >
+                
+            </WrapPanel>
+        </Grid>
+
+    </Grid>
+</UserControl>

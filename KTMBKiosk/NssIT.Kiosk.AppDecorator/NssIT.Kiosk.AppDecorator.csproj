@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1CC91BDA-E1D3-4EAB-9D67-7D04B224F837}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NssIT.Kiosk.AppDecorator</RootNamespace>
+    <AssemblyName>NssIT.Kiosk.AppDecorator</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Presentation" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonAct.cs" />
+    <Compile Include="Common\Access\ITransSuccessEcho.cs" />
+    <Compile Include="Common\Access\SuccessXEcho.cs" />
+    <Compile Include="Common\AppService\Command\AccessDBCommandCode.cs" />
+    <Compile Include="Common\AppService\Command\IAccessDBCommand.cs" />
+    <Compile Include="Common\AppService\Command\ModuleAppGroup.cs" />
+    <Compile Include="Common\AppService\Command\Sales\CardSettlementCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\CheckOutstandingCardSettlementCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\CompleteTransactionElseReleaseSeatCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\CounterConfigurationRequestCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\CustInfoPNRTicketTypeRequestCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\CustInfoPrerequisiteRequestCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\CustInfoUpdateCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\CustPromoCodeVerifyCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\DepartSeatListCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\DepartTripListCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\ETSCheckoutSaleCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\ETSInsuranceSubmissionCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\ETSIntercityTicketRequestCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\ExtendBookingTimeoutCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\GetETSInsuranceCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\KomuterBookingCheckoutCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\KomuterCompletePaymentCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\KomuterTicketBookingRequestCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\KomuterTicketTypePackageCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\LogonCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\OriginListRequestCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\DestinationListRequestCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\DepartSeatConfirmCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\ReturnSeatConfirmCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\ReturnSeatListCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\ReturnTripListCommand.cs" />
+    <Compile Include="Common\AppService\Command\Sales\TicketReleaseCommand.cs" />
+    <Compile Include="Common\AppService\Delegate\App\AppDelegationList.cs" />
+    <Compile Include="Common\AppService\Events\SendMessageEventArgs.cs" />
+    <Compile Include="Common\AppService\IGnAck.cs" />
+    <Compile Include="Common\AppService\IGnReq.cs" />
+    <Compile Include="Common\AppService\IKioskMsg.cs" />
+    <Compile Include="Common\AppService\IUIxGenericData.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIETSInsuranceListAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICustInfoPNRTicketTypeAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICustInfoPNRTicketTypeRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIETSCheckoutSaleFailAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIETSCheckoutSaleResult.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIETSInsuranceSubmissionRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIRestartMachineRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesETSInsuranceSubmissionResult.cs" />
+    <Compile Include="Common\AppService\UIxGnAppAck.cs" />
+    <Compile Include="Common\AppService\UIxGnBTnGAck.cs" />
+    <Compile Include="Common\AppService\UIxKioskDataAckBase.cs" />
+    <Compile Include="Common\AppService\Instruction\UISalesInst.cs" />
+    <Compile Include="Common\AppService\ISendMessageEventArgs.cs" />
+    <Compile Include="Common\AppService\INetCommandDirective.cs" />
+    <Compile Include="Common\AppService\Instruction\UICashMachineInst.cs" />
+    <Compile Include="Common\AppService\IUserSession.cs" />
+    <Compile Include="Common\AppService\Network\CommunicationDirection.cs" />
+    <Compile Include="Common\AppService\Network\CommunicationMedium.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UICashMachineStatus.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UICashMachineStatusSummary.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UIRequestCashMachingStatusSummary.cs" />
+    <Compile Include="Common\AppService\ResultStatus.cs" />
+    <Compile Include="Common\AppService\Sales\CustomerInfoList.cs" />
+    <Compile Include="Common\AppService\Sales\CustSeatDetail.cs" />
+    <Compile Include="Common\AppService\Sales\DropDetail.cs" />
+    <Compile Include="Common\AppService\Sales\PageNavigateDirection.cs" />
+    <Compile Include="Common\AppService\Sales\PaymentType.cs" />
+    <Compile Include="Common\AppService\Sales\PickDetail.cs" />
+    <Compile Include="Common\AppService\Sales\PickupNDropList.cs" />
+    <Compile Include="Common\AppService\Sales\ProcessResult.cs" />
+    <Compile Include="Common\AppService\Sales\SalesPaymentData.cs" />
+    <Compile Include="Common\AppService\Sales\TicketItem.cs" />
+    <Compile Include="Common\AppService\Sales\TicketItemDetail.cs" />
+    <Compile Include="Common\AppService\Sales\TickSalesMenuItemCode.cs" />
+    <Compile Include="Common\AppService\Sales\TimeoutChangeMode.cs" />
+    <Compile Include="Common\AppService\Sales\TimeoutMode.cs" />
+    <Compile Include="Common\AppService\Sales\TransportGroup.cs" />
+    <Compile Include="Common\AppService\Sales\UIx\UIxSampleRequest.cs" />
+    <Compile Include="Common\AppService\UIxGnAckBase.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICustPromoCodeVerifyAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICustPromoCodeVerifyRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIKomuterBookingCheckoutAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICompleteTransactionResult.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICounterConfigurationResult.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICustInfoAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICustInfoPrerequisiteAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICustInfoSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICustInfoUpdateFailAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartCustInfoUpdateResult.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartPickupNDropAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartSeatConfirmFailAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartSeatConfirmResult.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartSeatListAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartPickupNDropSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartSeatSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartTripSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartTripSubmissionErrorAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDetailEditRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDestinationSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIETSIntercityTicketAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIETSIntercityTicketRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIKomuterBookingCheckoutRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIKomuterCompletePaymentAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIKomuterCompletePaymentSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIKomuterResetUserSessionRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIKomuterTicketBookingAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIKomuterTicketBookingRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIKomuterTicketTypePackageAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIKomuterTicketTypePackageRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UILanguageSelectionAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICountDownExpiredAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDestinationListAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDestinationListRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UILanguageSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartSeatListRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICountDownPausedRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIOriginListAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIOriginSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIPageNavigateRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICustInfoPrerequisiteRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIReturnSeatConfirmFailAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIReturnSeatConfirmResult.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIReturnSeatListAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIReturnSeatSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIReturnTripInitAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIReturnTripListAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIReturnTripListRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIReturnTripSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesBookingTimeoutExtensionRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesBookingTimeoutExtensionResult.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesCardSettlementSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesCheckOutstandingCardSettlementAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesCheckOutstandingCardSettlementRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesClientMaintenanceAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesClientMaintenanceFinishedSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesClientMaintenanceRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesEndSessionRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesPaymentProceedAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesPaymentSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesCardSettlementStatusAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesStartSellingAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISalesTimeoutWarningAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UISeatReleaseRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIServerApplicationStatusAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIServerApplicationStatusRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICountDownStartedAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UICountDownStartRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIStartNewSalesRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UITicketReleaseResult.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UITimeoutChangeRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UITravelDatesEnteringAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UITravelDateSubmission.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartTripInitAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartTripListAck.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIDepartTripListRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIWebServerLogonRequest.cs" />
+    <Compile Include="Common\AppService\Sales\UI\UIWebServerLogonStatusAck.cs" />
+    <Compile Include="Common\AppService\Sales\UserSession.cs" />
+    <Compile Include="Common\AppService\UIAck.cs" />
+    <Compile Include="Common\AppService\UISessionAck.cs" />
+    <Compile Include="Common\AppService\UIReq.cs" />
+    <Compile Include="Common\AppService\UIxKioskDataRequestBase.cs" />
+    <Compile Include="Common\CreditCardResponse.cs" />
+    <Compile Include="Common\Gender.cs" />
+    <Compile Include="Common\IMessageDuplicate.cs" />
+    <Compile Include="Common\LanguageCode.cs" />
+    <Compile Include="Common\NssITThreadTools.cs" />
+    <Compile Include="Common\PaymentResult.cs" />
+    <Compile Include="Common\StationSelectionMode.cs" />
+    <Compile Include="Common\TravelMode.cs" />
+    <Compile Include="Config\ConfigConstant.cs" />
+    <Compile Include="Config\RegistrySetup.cs" />
+    <Compile Include="Config\Setting.cs" />
+    <Compile Include="Devices\IMachineData.cs" />
+    <Compile Include="Devices\IMachineEventArgs.cs" />
+    <Compile Include="Devices\MachineState.cs" />
+    <Compile Include="Devices\Payment\Banknote.cs" />
+    <Compile Include="Devices\Payment\ErrorNode\UnableRefundException.cs" />
+    <Compile Include="Devices\Payment\ICustomerPaymentInfo.cs" />
+    <Compile Include="Devices\Payment\IInProgressEventArgs.cs" />
+    <Compile Include="Devices\Payment\IMachineCommandInterrupt.cs" />
+    <Compile Include="Devices\ITrxCallBackEventArgs.cs" />
+    <Compile Include="Devices\Payment\PaymentResultStatus.cs" />
+    <Compile Include="Devices\DeviceProgressStatus.cs" />
+    <Compile Include="Devices\Payment\RefundType.cs" />
+    <Compile Include="DomainLibs\Common\CreditDebitCharge\InProgressEventArgs.cs" />
+    <Compile Include="DomainLibs\Common\CreditDebitCharge\ResponseInfo.cs" />
+    <Compile Include="DomainLibs\Common\CreditDebitCharge\SettlementDoneEventArgs.cs" />
+    <Compile Include="DomainLibs\Common\CreditDebitCharge\TrxCallBackEventArgs.cs" />
+    <Compile Include="DomainLibs\Debugging\CommonDebugging.cs" />
+    <Compile Include="DomainLibs\Debugging\IDebuggingDevelopment.cs" />
+    <Compile Include="DomainLibs\IM30\Base\IIM30TransactionProcess.cs" />
+    <Compile Include="DomainLibs\IM30\Base\IM30ConstantsClasses.cs" />
+    <Compile Include="DomainLibs\IM30\Base\IM30ConstantsEnum.cs" />
+    <Compile Include="DomainLibs\IM30\Base\IM30ConstantsFieldTypeDef.cs" />
+    <Compile Include="DomainLibs\IM30\Base\IM30ConstantsPresentationHeaderGroup.cs" />
+    <Compile Include="DomainLibs\IM30\Base\IM30DataModel.cs" />
+    <Compile Include="DomainLibs\IM30\Base\IM30Delegation.cs" />
+    <Compile Include="DomainLibs\IM30\Base\IM30FieldElementModel.cs" />
+    <Compile Include="DomainLibs\IM30\Base\IM30Tools.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\CardEntityDataTools.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\CardTransResponseEventArgs.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\CreditDebit\CreditDebitCardInfoResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\CreditDebit\CreditDebitChargeCardResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\CreditDebit\CreditDebitRequirePINNoResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\CreditDebit\CreditDebitVoidTransactionResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\ErrorResponse.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\GetLastTransactionResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\ICardResponse.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLinkCardData.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLinkCardInfo.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkACGCheckoutResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkBlackListCardResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkCancelCardResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkCardInfoResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkDeductValueResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkIncreaseValueResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkIssueNewCardResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkIssueSeasonPassResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkReadSeasonPassInfoResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkRemoveBlackListCardResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkRemoveCancelCardResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkResetACGCheckingResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\KomLink\KomLinkUpdateCardInfoResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\Settlement\SettlementResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\Sys\GetDeviceInfoResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\TnG\TnGACGCheckinResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\TnG\TnGACGCheckoutResp.cs" />
+    <Compile Include="DomainLibs\IM30\CardEntityData\TnG\TnGCardInfoResp.cs" />
+    <Compile Include="DomainLibs\IM30\IM30Exceptions.cs" />
+    <Compile Include="DomainLibs\IM30\TransParams\CreditDebitChargeParam.cs" />
+    <Compile Include="DomainLibs\IM30\TransParams\I2ndCardCommandParam.cs" />
+    <Compile Include="DomainLibs\IM30\TransParams\StartTransactionParam.cs" />
+    <Compile Include="DomainLibs\IM30\TransParams\StopCardTransParam.cs" />
+    <Compile Include="DomainLibs\IM30\TransParams\TnGEntryCheckinParam.cs" />
+    <Compile Include="DomainLibs\IM30\TransParams\TnGExitCheckoutParam.cs" />
+    <Compile Include="DomainLibs\IM30\TransResult\IIM30TransResult.cs" />
+    <Compile Include="DomainLibs\IM30\TransResult\IM30CardSaleResult.cs" />
+    <Compile Include="DomainLibs\IM30\TransResult\IM30CardSettlementResult.cs" />
+    <Compile Include="DomainLibs\IM30\TransResult\IM30CardSettlementStartedResult.cs" />
+    <Compile Include="DomainLibs\IM30\TransResult\IM30GetDeviceInfoResult.cs" />
+    <Compile Include="DomainLibs\IM30\TransResult\IM30GetLastTransactionResult.cs" />
+    <Compile Include="DomainLibs\IM30\TransResult\IM30PingResult.cs" />
+    <Compile Include="DomainLibs\IM30\TransResult\IM30RebootResult.cs" />
+    <Compile Include="DomainLibs\IM30\TransResult\IM30StopTransResult.cs" />
+    <Compile Include="DomainLibs\IM30\TransResult\IM30VoidTransactionResult.cs" />
+    <Compile Include="DomainLibs\Sales\UIx\UIxGetMachineLastRebootTimeRequest.cs" />
+    <Compile Include="DomainLibs\Sqlite.DB\Access\DBTransStatus.cs" />
+    <Compile Include="DomainLibs\Sqlite.DB\Access\Echo\KioskLastRebootTimeEcho.cs" />
+    <Compile Include="DomainLibs\KioskStatus\IStatusLocalExtension.cs" />
+    <Compile Include="DomainLibs\KioskStatus\KioskStatusConstant.cs" />
+    <Compile Include="DomainLibs\KioskStatus\IStatusRemark.cs" />
+    <Compile Include="DomainLibs\KioskStatus\KioskStatusData.cs" />
+    <Compile Include="DomainLibs\KioskStatus\UIx\UIxStatusMonitorDataSendRequest.cs" />
+    <Compile Include="DomainLibs\Sqlite.DB\Access\Echo\BTnGGetTransactionEcho.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\IUIxBTnGPaymentOnGoingGroupAck.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\IUIxBTnGPaymentGroupAck.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\UIxBTnGPaymentEndAck.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\UIxBTnGPaymentErrorAck.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\UIxBTnGPaymentCountDownAck.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\UIxBTnGPaymentCustomerMsgAck.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\UIxBTnGCancelRefundPaymentRequest.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\UIxBTnGTestEchoMessageSendRequest.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\UIxBTnGTestReadServerTimeRequest.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\UIxBTnGPaymentNewTransStartedAck.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\UIxBTnGPaymentMakeNewPaymentRequest.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\UIxBTnGPaymentInProgressMsgAck.cs" />
+    <Compile Include="DomainLibs\PaymentGateway\UIx\UIxBTnGGetAvailablePaymentGatewayRequest.cs" />
+    <Compile Include="DomainLibs\Security\IBTnGGuard.cs" />
+    <Compile Include="Global\SysGlobalLock.cs" />
+    <Compile Include="Log\Marking\MarkingLogType.cs" />
+    <Compile Include="Log\Marking\MarkLog.cs" />
+    <Compile Include="Log\Marking\MarkLogSection.cs" />
+    <Compile Include="NotApplicable.cs" />
+    <Compile Include="NssITThreadExtension.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\AppService\AppModule.cs" />
+    <Compile Include="Common\AppService\CommInstruction.cs" />
+    <Compile Include="Common\AppService\INetMediaInterface.cs" />
+    <Compile Include="Common\AppService\Instruction\UIAvailability.cs" />
+    <Compile Include="Common\AppService\Instruction\UIVisibility.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UICancelPermission.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UICountdown.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UIMakeNewPayment.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UISetCancelPermission.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UIRefundPayment.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UIProcessingMessage.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UICustomerMessage.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UINewPayment.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UIHideForm.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UIAcceptableBanknote.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UIOutstandingPayment.cs" />
+    <Compile Include="Common\AppService\Payment\UI\UIError.cs" />
+    <Compile Include="Common\AppService\Network\DataReceivedEventArgs.cs" />
+    <Compile Include="Common\AppService\Network\NetMessagePack.cs" />
+    <Compile Include="Common\AppService\Instruction\UIPaymInstruction.cs" />
+    <Compile Include="Common\Common2s.cs" />
+    <Compile Include="Log\LogFileInfo.cs" />
+    <Compile Include="DomainLibs\Sqlite.DB\Constant\BTnG\BTnGDetailStatus.cs" />
+    <Compile Include="DomainLibs\Sqlite.DB\Constant\BTnG\BTnGExtension.cs" />
+    <Compile Include="DomainLibs\Sqlite.DB\Constant\BTnG\BTnGHeaderStatus.cs" />
+    <Compile Include="DomainLibs\Sqlite.DB\Constant\BTnG\BTnGKioskVoidTransactionState.cs" />
+    <Compile Include="DomainLibs\Sqlite.DB\TableEntity\BTnGTransactionEnt.cs" />
+    <Compile Include="UI\IUIApplicationJob.cs" />
+    <Compile Include="UI\IUIPayment.cs" />
+    <Compile Include="UI\MessageType.cs" />
+    <Compile Include="UI\UIMessageEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\AppService\Sales\UI\Backup\" />
+    <Folder Include="DomainLibs\KioskStatus\StatusData\" />
+    <Folder Include="DomainLibs\KioskStatus\StatusLocalExtension\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

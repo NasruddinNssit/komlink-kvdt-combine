@@ -1,0 +1,20 @@
+﻿kvdt-kiosk
+
+
+winexe
+C#
+.cs
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\Komuter\New KVDT\kvdt-kiosk\kvdt-kiosk\obj\Debug\
+kvdt_kiosk
+none
+false
+DEBUG;TRACE
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\Komuter\New KVDT\kvdt-kiosk\kvdt-kiosk\App.xaml
+28-1281904691
+11-2073858606
+81442437643
+56-2065216900
+MainWindow.xaml;Views\ChooseActionScreen.xaml;Views\Idle\ClosingScreen.xaml;Views\LanguageScreen.xaml;Views\MyKad\MyKadValidationScreen.xaml;Views\Parcel\Parcel.xaml;Views\Parcel\ParcelActionButton.xaml;Views\Parcel\ParcelLayout.xaml;Views\Parcel\ParcelScreen.xaml;Views\Passenger\ChildTextBox.xaml;Views\Passenger\OKUTextBox.xaml;Views\Passenger\PassengerMyKadScan.xaml;Views\Passenger\PassengerTemplate.xaml;Views\Passenger\SeniorTextBox.xaml;Views\Payment\PaymentInfoScreen.xaml;Views\Payment\PaymentTicketBuyInfo.xaml;Views\Payment\PayWave\CardPayWave.xaml;Views\Printing\PrintingTemplateScreen.xaml;Views\PurchaseTicket\AllRouteButton.xaml;Views\PurchaseTicket\DestinationScreen.xaml;Views\PurchaseTicket\GenericStationButton.xaml;Views\PurchaseTicket\JourneyTypeButton.xaml;Views\PurchaseTicket\PurchaseTicketScreen.xaml;Views\PurchaseTicket\StationRouteButton.xaml;Views\PurchaseTicket\ViewMapScreen.xaml;Views\SeatingScreen\pgKomuterPax.xaml;Views\SeatingScreen\uscKomuterTicketType.xaml;Views\SeatingScreen\uscPaxButton.xaml;
+
+False
+

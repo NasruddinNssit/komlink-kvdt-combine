@@ -1,0 +1,407 @@
+﻿<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>NPrinterCLib</name>
+  </assembly>
+  <members>
+    <member name = "T: NPrinterCLib.NClassLib">
+      <summary>
+        NII class library
+      </summary>
+    </member>
+    <member name = "T: NPrinterCLib.NClassLib.SCANRESULT">
+      <summary>
+        Callback function definition for printer enumeration
+      </summary>
+      <param name = "result">Enumeration function return value</param>
+      <param name = "count">Number of printers</param>
+    </member>
+    <member name = "T: NPrinterCLib.NClassLib.NCALLBACK">
+      <summary>
+        Callback function definition
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_type">Callback type</param>
+      <param name = "i_value1">Result 1</param>
+      <param name = "i_value2">Result 2</param>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib. # Ctor">
+      <summary>
+        constructor
+      </summary>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NEnumPrinters (System.Text.StringBuilder, System.Int64 @)">
+      <summary>
+        Get a list of printer names managed by the driver
+      </summary>
+      <param name = "o_printers" paramDirection="out">Printer names (listed in csv comma separated format)</param>
+      <param name = "o_size" paramDirection="out">o_printers byte size</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NGetPrinterFromID (System.String, System.Text.StringBuilder)">
+      <summary>
+        Get the printer name from the Bluetooth serial ID
+      </summary>
+      <param name = "i_ID">Bluetooth serial ID</param>
+      <param name = "o_printer" paramDirection="out">Printer name</param>
+      <returns type="int">
+        Error: (0)
+        <para>Normal: (Printer name storage area size)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NDeletePrinter (System.String)">
+      <summary>
+        Delete the printer name in the printer information management file
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NRenamePrinter (System.String, System.String)">
+      <summary>
+        Used when rewriting the printer name in the printer information management file
+        * In the Windows SDK, this function always returns N_ERR_NOTSUPPORTED (function not supported) (Android / iOS SDK only)
+      </summary>
+      <param name = "i_beforeprt">Printer name before conversion</param>
+      <param name = "i_afterprt">Printer name after conversion</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NGetPrinterInf (System.String, System.Text.StringBuilder, System.Int64 @)">
+      <summary>
+        Search the printer information management file from the printer name specified by the argument,
+        Output path information-Returns the connection type
+        * In the Windows SDK, this function always returns N_ERR_NOTSUPPORTED (function not supported) (Android / iOS SDK only)
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "o_ports" paramDirection="out">Port information (listed in csv comma separated format)</param>
+      <param name = "o_size" paramDirection="out">byte size of o_ports</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NAutoOpen (System.Int32)">
+      <summary>
+        Turns on / off the automatic printer open function
+      </summary>
+      <param name = "i_flg">Automatic printer open flag</param>
+      <returns type="bool">
+        Current (after setting) automatic printer open setting status
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NOpenPrinter (System.String, System.Byte, NPrinterCLib.NClassLib.NCALLBACK)">
+      <summary>
+        Open the printer
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_statusFlg">Status receiving thread start flag</param>
+      <param name = "i_callback">Callback function pointer</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NClosePrinter (System.String)">
+      <summary>
+        Close the printer
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NClosePrinters">
+      <summary>
+        Close all printers
+      </summary>
+      <returns type="int">
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NPrint (System.String, System.Byte [], System.UInt32, System.Int32 @)">
+      <summary>
+        Sends the specified hexadecimal string data to the printer
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_dat">Send data (hexadecimal character string)</param>
+      <param name = "i_size">Number of output bytes</param>
+      <param name = "o_jobid" paramDirection="out">Print job ID (can be specified as NULL)</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NDPrint (System.String, System.Byte [], System.UInt32, System.Int32 @)">
+      <summary>
+        Sends the specified data to the printer (no conversion)
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_dat">Send data (hexadecimal character string)</param>
+      <param name = "i_size">Number of output bytes</param>
+      <param name = "o_jobid" paramDirection="out">Print job ID (can be specified as NULL)</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NImagePrint (System.String, System.IntPtr, System.Int32, System.Int32, System.Byte, System.Int32 @)">
+      <summary>
+        Sends the specified device context to the printer as a raster image
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_bmp">Device context handle</param>
+      <param name = "i_width">width</param>
+      <param name = "i_height">height</param>
+      <param name = "i_putType">Output method</param>
+      <param name = "io_jobid" paramDirection="out">Print job ID (can be specified as NULL)</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NImagePrintF (System.String, System.String, System.Byte, System.Int32 @)">
+      <summary>
+        Sends the specified BMP file to the printer as a raster image
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_bmp">BMP file name</param>
+      <param name = "i_putType">Output method</param>
+      <param name = "io_jobid" paramDirection="out">Print job ID (can be specified as NULL)</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NBitImagePrint (System.String, System.IntPtr, System.Int32, System.Int32, System.Byte, System.Int32 @)">
+      <summary>
+        Sends the specified device context as a bit image to the printer
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_bmp">Device context handle</param>
+      <param name = "i_width">width</param>
+      <param name = "i_height">height</param>
+      <param name = "i_putType">Output method</param>
+      <param name = "io_jobid" paramDirection="out">Print job ID (can be specified as NULL)</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NBitImagePrintF (System.String, System.String, System.Byte, System.Int32 @)">
+      <summary>
+        Sends the specified BMP file as a bit image to the printer
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_bmp">BMP file name</param>
+      <param name = "i_putType">Output method</param>
+      <param name = "io_jobid" paramDirection="out">Print job ID (can be specified as NULL)</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NGetStatus (System.String, System.Int64 @)">
+      <summary>
+        Get status
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "o_status" paramDirection="out">Status</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NGetInformation (System.String, System.Byte, System.Byte [], System.Int64 @)">
+      <summary>
+        Get the information saved in the target type ID of the extended information
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_id">Type ID</param>
+      <param name = "o_dat" paramDirection="out">Extended information storage area</param>
+      <param name = "o_time" paramDirection="out">Update flag (elapsed time after system startup)</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NResetPrinter (System.String)">
+      <summary>
+        Reset the printer. The print job being printed is also canceled.
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NStartDoc (System.String, System.Int32 @)">
+      <summary>
+        Start document
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "o_jobid" paramDirection="out">Print job ID</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NEndDoc (System.String)">
+      <summary>
+        Exit the document
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NCancelDoc (System.String)">
+      <summary>
+        Cancel the document
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NEnumDoc (System.String, System.Text.StringBuilder)">
+      <summary>
+        Returns a list of document numbers (CSV) waiting to be sent
+      </summary>
+      <param name = "i_prt">Output printer name</param>
+      <param name = "o_docnolist">Document number list (CSV)</param>
+      <returns type="int">
+        Error: (0)
+        <para>Normal: (Printer name storage area size)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NDeleteDoc (System.String, System.String)">
+      <summary>
+        Delete documents waiting to be sent
+      </summary>
+      <param name = "i_prt">Output printer name</param>
+      <param name = "i_docno">Document number</param>
+      <returns type="int">
+        Error: (0)
+        <para>Normal: (Printer name storage area size)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NBarcode (System.String, System.String, System.IntPtr, System.Int32, System.Int32, System.Int32, System.Int32, System.Byte [], System.Int32)">
+      <summary>
+        The settings specified for the printer barcode font / 2D barcode font
+        Draws a barcode / 2D barcode in the device context.
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_fontName">Barcode font name</param>
+      <param name = "i_bmp">Device context handle</param>
+      <param name = "i_x">Left</param>
+      <param name = "i_y">Top</param>
+      <param name = "i_width">width</param>
+      <param name = "i_height"> height </param>
+      <param name = "i_dat">Barcode data</param>
+      <param name = "i_size">data size</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NFirmwareDL (System.String, System.String, System.Byte, System.Int16 @, System.Int32 @)">
+      <summary>
+        Sends the specified FWF file to the printer.
+        If the FWF file is specified as NULL, the checksum is acquired from the printer and the checksum is acquired.
+        Compares with the specified checksum.
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_file">fwf file name (null can be specified)</param>
+      <param name = "i_errflg">Error check flag</param>
+      <param name = "io_chksum" paramDirection="out">checksum of fwf file</param>
+      <param name = "io_jobid" paramDirection="out">Print job ID (can be specified as NULL)</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NScanPrinters (System.UInt32)">
+      <summary>
+        By executing this function, the printer enumeration request of the maintenance protocol is broadcasted.
+        Receives the printer enumeration response and creates data for the millisecond (default 1000ms) specified by the argument i_waitmsec.
+        The number of Wi-Fi printers obtained is stored in o_count.
+        If 0 is specified, the printer enumeration request is not made and the number of created printers is returned as it is.
+      </summary>
+      <param name = "i_waitmsec">Number of milliseconds to wait from printer enumeration request to enumeration response / data creation</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NSetWriteSize (System.Byte, System.UInt32, System.UInt32)">
+      <summary>
+        Set the transmission size and transmission interval (msec).
+        Only supports Wi-Fi communication, and returns an error for other types.
+      </summary>
+      <param name = "i_type">Connection type</param>
+      <param name = "i_size">Send size</param>
+      <param name = "i_interval">Transmission interval (msec)</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NTCPPortLock (System.String, System.Byte)">
+      <summary>
+        Locks / unlocks TCP communication.
+        Only the locked user can send data via TCP communication.
+        Other users can connect but cannot send.
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_type">Connection type</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NBufferClear (System.String)">
+      <summary>
+        Clears the receive buffer (all buffers)
+        It is supported only during Wi-Fi communication, and an error is returned for other types.
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NBlockSendSetting (System.String, System.Byte)">
+      <summary>
+        The transmission data can be stored in the buffer of the Wi-Fi module and batch transmission can be performed.
+        This function can switch ON / OFF of batch transmission.
+      </summary>
+      <param name = "i_prt">Printer name</param>
+      <param name = "i_type">Connection type</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+    <member name = "M:NPrinterCLib.NClassLib.NSetCallback (NPrinterCLib.NClassLib.NCALLBACK)">
+      <summary>
+        Set the callback function
+      </summary>
+      <param name = "i_callback">Callback function pointer</param>
+      <returns type="int">
+        Error: (-value)
+        <para>Normal: (0)</para>
+      </returns>
+    </member>
+  </members>
+</doc>

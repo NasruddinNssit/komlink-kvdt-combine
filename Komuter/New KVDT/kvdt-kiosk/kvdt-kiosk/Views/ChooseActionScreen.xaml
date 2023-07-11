@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="kvdt_kiosk.Views.ChooseActionScreen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:kvdt_kiosk.Views"
+             mc:Ignorable="d" FontFamily="Inter"
+             d:DesignHeight="1920" d:DesignWidth="1080">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <LinearGradientBrush x:Key="ButtonBackground" StartPoint="0.5,0" EndPoint="0.5,1">
+                <GradientStop Color="#FDE371" Offset="0"/>
+                <GradientStop Color="#FCDA44" Offset="0.445"/>
+                <GradientStop Color="#FbD012" Offset="0.8"/>
+            </LinearGradientBrush>
+            <Style x:Key="GreenButton" TargetType="{x:Type Button}">
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="Foreground" Value="BLACK"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border CornerRadius="15" Background="{StaticResource ButtonBackground}">
+                                <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <ScrollViewer VerticalScrollBarVisibility="Hidden">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="ImgMap" Stretch="Fill" />
+            <Grid Grid.Column="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="588"></RowDefinition>
+                        <RowDefinition Height="200"></RowDefinition>
+                        <RowDefinition Height="200"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="TxtAction" FontSize="40" FontWeight="Bold"  VerticalAlignment="Bottom" Text="Please Choose Your Action" Margin="0,0,0,47" TextWrapping="Wrap" Width="336" Height="130" TextAlignment="Center"></TextBlock>
+                    <Button x:Name="BtnPurchaseTicket" Grid.Row="1" Margin="0,0,10,40" Style="{StaticResource GreenButton}" Click="Button_Click" Width="320" Cursor="Hand">
+                        <TextBlock x:Name="lblPurchase" FontWeight="Bold" FontSize="32"><Run Text=" Purchase"/><LineBreak/><Run Text="    Ticket"/></TextBlock>
+                    </Button>
+                    <Button x:Name="BtnParcel" Grid.Row="2" Margin="0,40,10,0" Style="{StaticResource GreenButton}" Click="BtnParcel_Click" Width="320" Cursor="Hand">
+                        <TextBlock x:Name="lblParcel" FontWeight="Bold" FontSize="32"><Run Text="  Purchase"/><LineBreak/><Run Text="Parcel Only"/></TextBlock>
+                    </Button>
+                </Grid>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+       
+</UserControl>

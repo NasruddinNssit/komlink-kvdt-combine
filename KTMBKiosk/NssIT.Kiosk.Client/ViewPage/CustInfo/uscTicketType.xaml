@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="NssIT.Kiosk.Client.ViewPage.CustInfo.uscTicketType"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.CustInfo"
+             mc:Ignorable="d" 
+             Width="240">
+    <Border Background="#FFF5F5F5" CornerRadius="10" BorderBrush="#FFE4E4E4" BorderThickness="1,1,1,1" Margin="10,5,10,5" Padding="0,9,0,9" x:Name="BdTicketType" MouseLeftButtonUp="BdTicketType_MouseLeftButtonUp">
+        <TextBlock Text="Adult" FontSize="24" Foreground="#FF777777" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="WrapWithOverflow" x:Name="TxtTicketTypeDesc"/>
+    </Border>
+</UserControl>

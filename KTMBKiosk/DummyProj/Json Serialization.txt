@@ -1,0 +1,12 @@
+﻿xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+To avoid JSon Serialization of A Propertiy
+------------------------------------------------------
+..Implement public bool ShouldSerialize...() method
+..... Example :
+.......... public bool ShouldSerializeSeatLayoutModels()
+.......... public bool ShouldSerializeData()
+
+..Implement IAgreeLog like implementation in CTS
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

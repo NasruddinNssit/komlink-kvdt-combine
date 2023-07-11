@@ -1,0 +1,1202 @@
+﻿<Page x:Class="NssIT.Kiosk.Client.ViewPage.Seat.pgSeat2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:sys="clr-namespace:System;assembly=mscorlib"
+      xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.Seat"
+      mc:Ignorable="d" 
+      d:DesignHeight="1329" d:DesignWidth="1080"
+      FontFamily="Roboto" Background="#FFF9F9F9"
+      Title="Seat Selection" Loaded="Page_Loaded" Unloaded="Page_Unloaded">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="rosSeatEnglish.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3.63*"/>
+            <ColumnDefinition Width="1.17*"/>
+            <ColumnDefinition Width="5.3*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="85"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="160"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Text="Pick your depart seat" Margin="10,0,0,0" Padding="5,3,5,3" Foreground="#FF777777" FontFamily="Roboto" FontSize="36" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" x:Name="TxtPageHeader"/>
+
+        <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.8*"/>
+                <ColumnDefinition Width="0.7*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" Padding="15,5,15,5" Background="#FF999999">
+                <TextBlock FontSize="21" FontWeight="Bold" Foreground="#FFFFFFFF"  VerticalAlignment="Center" Text="TRAIN 1" x:Name="TxtTrainNo"/>
+            </Border>
+            <Border Grid.Column="1" Padding="15,5,15,5" Background="#FFCCCCCC">
+                <TextBlock FontSize="21" FontWeight="Normal" Foreground="#FF666666"  VerticalAlignment="Center" Text="ETS" x:Name="TxtService"/>
+            </Border>
+            <Border Grid.Column="2" Padding="15,5,15,5" Background="#FFEEEEEE">
+                <TextBlock FontSize="21" FontWeight="Normal" Foreground="#FF666666"  VerticalAlignment="Center" Text="KUALA LUMPUR > GEMAS" TextWrapping="WrapWithOverflow" x:Name="TxtSubDepartDestination"/>
+            </Border>
+            <Border Grid.Column="3" Padding="15,5,15,5" Background="#FFDDDDDD">
+                <TextBlock FontSize="21" FontWeight="Normal" Foreground="#FF666666"  VerticalAlignment="Center" Text="ETS Gold - EG 9321" x:Name="TxtServiceDesc"/>
+            </Border>
+            <Border Grid.Column="4" Padding="15,5,15,5" Background="#FFDDDDDD">
+                <StackPanel Orientation="Horizontal" FlowDirection="RightToLeft">
+                    <TextBlock FontSize="20" Foreground="#FF666666"  VerticalAlignment="Center" Text="2 Aug 2020 12:28" FlowDirection="LeftToRight" x:Name="TxtTicketDateTime"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Seat Selection -->
+        <ScrollViewer Grid.Column="0" Grid.Row="2" VerticalScrollBarVisibility="Auto" FontFamily="Roboto" PanningMode="VerticalOnly"
+                      CanContentScroll="False" Margin="0,0,0,0" x:Name="SvSeat">
+            <ScrollViewer.Resources>
+                <sys:Double x:Key="{x:Static SystemParameters.VerticalScrollBarWidthKey}">25</sys:Double>
+            </ScrollViewer.Resources>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- 0 - Secondary UpperDeck -->
+                    <RowDefinition Height="*"/>
+                    <!-- 1 - Space -->
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Column="1" Grid.Row="0" Text="" Margin="5,0,0,0" Foreground="#FF777777" ></TextBlock>
+                <Border x:Name="BdCoach" Grid.Column="1" Grid.Row="1" CornerRadius="10" VerticalAlignment="Top" Background="#FFFFFFFF" HorizontalAlignment="Center" BorderBrush="Black" Padding="5,0" >
+                    <StackPanel  Orientation="Vertical" HorizontalAlignment="Center" x:Name="StkCoach" >
+                        <Border Height="5" Tag="FrontBumper" HorizontalAlignment="Center" Width="100" Margin="5,8,5,2" CornerRadius="5" Background="#FFE9E9E9"/>
+                        <TextBlock Text="{DynamicResource FORWARD_Label}" VerticalAlignment="Top" TextAlignment="Center" Margin="0,0,0,10" Foreground="#FF777777" ></TextBlock>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow0">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow1">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow2">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow3">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow4">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow5">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow6">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow7">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow8">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow9">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow10">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow11">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow12">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow13">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow14">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow15">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow16">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow17">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow18">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow19">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow20">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow21">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow22">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow23">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow24">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow25">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow26">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow27">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow28">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow29">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow30">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow31">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow32">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow33">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow34">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow35">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow36">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow37">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow38">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow39">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow40">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow41">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow42">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow43">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow44">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow45">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow46">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow47">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow48">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <StackPanel Tag="TemplateRowSeat" Orientation="Horizontal" FlowDirection="LeftToRight" Margin="5,0" x:Name="StkRow49">
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair0"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair1"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair2"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair3"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair4"/>
+
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair5"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair6"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair7"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair8"/>
+                            <local:uscSeatChair Width="54" Height="73" Tag="TagChair9"/>
+                        </StackPanel>
+
+                        <Border Height="5" Tag="EndBumper" HorizontalAlignment="Center" Width="50" Margin="5,8,5,2" CornerRadius="5" Background="#FFE9E9E9"/>
+                        <Border Height="10" Tag="BusEnd" />
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+        </ScrollViewer>
+
+        <!-- Coach Selection -->
+        <ScrollViewer Grid.Column="1" Grid.Row="2" VerticalScrollBarVisibility="Auto" 
+                      CanContentScroll="False" Margin="0,0,0,0" x:Name="ScvTrain">
+
+            <!-- 
+                <ScrollViewer Grid.Column="1" Grid.Row="0" VerticalScrollBarVisibility="Auto" PanningMode="VerticalOnly"
+                              CanContentScroll="False" Margin="0,0,0,30">
+                -->
+
+            <StackPanel  Orientation="Vertical" x:Name="StkTrain">
+                <TextBlock Text="{DynamicResource FORWARD_Label}" VerticalAlignment="Top" TextAlignment="Center" Margin="0,31,0,10" Foreground="#FF777777" ></TextBlock>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach7">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach9">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach11">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach13">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach14">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach16">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach17">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach18">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach19">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach21">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach22">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach23">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach24">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach26">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach27">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach28">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+                <Grid Margin="5,2,5,2" x:Name="GrdCoach29">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="124"/>
+                    </Grid.RowDefinitions>
+                    <local:uscCoach Grid.Column="0"  />
+                </Grid>
+
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Seat Service Type, Seat Legend, and List of Selected Seat-->
+        <Grid Grid.Column="2" Grid.Row="2" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Seat Service Type -->
+            <Grid Grid.Row="0" Margin="10,32,30,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Servis/Services" FontSize="16" Foreground="#FF444444" VerticalAlignment="Center" HorizontalAlignment="Left"  />
+
+                <Border Grid.Column="0" Grid.Row="1" CornerRadius="5" Background="#FFFFFFFF" BorderBrush="#FFCCCCCC" BorderThickness="1,1,1,1" Margin="5,5,5,5" x:Name="BdSeatServiceType0">
+                    <TextBlock Text="Standard" FontSize="16" Foreground="#FF444444" Margin="0,8,0,8" TextWrapping="WrapWithOverflow" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+
+                <Border Grid.Column="1" Grid.Row="1" CornerRadius="5" Background="#FFFFFFFF" BorderBrush="#FFCCCCCC" BorderThickness="1,1,1,1" Margin="5,5,5,5" x:Name="BdSeatServiceType1">
+                    <TextBlock Text="Standard" FontSize="16" Foreground="#FF444444" Margin="0,8,0,8" TextWrapping="WrapWithOverflow" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+
+                <Border Grid.Column="2" Grid.Row="1" CornerRadius="5" Background="#FFFFFFFF" BorderBrush="#FFCCCCCC" BorderThickness="1,1,1,1" Margin="5,5,5,5" x:Name="BdSeatServiceType2">
+                    <TextBlock Text="Standard" FontSize="16" Foreground="#FF444444" Margin="0,8,0,8" TextWrapping="WrapWithOverflow" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+
+                <Border Grid.Column="0" Grid.Row="2" CornerRadius="5" Background="#FFFFFFFF" BorderBrush="#FFCCCCCC" BorderThickness="1,1,1,1" Margin="5,5,5,5" x:Name="BdSeatServiceType3">
+                    <TextBlock Text="Standard" FontSize="16" Foreground="#FF444444" Margin="0,8,0,8" TextWrapping="WrapWithOverflow" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+
+                <Border Grid.Column="1" Grid.Row="2" CornerRadius="5" Background="#FFFFFFFF" BorderBrush="#FFCCCCCC" BorderThickness="1,1,1,1" Margin="5,5,5,5" x:Name="BdSeatServiceType4">
+                    <TextBlock Text="Standard" FontSize="16" Foreground="#FF444444" Margin="0,8,0,8" TextWrapping="WrapWithOverflow" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+
+                <Border Grid.Column="2" Grid.Row="2" CornerRadius="5" Background="#FFFFFFFF" BorderBrush="#FFCCCCCC" BorderThickness="1,1,1,1" Margin="5,5,5,5" x:Name="BdSeatServiceType5">
+                    <TextBlock Text="Standard" FontSize="16" Foreground="#FF444444" Margin="0,8,0,8" TextWrapping="WrapWithOverflow" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+
+                <Border Grid.Column="0" Grid.Row="3" CornerRadius="5" Background="#FFFFFFFF" BorderBrush="#FFCCCCCC" BorderThickness="1,1,1,1" Margin="5,5,5,5" x:Name="BdSeatServiceType6">
+                    <TextBlock Text="Standard" FontSize="16" Foreground="#FF444444" Margin="0,8,0,8" TextWrapping="WrapWithOverflow" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+
+                <Border Grid.Column="1" Grid.Row="3" CornerRadius="5" Background="#FFFFFFFF" BorderBrush="#FFCCCCCC" BorderThickness="1,1,1,1" Margin="5,5,5,5" x:Name="BdSeatServiceType7">
+                    <TextBlock Text="Standard" FontSize="16" Foreground="#FF444444" Margin="0,8,0,8" TextWrapping="WrapWithOverflow" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+
+                <Border Grid.Column="2" Grid.Row="3" CornerRadius="5" Background="#FFFFFFFF" BorderBrush="#FFCCCCCC" BorderThickness="1,1,1,1" Margin="5,5,5,5" x:Name="BdSeatServiceType8">
+                    <TextBlock Text="Standard" FontSize="16" Foreground="#FF444444" Margin="0,8,0,8" TextWrapping="WrapWithOverflow" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+
+            </Grid>
+
+            <!-- Seat Legend -->
+            <Grid Grid.Column="0" Grid.Row="1" >
+                <Border CornerRadius="10,10,10,10" BorderBrush="#FFCCCCCC" BorderThickness="1,1,1,1"
+                        Background="White" Margin="15,5,35,10">
+                    <WrapPanel x:Name="WpnLegend" Margin="5,5,5,5" Orientation="Horizontal" FlowDirection="LeftToRight">
+                    </WrapPanel>
+                </Border>
+            </Grid>
+
+            <!-- List of Selected Seat -->
+            <Grid Grid.Column="0" Grid.Row="2" Margin="15,0,35,0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="42"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="#FFE3E3E3">
+                    <TextBlock Text="{DynamicResource SELECT_YOUR_SEAT_Label}" FontSize="18" Foreground="#FF777777" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0,0,0"/>
+                </Border>
+
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto"   
+                      CanContentScroll="False" PanningMode="VerticalOnly" x:Name="SvSelectedSeat">
+
+                    <ScrollViewer.Resources>
+                        <sys:Double x:Key="{x:Static SystemParameters.VerticalScrollBarWidthKey}">25</sys:Double>
+                    </ScrollViewer.Resources>
+
+                    <StackPanel  Orientation="Vertical" x:Name="StkSelectedSeat">
+                        <local:uscSeatRecord/>
+                        <local:uscSeatRecord/>
+                        <local:uscSeatRecord/>
+                        <local:uscSeatRecord/>
+                        <local:uscSeatRecord/>
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+
+        <Frame x:Name="frmNav" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3"  Margin="30,10,0,0" HorizontalAlignment="Left" NavigationUIVisibility="Hidden"/>
+
+        <Border Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3"  x:Name="BdComfirmSeat" CornerRadius="10" Background="#FFFBD012" Height ="70" VerticalAlignment="Top" Margin="0,10,30,3" HorizontalAlignment="Right" RenderTransformOrigin="0.5,0.5" Width="250" MouseLeftButtonUp="ConfirmSeat_Click">
+            <TextBlock x:Name="TxtComfirmSeat" Text="{DynamicResource CONFIRM_SEATS_Label}" Foreground="#FF444444" VerticalAlignment="Center" HorizontalAlignment="Center" MaxWidth="200" FontSize="24" TextWrapping="WrapWithOverflow" TextAlignment="Center" Margin="0,5,0,0"/>
+        </Border>
+
+        <Grid x:Name="GrdScreenShield" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Grid.RowSpan="4" Background="#9FFFFFFF" Visibility="Collapsed">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+                <TextBlock Text="{DynamicResource IN_PROGRESS_Label}" FontSize="36" FontWeight="Bold" MaxWidth="500" TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center"/>
+                <!--<TextBlock Text="{DynamicResource IN_PROGRESS_Label}" FontSize="36" FontWeight="Bold" MaxWidth="500" TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center"/>-->
+                <TextBlock Text="" FontSize="48" FontStyle="Italic" Foreground="#5F0000FF" TextAlignment="Center"/>
+                <TextBlock Text="" FontSize="48" FontStyle="Italic" Foreground="#5F0000FF" TextAlignment="Center"/>
+                <TextBlock Text="" FontSize="48" FontStyle="Italic" Foreground="#5F0000FF" TextAlignment="Center"/>
+                <TextBlock Text="" FontSize="48" FontStyle="Italic" Foreground="#5F0000FF" TextAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+
+</Page>

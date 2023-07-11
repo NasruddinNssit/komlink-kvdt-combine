@@ -1,0 +1,88 @@
+﻿<UserControl x:Class="Komlink.Views.TableTransaction"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Komlink.Views"
+             mc:Ignorable="d" 
+             FontFamily="Roboto"
+             d:DesignHeight="668" d:DesignWidth="1131">
+    <UserControl.Resources>
+        <Style x:Key="TextBlockStyle" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="White"/>
+
+        </Style>
+    </UserControl.Resources>
+    <Grid Margin="0 0 0  0" Width="1131">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="73"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+        <Border Background="#074481" Height="73" VerticalAlignment="Top" Grid.Row="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="150" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Date" Style="{StaticResource TextBlockStyle}" Name="DateText"/>
+                <TextBlock Grid.Column="1" Text="Time"  Style="{StaticResource TextBlockStyle}" Name="TimeText"/>
+                <TextBlock Grid.Column="2" Text="Transaction" Style="{StaticResource TextBlockStyle}" Name="TransactionText"/>
+                <TextBlock Grid.Column="3" Text="Station" Style="{StaticResource TextBlockStyle}" Name="StationText"/>
+                <TextBlock Grid.Column="4" Text="Ticket Type" Style="{StaticResource TextBlockStyle}" Name="TicketTypeText"/>
+                <TextBlock Grid.Column="5" Text="Amount" Style="{StaticResource TextBlockStyle}" Name="AmountText"/>
+            </Grid>
+        </Border>
+
+        <Border  Grid.Row="1" Name="GridTableTransaction" Height="595" Width="1131">
+            <Border Grid.Row="1" Background="#D9D9D9" Width="1131">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" CanContentScroll="True">
+                    <ItemsControl Grid.Row="1" Grid.ColumnSpan="6" Margin="0 20 0 0" x:Name="ItemsControlData" VerticalAlignment="Top">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+
+
+                                <Grid Margin="0 20 0 0" VerticalAlignment="Top" >
+
+
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="150"/>
+                                        <ColumnDefinition Width="150" />
+                                        <ColumnDefinition Width="200" />
+                                        <ColumnDefinition Width="200" />
+                                        <ColumnDefinition Width="150" />
+                                        <ColumnDefinition Width="200" />
+                                    </Grid.ColumnDefinitions>
+
+
+                                    <TextBlock Grid.Column="0" Text="{Binding Date}" Style="{StaticResource TextBlockStyle}" Foreground="Black" Padding="5" Margin="10 0 0 0"/>
+                                    <TextBlock Grid.Column="1" Text="{Binding Time}" Style="{StaticResource TextBlockStyle}" Foreground="Black" Padding="5"/>
+                                    <TextBlock Grid.Column="2" Text="{Binding TransactionType}" Style="{StaticResource TextBlockStyle}"  Foreground="Black"/>
+                                    <TextBlock Grid.Column="3" Text="{Binding Station}" Style="{StaticResource TextBlockStyle}"  Foreground="Black"/>
+                                    <TextBlock Grid.Column="4" Text="{Binding TicketType}" Style="{StaticResource TextBlockStyle}"  Foreground="Black"/>
+                                    <TextBlock Grid.Column="5" Text="{Binding TotalAmount}" Style="{StaticResource TextBlockStyle}"  Foreground="Black" TextAlignment="Left" HorizontalAlignment="Center"/>
+                                    <Separator Background="Black" Grid.ColumnSpan="6"  VerticalAlignment="Bottom" />
+
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+
+            </Border>
+        </Border>
+       
+
+    </Grid>
+</UserControl>

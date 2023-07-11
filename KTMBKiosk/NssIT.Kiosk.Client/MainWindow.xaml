@@ -1,0 +1,48 @@
+﻿<Window x:Class="NssIT.Kiosk.Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NssIT.Kiosk.Client"
+        mc:Ignorable="d" 
+        Stylus.IsPressAndHoldEnabled="False"
+        ScrollViewer.CanContentScroll="True"
+        WindowStartupLocation="CenterScreen"
+        d:DesignHeight="1920" d:DesignWidth="1080"
+        Title="Kiosk Ticketing" WindowStyle="None" 
+        Loaded="MainWindow_Loaded" Unloaded="MainWindow_Unloaded" Closing="Window_Closing">
+    
+
+    <ScrollViewer VerticalScrollBarVisibility="Hidden" FontFamily="Roboto" CanContentScroll="True" PanningMode="Both">
+    <Border Width="1080" Height="1920">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition x:Name="C00" Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+
+                    <!-- Ticket Summary Ribbon -->
+                    <RowDefinition x:Name="R00" Height="Auto" />
+
+                    <!-- Header Info -->
+                    <!-- <RowDefinition x:Name="R01" Height="Auto" /> -->
+
+                    <!-- Detail -->
+                    <RowDefinition x:Name="R02" Height ="*" />
+                </Grid.RowDefinitions>
+
+                <!--<Frame x:Name="frmMenu" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" NavigationUIVisibility="Hidden"/>-->
+                <Frame x:Name="frmWorkTicketSummary" Grid.Column="0" Grid.Row="0" Background="White" NavigationUIVisibility="Hidden"/>
+                <!--<Frame x:Name="frmWorkHeader" Grid.Column="0" Grid.Row="1" Background="White" NavigationUIVisibility="Hidden"/>-->
+                <Frame x:Name="frmWorkDetail" Grid.Column="0" Grid.Row="1" Background="White" ScrollViewer.CanContentScroll="True" NavigationUIVisibility="Hidden"/>
+                
+                <!--<Frame x:Name="frmMainWindowSheild" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" NavigationUIVisibility="Hidden"/>-->
+
+                <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Background="#70000000" x:Name="BdMainWindowSheild" Visibility="Collapsed">
+                    <Frame x:Name="frmPopupWindow" NavigationUIVisibility="Hidden" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+                
+            </Grid>
+    </Border>
+    </ScrollViewer>
+</Window>

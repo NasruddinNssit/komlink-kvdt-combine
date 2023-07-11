@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="komlink.Views.PrintingTemplateScreen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:komlink.Views"
+             mc:Ignorable="d" 
+             FontFamily="Roboto"
+             d:DesignHeight="1920" d:DesignWidth="1080">
+    <UserControl.Resources>
+        <Style x:Key="BtnPrint" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="#000000"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="30"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="#43D82C" CornerRadius="11" Height="80" Width="270"  HorizontalAlignment="Stretch" VerticalAlignment="Center">
+                            <ContentPresenter Content="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" ></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="BtnContact" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="#000000"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="25"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="#f22cae" CornerRadius="11" Height="80" Width="270"  HorizontalAlignment="Stretch" VerticalAlignment="Center">
+                            <ContentPresenter Content="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" ></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <ScrollViewer>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Grid.ColumnSpan="2" Source="/Assets/ktmheader.png" Stretch="UniformToFill"></Image>
+            <Grid Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="lblPrinting" Text="Printing Your Ticket" TextAlignment="Center" FontWeight="Bold" FontSize="45" Margin="0,10,0,10" ></TextBlock>
+                <TextBlock x:Name="lblTransNo" Grid.Row="1" Text="Trans No" TextAlignment="Center" FontWeight="Bold" FontSize="36" Margin="0,7,0,7" ></TextBlock>
+                <TextBlock x:Name="lblThankYou" Grid.Row="2" Text="Thank You, Have A Nice Trip" TextAlignment="Center" FontWeight="Bold" FontSize="25" Margin="0,5,0,5" ></TextBlock>
+                <TextBlock x:Name="lblNiceDay" Grid.Row="3" Text="Have A Nice Day !" TextAlignment="Center" FontWeight="Bold" FontSize="25" Margin="0,5,0,5" ></TextBlock>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Button x:Name="BtnPrint" Style="{StaticResource BtnPrint}" Content="PRINT RECEIPT"  Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20"/>
+                <Button x:Name="BtnContact" Grid.Row="1" Style="{StaticResource BtnContact}" Foreground="White" Content="CONTACT SUPPORT"  Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,20"/>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

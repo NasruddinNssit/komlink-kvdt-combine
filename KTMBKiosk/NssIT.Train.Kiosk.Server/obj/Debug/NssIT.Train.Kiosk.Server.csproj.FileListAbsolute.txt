@@ -1,0 +1,366 @@
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\LogDB\NssITKioskLogMaster.db
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\DatabaseMaster\KioskDatabaseMaster.db
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Parameter.txt
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\App.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.exe.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.exe
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.AppDecorator.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Common.AppService.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Log.DB.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.AccessDB.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.ServerApp.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Buffers.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.IO.Pipelines.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Memory.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Json.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Channels.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.ValueTuple.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Common.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Tools.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\LibShowMessageWindow.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.StatusMonitorApp.dll
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.AppDecorator.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Common.AppService.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Common.AppService.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Log.DB.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Log.DB.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.AccessDB.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.AccessDB.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.ServerApp.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.ServerApp.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.Service.Adaptor.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Buffers.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.IO.Pipelines.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Memory.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Json.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Channels.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\System.ValueTuple.xml
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Common.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Common.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.SignalRClient.API.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Tools.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Tools.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\LibShowMessageWindow.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.StatusMonitorApp.pdb
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.StatusMonitorApp.dll.config
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.AssemblyReference.cache
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.ProjectInstaller.resources
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.GenerateResource.cache
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.CoreCompileInputs.cache
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.CopyComplete
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.exe
+C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\LogDB\NssITKioskLogMaster.db
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\DatabaseMaster\KioskDatabaseMaster.db
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Parameter.txt
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\App.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.exe.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.exe
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.AppDecorator.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Common.AppService.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Log.DB.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.AccessDB.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.ServerApp.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Buffers.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.IO.Pipelines.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Memory.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Json.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Channels.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.ValueTuple.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Common.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Tools.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\LibShowMessageWindow.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.StatusMonitorApp.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.AppDecorator.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Common.AppService.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Common.AppService.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Log.DB.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Log.DB.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.AccessDB.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.AccessDB.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.ServerApp.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.ServerApp.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.Service.Adaptor.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Buffers.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.IO.Pipelines.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Memory.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Json.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Channels.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.ValueTuple.xml
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Common.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Common.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.SignalRClient.API.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Tools.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Tools.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\LibShowMessageWindow.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.StatusMonitorApp.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.StatusMonitorApp.dll.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.ProjectInstaller.resources
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.GenerateResource.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.CopyComplete
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.exe
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\LogDB\NssITKioskLogMaster.db
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\DatabaseMaster\KioskDatabaseMaster.db
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Parameter.txt
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\App.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.exe.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.exe
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.AppDecorator.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Common.AppService.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Log.DB.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.AccessDB.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.ServerApp.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Buffers.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.IO.Pipelines.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Memory.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Json.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Channels.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.ValueTuple.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Common.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Tools.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\LibShowMessageWindow.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.StatusMonitorApp.dll
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.AppDecorator.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Common.AppService.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Common.AppService.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Log.DB.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Log.DB.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.AccessDB.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.AccessDB.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.ServerApp.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.ServerApp.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.Service.Adaptor.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Buffers.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Data.SQLite.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.IO.Pipelines.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Memory.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Text.Json.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Channels.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\System.ValueTuple.xml
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Common.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Common.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.SignalRClient.API.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Tools.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Tools.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\LibShowMessageWindow.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.StatusMonitorApp.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Kiosk.Network.StatusMonitorApp.dll.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.ProjectInstaller.resources
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.GenerateResource.cache
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.csproj.CopyComplete
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.exe
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\NssIT.Train.Kiosk.Server\obj\Debug\NssIT.Train.Kiosk.Server.pdb

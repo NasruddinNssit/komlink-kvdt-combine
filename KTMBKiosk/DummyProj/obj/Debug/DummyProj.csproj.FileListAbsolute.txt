@@ -1,0 +1,16 @@
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\DummyProj\bin\Debug\DummyProj.exe.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\DummyProj\bin\Debug\DummyProj.exe
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\DummyProj\bin\Debug\DummyProj.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\DummyProj\obj\Debug\DummyProj.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\DummyProj\obj\Debug\DummyProj.csproj.SuggestedBindingRedirects.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\DummyProj\obj\Debug\DummyProj.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\DummyProj\obj\Debug\DummyProj.exe
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\DummyProj\obj\Debug\DummyProj.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\DummyProj\bin\Debug\DummyProj.exe.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\DummyProj\bin\Debug\DummyProj.exe
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\DummyProj\bin\Debug\DummyProj.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\DummyProj\obj\Debug\DummyProj.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\DummyProj\obj\Debug\DummyProj.csproj.SuggestedBindingRedirects.cache
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\DummyProj\obj\Debug\DummyProj.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\DummyProj\obj\Debug\DummyProj.exe
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\DummyProj\obj\Debug\DummyProj.pdb

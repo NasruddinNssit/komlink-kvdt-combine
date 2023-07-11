@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="kvdt_kiosk.Views.PurchaseTicket.AllRouteButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:kvdt_kiosk.Views.PurchaseTicket"
+             mc:Ignorable="d" FontFamily="Inter"
+              d:DesignHeight="65" d:DesignWidth="250">
+    <UserControl.Resources>
+        <Style x:Key="BtnDefaultAll" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="#000000"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="Height" Value="65"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="WhiteSmoke"  CornerRadius="15">
+                            <ContentPresenter Content="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="BtnSelected" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="#000000"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="Height" Value="65"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="#FBD012" CornerRadius="15" >
+                            <ContentPresenter Content="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </UserControl.Resources>
+    <Grid>
+        <Button x:Name="BtnAll"  Style="{StaticResource BtnDefaultAll}" Click="BtnAll_Click">
+            <TextBlock x:Name="lblAll"  Text="All"></TextBlock>
+        </Button>
+    </Grid>
+</UserControl>

@@ -1,0 +1,6 @@
+2023-07-02 11:11:23.683 +08:00 [INF] Application started
+2023-07-02 11:12:29.245 +08:00 [INF] Application started
+2023-07-02 11:12:46.665 +08:00 [INF] 02072023111244 English Language Selected
+2023-07-02 11:12:47.903 +08:00 [INF] User selected Purchase Ticket
+2023-07-02 11:12:52.883 +08:00 [INF] 02072023111244 User selected Single Journey
+2023-07-02 11:12:59.840 +08:00 [INF] 02072023111244 User selected Single Journey

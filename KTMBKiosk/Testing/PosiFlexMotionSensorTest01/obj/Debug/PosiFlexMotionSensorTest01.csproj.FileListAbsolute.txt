@@ -1,0 +1,17 @@
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\bin\Debug\PosiFlexMotionSensorDLL.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\bin\Debug\PosiFlexMotionSensorTest01.exe.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\bin\Debug\PosiFlexMotionSensorTest01.exe
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\bin\Debug\PosiFlexMotionSensorTest01.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\bin\Debug\LibShowMessageWindow.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\bin\Debug\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI.dll
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\bin\Debug\LibShowMessageWindow.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\bin\Debug\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\obj\Debug\PosiFlexMotionSensorTest01.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\obj\Debug\PosiFlexMotionSensorTest01.csproj.SuggestedBindingRedirects.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\obj\Debug\PosiFlexMotionSensorTest01.Form1.resources
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\obj\Debug\PosiFlexMotionSensorTest01.Properties.Resources.resources
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\obj\Debug\PosiFlexMotionSensorTest01.csproj.GenerateResource.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\obj\Debug\PosiFlexMotionSensorTest01.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\obj\Debug\PosiFlexMotionSensorTest01.csproj.CopyComplete
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\obj\Debug\PosiFlexMotionSensorTest01.exe
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\PosiFlexMotionSensorTest01\obj\Debug\PosiFlexMotionSensorTest01.pdb

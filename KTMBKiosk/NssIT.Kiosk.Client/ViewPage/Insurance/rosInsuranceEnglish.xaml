@@ -1,0 +1,41 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:win="clr-namespace:System.Windows;assembly=System.Windows"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.Insurance">
+    
+    <sys:String x:Key="TICKET_DETAILS_TITLE_Label">Ticket Details</sys:String>
+    <sys:String x:Key="DEPARTURE_Label">Depart</sys:String>
+    <sys:String x:Key="RETURN_Label">Return</sys:String>
+    <sys:String x:Key="TOTAL_TICKET_Label">Total Ticket</sys:String>
+    <sys:String x:Key="PROMO_DISCOUNT_Label">Promo Discount</sys:String>
+    <sys:String x:Key="TRIP_TOTAL_Label">Trip Total</sys:String>
+
+
+
+    <sys:String x:Key="PASSENGER_INSURANCE_PLAN_Label">KITS Passenger Takaful Plan (KPTP)</sys:String>
+    <sys:String x:Key="INSURANCE_MESSAGE_00_Label">All incidences of travel inconvenience from lost luggage to cancelled trips or train delay, or personal accident. KITS Passenger Takaful Plan got you covered while travelling as a registered fare-paying passenger.</sys:String>
+
+    <sys:String x:Key="INSURANCE_MESSAGE_01_Label">KPTP </sys:String>
+    <sys:String x:Key="INSURANCE_MESSAGE_01A_Label"> at </sys:String>
+    <sys:String x:Key="INSURANCE_MESSAGE_02_Label"> is inclusive Takaful Contribution of </sys:String>
+    <sys:String x:Key="INSURANCE_MESSAGE_03_Label">, admin fee and SST.</sys:String>
+
+    <!-- For INSURANCE_MESSAGE_11_Label & INSURANCE_MESSAGE_12_Label, putting &quot;&quot; or &apos;&apos; to indicate blank message -->
+    <!-- <sys:String x:Key="INSURANCE_MESSAGE_11_Label">&quot;I confirm that I have read and understood the Product Disclosure Sheet and accepted the declaration and authorizations of the insurance application as well as the Policy Wordings&quot;</sys:String> -->
+    <sys:String x:Key="INSURANCE_MESSAGE_11_Label">&quot;I confirm that I have read and understood the Product Disclosure Sheet and accepted the declaration and authorizations of the Takaful application.&quot;</sys:String>
+    <sys:String x:Key="INSURANCE_MESSAGE_12_Label">&quot;I understand that the KITS Passenger Takaful Plan purchased is not valid for nationalities from Iran, Cuba, Syria, Sudan, North Korea and Crimea Region of Ukraine and that this policy is non-cancellable and non-refundable once issued.&quot;</sys:String>
+
+    <sys:String x:Key="TO_1_DISAGREE_INSURANE_QUESTION_Label">Are you sure you don’t want to purchase Takaful ?</sys:String>
+    <sys:String x:Key="TO_1_AGREE_INSURANE_ANSWER_Label">No. I want to purchase Takaful.</sys:String>
+    <sys:String x:Key="TO_1_CONFIRM_DISAGREE_INSURANE_ANSWER_Label">Yes. I don’t want to purchase Takaful.</sys:String>
+
+    <sys:String x:Key="TO_2_AGREE_INSURANE_QUESTION_Label">Are you sure you want to purchase Takaful ?</sys:String>
+    <sys:String x:Key="TO_2_CONFIRM_AGREE_INSURANE_ANSWER_Label">Yes. I want to purchase Takaful.</sys:String>
+    <sys:String x:Key="TO_2_CONFIRM_DISAGREE_INSURANE_ANSWER_Label">No. I don’t want to purchase Takaful.</sys:String>
+
+    <sys:String x:Key="CONFIRM_WITHOUT_INSURANCE_Label">NO THANKS</sys:String>
+    <sys:String x:Key="CONFIRM_Label">YES PROCEED</sys:String>
+
+    <sys:String x:Key="IN_PROGRESS_Label">In progress..</sys:String>
+</ResourceDictionary>

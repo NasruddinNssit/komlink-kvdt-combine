@@ -1,0 +1,124 @@
+﻿<UserControl x:Class="Komlink.Views.KomlinkCardDetailScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Komlink.Views"
+        mc:Ignorable="d"
+        FontFamily="Roboto"
+        d:DesignHeight="1920" d:DesignWidth="1080" >    
+    <UserControl.Resources>
+        <Style x:Key="BorderStyle" TargetType="{x:Type Border}">
+            <Setter Property="Width" Value="290" />
+            <Setter Property="Background" Value="#FBD012"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Height" Value="83"/>
+            <Setter Property="Margin" Value="20 0 0 0"/>
+        </Style>
+        <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontSize" Value="32"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="BorderThickness" Value="0"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+
+
+                        <Border Background="Transparent">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="Transparent"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <ScrollViewer VerticalScrollBarVisibility="Hidden">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="113"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="400"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="357"/>
+                <RowDefinition />
+
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Border Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Panel.ZIndex="1">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/Komuter_Header01.png" Stretch="Fill"/>
+                </Border.Background>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="1.5*"/>
+                        <ColumnDefinition Width="1.15*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1.2*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="1.3*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Column="0" Grid.Row="1" FontSize="20" Foreground="#FFEEEEEE" FontWeight="Bold" VerticalAlignment="Bottom" Text="KOMUTER KLANG VALLEY" Margin="15,0,0,0"/>
+                    <Image Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="/Assets/KTMB_Logo01.png" HorizontalAlignment="Right" Height="50"/>
+                </Grid>
+            </Border>
+
+            <TextBlock Grid.Row="1" Text="Komlink Card" FontSize="40" FontWeight="SemiBold" Margin="20 0 20 0" Name="KomlinkCardText"/>
+            <Grid Grid.Row="2" Name="KomlinkDetail" Margin="20 0 20 0"/>
+
+
+            <Grid Grid.Row="3" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="0" Style="{StaticResource BorderStyle}">
+                    <Button Content="Top Up" Style="{StaticResource ButtonStyle}" Click="Button_TopUp_Click" Name="TopUpBtnText"/>
+                </Border>
+                <Border Grid.Column="1" Style="{StaticResource BorderStyle}" HorizontalAlignment="Right" Margin="0 0 20 0">
+                    <Button Content="View Transaction" Style="{StaticResource ButtonStyle}" Click="Button_Transaction_Clicked" Name="ViewTransactionText"/>
+                </Border>
+            </Grid>
+
+            <Grid x:Name="KomlinkToUpSection" Grid.Row="4" VerticalAlignment="Center">
+
+            </Grid>
+
+            <Grid Grid.Row="5" x:Name="PaymentOptionOrKeypad" VerticalAlignment="Top" Margin="20 0 20 0">
+
+            </Grid>
+
+
+
+            <Grid  Grid.Row="6" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0" Name="BackOrExitButton"/>
+                <Grid Grid.Column="1" Name="ConfirmButton" HorizontalAlignment="Right"/>
+            </Grid>
+
+            <Border x:Name="BdSubFrame" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="7" Grid.RowSpan="7" Panel.ZIndex="10" Background="#AAFFFFFF" Visibility="Collapsed">
+                <Frame x:Name="FrmSubFrame" VerticalAlignment="Center" HorizontalAlignment="Center" NavigationUIVisibility="Hidden" />
+            </Border>
+
+        </Grid>
+       
+
+    </ScrollViewer>
+   
+</UserControl>

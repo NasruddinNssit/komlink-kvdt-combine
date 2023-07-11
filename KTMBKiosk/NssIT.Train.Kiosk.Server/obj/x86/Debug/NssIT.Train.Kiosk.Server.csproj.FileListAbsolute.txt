@@ -1,0 +1,741 @@
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\SqlServerTypes\x64\msvcr120.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\SqlServerTypes\x86\msvcr120.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\SqliteDb\NssITKioskLogMaster.db
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\DatabaseMaster\KioskDatabaseMaster.db
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\PosiFlexMotionSensorDLL.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\boost.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Boost00.jpg
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\CreditCardPayWave01.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Credit_Card01.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Credit_Card02.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Credit_Card03.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Credit_Card04.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Credit_Card05.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\fpx.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\grabpay.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-sq-tick-green-2.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Komuter_Header01.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\KTMB RouteMap 01.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\KTMB_Logo01.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Mark-2.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Mark-3.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Master_Visa_Debit_Card01.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\mydebit.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\SummaryHeader1.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\SummaryHeader2.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\SummaryHeader3.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\SummaryHeader4.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\SummaryTab1.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Testing01.jpg
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Testing03.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Testing05.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ThumbFilter1.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ThumbFilterFrom.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ThumbFilterFrom2.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ThumbFilterFrom3.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ThumbFilterFrom4.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ThumbFilterFrom5.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ThumbFilterTo.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ThumbFilterTo2.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ThumbFilterTo3.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ThumbFilterTo4.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ThumbFilterTo5.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TicketGirl - KTM-TVM-BM-HIJAB.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TicketGirl - KTM-TVM-ENG-HIJAB.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TicketGirl - Melaka - EN.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TicketGirl - TBS - EN.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TicketGirl-larkin-EN.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TickSummTab.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\tng.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TnG00.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\visa.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\CustInfo\rosCustInfoEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\CustInfo\rosCustInfoMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Date\rosDateEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Date\rosDateMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Info\rosInfoEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Info\rosInfoMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Komuter\rosKomuterEng.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Komuter\rosKomuterMal.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Menu\LanguageEnglish01.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Menu\LanguageMalay01.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Navigator\rosNavigatorEng.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Navigator\rosNavigatorMal.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Payment\rosPaymentEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Payment\rosPaymentMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\PickupNDrop\rosPickupNDropEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\PickupNDrop\rosPickupNDropMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Seat\rosSeatEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Seat\rosSeatMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\PopupWindow\rosPopupWindowEng.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\PopupWindow\rosPopupWindowMal.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\StationTerminal\rosStationEng.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\StationTerminal\rosStationMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\TicketSummary\rosTickSummEng.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\TicketSummary\rosTickSummMal.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Trip\rosTripEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\ViewPage\Trip\rosTripMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Reports\KTMB\IntercityETSTicket\RPTIntercityETS.rdlc
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Reports\KTMB\IntercityETSTicket\TicketKTMBErrorMessage.rdlc
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Reports\KTMB\KomuterTicket\RPTOnlineKomuter.rdlc
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Reports\KTMB\KomuterTicket\RPTOnlineKomuter3iNCH.rdlc
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Reports\KTMB\RPTCreditCardReceipt.rdlc
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\BC.gif
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ID-scan-green.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ID-scan-grey.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\ID-scan-red.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TicketGirl - Melaka.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TicketGirl - TBS.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TicketGirl-larkin.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\LogDB\NssITKioskLogMaster.db
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Reports\TicketMelakaSentralErrorMessage.rdlc
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Reports\TicketMelakaSentralX1.rdlc
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Parameter.txt
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\cash white.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Cash-do v2 - 100RM.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Cash-do v2 - 10RM.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Cash-do v2 - 1RM.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Cash-do v2 - 20RM.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Cash-do v2 - 50RM.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Cash-do v2 - 5RM.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Cash-do.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\cash-image.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\docscan-black.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\docscan-green.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\docscan-red.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\help-green.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\help-grey.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-back.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-bottom-bm.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-bottom-cash-eng-01.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-bottom-credit-eng-01.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-bottom-kredit-bm-01.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-bottom-tunai-bm-01.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-bottom.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-chevron-left-light.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-chevron-right-dark.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-driver.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-edit.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-enter.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-exclamation-dark.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-exclamation-light.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-keyboard.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-sq-tick-green.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-tick-green.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\icon-x-red.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\MelakaSentral-logo.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\MelSenLogo.jpg
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\MelSenLogo_Vertical.jpg
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\NSS poweredby logo.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\NSS-poweredby logo.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\OperatorLogoTest01.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Paypasscard-black.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\Paypasscard-white.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\paypasslogo.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\paywavelogo.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\redwhitebox.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TBS logo - white.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TBSlogo-blue.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\tixgirl.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TVM-bg.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TicketGirl - KTM-TVM-ENG.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Resources\TicketGirl - KTM-TVM-Mal.png
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\App.config
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Train.Kiosk.Server.exe.config
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Train.Kiosk.Server.exe
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Train.Kiosk.Server.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\EntityFramework.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\EntityFramework.SqlServer.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Newtonsoft.Json.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.AppDecorator.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Common.AppService.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Log.DB.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Server.AccessDB.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Server.ServerApp.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Server.Service.Adaptor.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Data.SQLite.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Data.SQLite.EF6.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Data.SQLite.Linq.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Train.Kiosk.Common.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Network.PaymentGatewayApp.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\LibShowMessageWindow.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Common.ThreadMonitor.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Sqlite.DB.AccessDB.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Network.SignalRClient.API.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Sqlite.DB.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.SignalR.Client.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.IO.Pipelines.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Threading.Tasks.Extensions.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Memory.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Bcl.AsyncInterfaces.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Threading.Channels.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.Logging.Abstractions.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.SignalR.Common.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.Logging.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.DependencyInjection.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.Http.Features.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.Options.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Buffers.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Numerics.Vectors.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Text.Json.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Text.Encodings.Web.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.Primitives.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.ValueTuple.dll
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.AppDecorator.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Common.AppService.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Common.AppService.dll.config
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Log.DB.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Log.DB.dll.config
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Server.AccessDB.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Server.ServerApp.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Server.ServerApp.dll.config
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Server.Service.Adaptor.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Server.Service.Adaptor.dll.config
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\EntityFramework.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\EntityFramework.SqlServer.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Newtonsoft.Json.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Data.SQLite.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Train.Kiosk.Common.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Network.PaymentGatewayApp.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Network.PaymentGatewayApp.dll.config
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\LibShowMessageWindow.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Common.ThreadMonitor.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Common.ThreadMonitor.dll.config
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Sqlite.DB.AccessDB.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Sqlite.DB.AccessDB.dll.config
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Network.SignalRClient.API.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Network.SignalRClient.API.dll.config
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Sqlite.DB.pdb
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\NssIT.Kiosk.Sqlite.DB.dll.config
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.SignalR.Client.Core.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.Http.Connections.Client.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.SignalR.Client.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.IO.Pipelines.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Threading.Tasks.Extensions.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Memory.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Bcl.AsyncInterfaces.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Threading.Channels.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.Logging.Abstractions.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.SignalR.Common.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.Connections.Abstractions.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.Logging.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.DependencyInjection.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.Http.Features.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.AspNetCore.Http.Connections.Common.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.Options.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Runtime.CompilerServices.Unsafe.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Numerics.Vectors.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Text.Json.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\System.Text.Encodings.Web.xml
+C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug_LocalServer\Microsoft.Extensions.Primitives.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\SqliteDb\NssITKioskLogMaster.db
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\DatabaseMaster\KioskDatabaseMaster.db
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\PosiFlexMotionSensorDLL.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\boost.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Boost00.jpg
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\CreditCardPayWave01.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Credit_Card01.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Credit_Card02.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Credit_Card03.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Credit_Card04.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Credit_Card05.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\fpx.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\grabpay.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-sq-tick-green-2.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Komuter_Header01.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\KTMB RouteMap 01.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\KTMB_Logo01.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Mark-2.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Mark-3.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Master_Visa_Debit_Card01.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\mydebit.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\SummaryHeader1.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\SummaryHeader2.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\SummaryHeader3.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\SummaryHeader4.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\SummaryTab1.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Testing01.jpg
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Testing03.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Testing05.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ThumbFilter1.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ThumbFilterFrom.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ThumbFilterFrom2.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ThumbFilterFrom3.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ThumbFilterFrom4.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ThumbFilterFrom5.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ThumbFilterTo.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ThumbFilterTo2.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ThumbFilterTo3.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ThumbFilterTo4.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ThumbFilterTo5.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TicketGirl - KTM-TVM-BM-HIJAB.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TicketGirl - KTM-TVM-ENG-HIJAB.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TicketGirl - Melaka - EN.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TicketGirl - TBS - EN.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TicketGirl-larkin-EN.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TickSummTab.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\tng.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TnG00.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\visa.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\CustInfo\rosCustInfoEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\CustInfo\rosCustInfoMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Date\rosDateEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Date\rosDateMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Info\rosInfoEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Info\rosInfoMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Komuter\rosKomuterEng.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Komuter\rosKomuterMal.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Menu\LanguageEnglish01.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Menu\LanguageMalay01.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Navigator\rosNavigatorEng.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Navigator\rosNavigatorMal.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Payment\rosPaymentEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Payment\rosPaymentMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\PickupNDrop\rosPickupNDropEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\PickupNDrop\rosPickupNDropMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Seat\rosSeatEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Seat\rosSeatMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\PopupWindow\rosPopupWindowEng.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\PopupWindow\rosPopupWindowMal.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\StationTerminal\rosStationEng.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\StationTerminal\rosStationMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\TicketSummary\rosTickSummEng.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\TicketSummary\rosTickSummMal.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Trip\rosTripEnglish.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\ViewPage\Trip\rosTripMalay.xaml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Reports\KTMB\IntercityETSTicket\RPTIntercityETS.rdlc
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Reports\KTMB\IntercityETSTicket\TicketKTMBErrorMessage.rdlc
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Reports\KTMB\KomuterTicket\RPTOnlineKomuter.rdlc
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Reports\KTMB\KomuterTicket\RPTOnlineKomuter3iNCH.rdlc
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Reports\KTMB\RPTCreditCardReceipt.rdlc
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\BC.gif
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ID-scan-green.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ID-scan-grey.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\ID-scan-red.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TicketGirl - Melaka.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TicketGirl - TBS.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TicketGirl-larkin.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\LogDB\NssITKioskLogMaster.db
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Reports\TicketMelakaSentralErrorMessage.rdlc
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Reports\TicketMelakaSentralX1.rdlc
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Parameter.txt
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\cash white.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Cash-do v2 - 100RM.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Cash-do v2 - 10RM.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Cash-do v2 - 1RM.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Cash-do v2 - 20RM.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Cash-do v2 - 50RM.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Cash-do v2 - 5RM.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Cash-do.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\cash-image.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\docscan-black.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\docscan-green.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\docscan-red.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\help-green.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\help-grey.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-back.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-bottom-bm.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-bottom-cash-eng-01.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-bottom-credit-eng-01.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-bottom-kredit-bm-01.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-bottom-tunai-bm-01.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-bottom.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-chevron-left-light.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-chevron-right-dark.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-driver.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-edit.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-enter.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-exclamation-dark.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-exclamation-light.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-keyboard.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-sq-tick-green.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-tick-green.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\icon-x-red.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\MelakaSentral-logo.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\MelSenLogo.jpg
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\MelSenLogo_Vertical.jpg
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\NSS poweredby logo.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\NSS-poweredby logo.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\OperatorLogoTest01.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Paypasscard-black.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\Paypasscard-white.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\paypasslogo.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\paywavelogo.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\redwhitebox.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TBS logo - white.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TBSlogo-blue.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\tixgirl.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TVM-bg.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TicketGirl - KTM-TVM-ENG.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Resources\TicketGirl - KTM-TVM-Mal.png
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\App.config
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe.config
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Options.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Primitives.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Newtonsoft.Json.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.AppDecorator.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.AppService.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Log.DB.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.AccessDB.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.ServerApp.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Buffers.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.ComponentModel.Annotations.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.IO.Pipelines.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Memory.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Numerics.Vectors.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Encodings.Web.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Json.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Channels.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Tasks.Extensions.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.ValueTuple.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Common.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\LibShowMessageWindow.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.ThreadMonitor.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.dll
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.AppDecorator.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.AppService.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.AppService.dll.config
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Log.DB.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Log.DB.dll.config
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.AccessDB.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.ServerApp.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.ServerApp.dll.config
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.Service.Adaptor.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll.config
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Client.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Common.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.Core.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Options.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Primitives.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\Newtonsoft.Json.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Buffers.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.IO.Pipelines.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Memory.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Numerics.Vectors.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Encodings.Web.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Json.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Channels.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Tasks.Extensions.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.ValueTuple.xml
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Common.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll.config
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\LibShowMessageWindow.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.ThreadMonitor.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.ThreadMonitor.dll.config
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll.config
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.SignalRClient.API.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll.config
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.pdb
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.dll.config
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csprojAssemblyReference.cache
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.ProjectInstaller.resources
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.GenerateResource.cache
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.CoreCompileInputs.cache
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.CopyComplete
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.exe
+C:\dev\source code\KTMB_Kiosk\Code ORG\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\LogDB\NssITKioskLogMaster.db
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\DatabaseMaster\KioskDatabaseMaster.db
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Parameter.txt
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\App.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Options.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Primitives.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Newtonsoft.Json.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.AppDecorator.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.AppService.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Log.DB.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.AccessDB.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.ServerApp.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Buffers.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.ComponentModel.Annotations.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.IO.Pipelines.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Memory.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Numerics.Vectors.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Encodings.Web.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Json.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Channels.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Tasks.Extensions.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.ValueTuple.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Common.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Tools.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\LibShowMessageWindow.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.StatusMonitorApp.dll
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.AppDecorator.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.AppService.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.AppService.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Log.DB.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Log.DB.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.AccessDB.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.AccessDB.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.ServerApp.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.ServerApp.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.Service.Adaptor.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Client.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Common.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.Core.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Options.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Primitives.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\Newtonsoft.Json.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Buffers.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.IO.Pipelines.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Memory.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Numerics.Vectors.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Encodings.Web.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Json.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Channels.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Tasks.Extensions.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.ValueTuple.xml
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Common.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Common.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.SignalRClient.API.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Tools.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Tools.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\LibShowMessageWindow.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.StatusMonitorApp.pdb
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.StatusMonitorApp.dll.config
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.AssemblyReference.cache
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.ProjectInstaller.resources
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.GenerateResource.cache
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.CoreCompileInputs.cache
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.CopyComplete
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.exe
+C:\dev\source code\KTMB_Kiosk\Code2\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Newtonsoft.Json.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.AppDecorator.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.AppService.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Log.DB.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.AccessDB.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.ServerApp.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Common.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Tools.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\LibShowMessageWindow.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.StatusMonitorApp.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\LogDB\NssITKioskLogMaster.db
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\DatabaseMaster\KioskDatabaseMaster.db
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Parameter.txt
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\App.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Options.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Primitives.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Buffers.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.ComponentModel.Annotations.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.EF6.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.Linq.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.IO.Pipelines.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Memory.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Numerics.Vectors.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Encodings.Web.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Json.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Channels.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Tasks.Extensions.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.ValueTuple.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.AppDecorator.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.AppService.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Common.AppService.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Log.DB.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Log.DB.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.AccessDB.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.AccessDB.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.ServerApp.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.ServerApp.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.Service.Adaptor.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Server.Service.Adaptor.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Client.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Connections.Common.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Client.Core.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Options.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Microsoft.Extensions.Primitives.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\Newtonsoft.Json.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Buffers.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Data.SQLite.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.IO.Pipelines.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Memory.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Numerics.Vectors.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Encodings.Web.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Text.Json.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Channels.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.Threading.Tasks.Extensions.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\System.ValueTuple.xml
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Common.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Common.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.SignalRClient.API.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.SignalRClient.API.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Tools.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Tools.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Sqlite.DB.AccessDB.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.PaymentGatewayApp.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\LibShowMessageWindow.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.StatusMonitorApp.pdb
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Kiosk.Network.StatusMonitorApp.dll.config
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.AssemblyReference.cache
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.SuggestedBindingRedirects.cache
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.ProjectInstaller.resources
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.GenerateResource.cache
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.CoreCompileInputs.cache
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.csproj.CopyComplete
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.exe
+C:\dev\Source Code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\obj\x86\Debug\NssIT.Train.Kiosk.Server.pdb

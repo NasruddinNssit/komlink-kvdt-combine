@@ -1,0 +1,611 @@
+﻿<Page x:Class="NssIT.Kiosk.Client.ViewPage.Komuter.pgMap"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.Komuter"
+      mc:Ignorable="d" 
+      Background="#FFF9F9F9"
+      d:DesignHeight="1815" d:DesignWidth="590"      
+      Title="Komuter Map" Loaded="Page_Load" Unloaded="Page_Unloaded">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="rosKomuterEng.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    
+    <Viewbox>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="145"/>
+                <ColumnDefinition Width="42"/>
+                <ColumnDefinition Width="145"/>
+                <ColumnDefinition Width="42"/>
+                <ColumnDefinition Width="145"/>
+                <ColumnDefinition Width="40"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+                <RowDefinition Height="91"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Column="1" Grid.Row="0" BorderThickness="0" BorderBrush="#a3a3a3" Background="#FF555555" Height="70" CornerRadius="6" Visibility="Visible" x:Name="BdReset" Tag="STT01" MouseLeftButtonUp="Reset_Click">
+                <TextBlock Text="{DynamicResource RESET_Label}" Foreground="#FFEEEEEE" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29" x:Name="TxtReset"/>
+            </Border>
+            
+            <!--Destination Box-->
+            <!--Padang Besar-->
+            <Border Grid.Column="3" Grid.Row="1" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdPadangBesar" Tag="STT01">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Padang&#x0a;Besar" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Bukit Ketri-->
+            <Border Grid.Column="5" Grid.Row="2" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdBukitKetri" Tag="STT02">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Bukit Ketri" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Arau-->
+            <Border Grid.Column="3" Grid.Row="3" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdArau" Tag="STT03">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Arau" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Kodiang-->
+            <Border Grid.Column="5" Grid.Row="4" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdKodiang" Tag="STT04">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Kodiang" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Anak Bukit-->
+            <Border Grid.Column="3" Grid.Row="5" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdAnakBukit" Tag="STT05">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Anak Bukit" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Alor Setar-->
+            <Border Grid.Column="5" Grid.Row="6" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdAlorSetar" Tag="STT06">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Alor Setar" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Kobah-->
+            <Border Grid.Column="3" Grid.Row="7" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdKobah" Tag="STT07">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Kobah" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Gurun-->
+            <Border Grid.Column="5" Grid.Row="8" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdGurun" Tag="STT08">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Gurun" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Sungai Petani-->
+            <Border Grid.Column="3" Grid.Row="9" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdSungaiPetani" Tag="STT09">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Sungai&#x0a;Petani" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Tasek Gelugor-->
+            <Border Grid.Column="5" Grid.Row="10" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdTasekGelugor" Tag="STT10">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Tasek&#x0a;Gelugor" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Butterworth-->
+            <Border Grid.Column="1" Grid.Row="10" Grid.RowSpan="2" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" VerticalAlignment="Top" Margin="0 28 0 0" Visibility="Visible" x:Name="BdButterworth" Tag="STT12">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Butterworth" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Bukit Mertajam-->
+            <Border Grid.Column="5" Grid.Row="11" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdBukitMertajam" Tag="STT11">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Bukit&#x0a;Mertajam" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Bukit Tengah-->
+            <Border Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="11" Grid.RowSpan="2" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" VerticalAlignment="Bottom" Margin="0 0 0 28" Visibility="Visible" x:Name="BdBukitTengah" Tag="STT13">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Bukit&#x0a;Tengah" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Simpang Ampat-->
+            <Border Grid.Column="5" Grid.Row="12" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdSimpangAmpat" Tag="STT14">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Simpang&#x0a;Ampat" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Nibong Tebal-->
+            <Border Grid.Column="3" Grid.Row="13" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdNibongTebal" Tag="STT15">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Nibong&#x0a;Tebal" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Parit Buntar-->
+            <Border Grid.Column="5" Grid.Row="14" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdParitBuntar" Tag="STT16">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Parit Buntar" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Bagan Serai-->
+            <Border Grid.Column="3" Grid.Row="15" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdBaganSerai" Tag="STT17">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Bagan Serai" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Kamunting-->
+            <Border Grid.Column="5" Grid.Row="16" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdKamunting" Tag="STT18">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Kamunting" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Taiping-->
+            <Border Grid.Column="3" Grid.Row="17" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdTaiping" Tag="STT19">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Taiping" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+            <!--Padang Rengas-->
+            <Border Grid.Column="5" Grid.Row="18" BorderThickness="2" BorderBrush="#a3a3a3" Background="#FBD012" Height="77" Width="140" CornerRadius="6" Visibility="Visible" x:Name="BdPadangRengas" Tag="STT20">
+                <Border.Effect>
+                    <DropShadowEffect />
+                </Border.Effect>
+                <TextBlock Text="Padang&#x0a;Rengas" Foreground="#444444" FontSize="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" LineStackingStrategy="BlockLineHeight" LineHeight="29"/>
+            </Border>
+
+
+            <!--Circle-->
+            <Ellipse Grid.Column="4" Grid.Row="1" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="2" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="3" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="4" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="5" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="6" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="7" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="8" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="9" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="10" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="11" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="2" Grid.Row="11" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="1" Grid.Row="11" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="12" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="13" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="14" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="15" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="16" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="17" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+            <Ellipse Grid.Column="4" Grid.Row="18" Fill="#777777" Height="20" Width="20" Panel.ZIndex="2"/>
+
+
+            <!--Blue/Purple Line-->
+            <Grid Grid.Column="4" Grid.Row="1" Panel.ZIndex="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Rectangle Grid.Row="1" Fill="#1A4099" Width="5" />
+            </Grid>
+
+            <Rectangle Grid.Column="4" Grid.Row="2" Grid.RowSpan="9" Fill="#1A4099" Width="5" Panel.ZIndex="1"/>
+
+            <Grid Grid.Column="4" Grid.Row="11" Panel.ZIndex="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="29*"/>
+                    <ColumnDefinition Width="13*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Rectangle Fill="#1A4099" Width="5" Margin="18,0,5.025,0" />
+
+                <Rectangle Grid.Row="1" Fill="#801A99" Width="5" Margin="18,0,5.025,0" />
+            </Grid>
+
+            <Rectangle Grid.Column="4" Grid.Row="12" Grid.RowSpan="6" Fill="#801A99" Width="5" Panel.ZIndex="1"/>
+
+            <Rectangle Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="11" Fill="#1A4099" Height="5" Margin="0 0 0 8" Panel.ZIndex="1"/>
+
+            <Rectangle Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="11" Fill="#801A99" Height="5" Margin="0 8 0 0" Panel.ZIndex="1"/>
+
+            <Grid Grid.Column="4" Grid.Row="11" Margin="0 0 0 8" Panel.ZIndex="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Rectangle Fill="#1A4099" Height="5" />
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="11" Margin="0 8 0 0" Panel.ZIndex="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Rectangle Fill="#801A99" Height="5" />
+            </Grid>
+
+            <Grid Grid.Column="1" Grid.Row="11" Margin="0 0 0 8" Panel.ZIndex="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Rectangle Grid.Column="1" Fill="#1A4099" Height="5" />
+            </Grid>
+
+            <Grid Grid.Column="1" Grid.Row="11" Margin="0 8 0 0" Panel.ZIndex="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Rectangle Grid.Column="1" Fill="#801A99" Height="5" />
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="18" Panel.ZIndex="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Rectangle Fill="#801A99" Width="5" />
+            </Grid>
+
+
+            <!--Yellow Highlight Line-->
+            <Border Grid.Column="4" Grid.Row="1" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="2" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="3" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="4" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="5" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="6" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="7" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="8" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="9" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="10" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="11" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="12" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="13" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="14" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="15" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="16" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="17" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="4" Grid.Row="18" Background="#FBD012" Height="33" Width="20" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="2" Grid.Row="11" Background="#FBD012" Height="20" Width="33" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Border Grid.Column="1" Grid.Row="11" Background="#FBD012" Height="20" Width="33" CornerRadius="10" Visibility="Collapsed"/>
+
+            <Grid Grid.Column="4" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdPadangBesarHiLi1"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdBukitKetriHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdBukitKetriHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdArauHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdArauHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="4">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdKodiangHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdKodiangHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdAnakBukitHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdAnakBukitHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="6">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdAlorSetarHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdAlorSetarHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="7">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdKobahHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdKobahHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="8">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdGurunHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdGurunHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="9">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdSungaiPetaniHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdSungaiPetaniHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdTasekGelugorHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdTasekGelugorHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="11">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdBukitMertajamHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdBukitMertajamHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="12">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdSimpangAmpatHiLi1"/>
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdSimpangAmpatHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="13">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdNibongTebalHiLi1"/>
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdNibongTebalHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="14">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdParitBuntarHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdParitBuntarHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdBaganSeraiHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdBaganSeraiHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="16">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdKamuntingHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdKamuntingHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="17">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdTaipingHiLi1"/>
+
+                <Border Grid.Row="1" Background="#FBD012" Width="20" Visibility="Visible" x:Name="BdTaipingHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="18">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#FBD012" Width="20" Visibility="Visible"  x:Name="BdPadangRengasHiLi1"/>
+            </Grid>
+
+            <Grid Grid.Column="4" Grid.Row="11">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Background="#FBD012" Height="20" Visibility="Visible" x:Name="BdBukitMertajamHiLi3"/>
+            </Grid>
+
+            <Border Grid.Column="3" Grid.Row="11" Background="#FBD012" Height="20" Visibility="Visible" x:Name="BdBukitMertajamHiLi4" Margin="0,1,0,0"/>
+
+            <Grid Grid.Column="2" Grid.Row="11">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Background="#FBD012" Height="20" Visibility="Visible" x:Name="BdBukitTengahHiLi1"/>
+
+                <Border Grid.Column="1" Background="#FBD012" Height="20" Visibility="Visible" x:Name="BdBukitTengahHiLi2"/>
+            </Grid>
+
+            <Grid Grid.Column="1" Grid.Row="11">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="1" Background="#FBD012" Height="20" Visibility="Visible"  x:Name="BdButterworthHiLi1"/>
+            </Grid>
+
+            <Border Grid.Column="1" Grid.Row="18" Grid.ColumnSpan="3" Grid.RowSpan="2">
+                <Frame x:Name="frmNav" Margin="25,0,0,60" VerticalAlignment="Bottom" HorizontalAlignment="Left" NavigationUIVisibility="Hidden"/>
+            </Border>
+            
+        </Grid>
+    </Viewbox>
+</Page>

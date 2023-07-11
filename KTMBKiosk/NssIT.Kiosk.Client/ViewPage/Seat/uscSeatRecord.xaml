@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="NssIT.Kiosk.Client.ViewPage.Seat.uscSeatRecord"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.Seat"
+             mc:Ignorable="d" FontFamily="Roboto" 
+             Background="#00FFFFFF"
+             MinHeight="113" d:DesignWidth="442" Loaded="UserControl_Loaded">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="rosSeatEnglish.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+
+
+    <Border BorderBrush="#FFDDDDDD" BorderThickness="0.8">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <!-- Row Selected Indicator / Left Margin -->
+                <ColumnDefinition Width="15"/>
+                <!-- No. -->
+                <ColumnDefinition Width="0.6*"/>
+                <!-- Coach -->
+                <ColumnDefinition Width="*"/>
+                <!-- Seat No. -->
+                <ColumnDefinition Width="*"/>
+                <!-- Amount -->
+                <ColumnDefinition Width="1.3*"/>
+                <!-- Right Margin -->
+                <ColumnDefinition Width="10"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <!-- Top Margin -->
+                <RowDefinition Height="10"/>
+                <!-- Header -->
+                <RowDefinition Height="*"/>
+                <!-- Content -->
+                <RowDefinition Height="*"/>
+                <!-- Seat Service Description -->
+                <RowDefinition Height="*"/>
+                <!-- Bottom Margin -->
+                <RowDefinition Height="10"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FF444444" FontSize="24" Text="5" x:Name="TxtItemNo"/>
+            <TextBlock Grid.Column="2" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="#FFAAAAAA" FontSize="12" Margin="10,0,0,0" Text="{DynamicResource COACH_Label}"/>
+            <TextBlock Grid.Column="3" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="#FFAAAAAA" FontSize="12" Margin="10,0,0,0" Text="{DynamicResource A_SEAT_Label}"/>
+            <TextBlock Grid.Column="4" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="#FFAAAAAA" FontSize="12" Margin="20,0,0,0" Text="RM"  x:Name="TxtCurrency"/>
+
+            <TextBlock Grid.Column="2" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="#FF444444" FontSize="24" Margin="10,0,0,0" Text="A" x:Name="TxtCoach"/>
+            <TextBlock Grid.Column="3" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="#FF444444" FontSize="24" Margin="10,0,0,0" Text="5A" x:Name="TxtSeatNo"/>
+            <TextBlock Grid.Column="4" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="#FF444444" FontSize="24" Margin="10,0,0,0" Text="285.35" x:Name="TxtAmount"/>
+
+            <TextBlock Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="#FF777777" FontSize="20" Margin="10,0,0,0" TextWrapping="WrapWithOverflow" 
+                   Text="Standard Windows Hot Seat" x:Name="TxtSeatTypeDesc"/>
+
+            <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="5" Background="#FFFBD012" x:Name="BdSelectedBar"/>
+        </Grid>
+    </Border>   
+    
+</UserControl>

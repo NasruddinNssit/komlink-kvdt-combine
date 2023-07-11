@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2204B42-AF4D-44F7-BC66-0186BF9B841B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NssIT.Train.Kiosk.Common</RootNamespace>
+    <AssemblyName>NssIT.Train.Kiosk.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.117.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.117.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.117.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.117.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.117.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\WebAPIAgent.cs" />
+    <Compile Include="Common\WebApi\iWebApiResult.cs" />
+    <Compile Include="Common\WebApi\WepApiException.cs" />
+    <Compile Include="Constants\Constants.cs" />
+    <Compile Include="Data\BaseCommonObj.cs" />
+    <Compile Include="Data\BaseServiceResult.cs" />
+    <Compile Include="Data\BookingModel.cs" />
+    <Compile Include="Data\BookingPaymentDetailModel.cs" />
+    <Compile Include="Data\BookingSeatDetailModel.cs" />
+    <Compile Include="Data\BTnGCancelRefundModel.cs" />
+    <Compile Include="Data\BTnGCleanUpSalesResultCollectionModel.cs" />
+    <Compile Include="Data\BTnGCleanUpSalesResultModel.cs" />
+    <Compile Include="Data\BTnGPaymentGatewayDetailModel.cs" />
+    <Compile Include="Data\BTnGPaymentGatewayModel.cs" />
+    <Compile Include="Data\BTnGSuccessPaidModel.cs" />
+    <Compile Include="Data\CancelBookingModel.cs" />
+    <Compile Include="Data\CoachModel.cs" />
+    <Compile Include="Data\CompleteKomuterPaymentCompiledModel.cs" />
+    <Compile Include="Data\KioskLatestStatusModel.cs" />
+    <Compile Include="Data\PostRequestParam\ETSCheckoutSaleRequest.cs" />
+    <Compile Include="Data\PostRequestParam\GetInsuranceRequest.cs" />
+    <Compile Include="Data\PostRequestParam\KioskStatusUpdateRequest.cs" />
+    <Compile Include="Data\PostRequestParam\UpdateBookingInsuranceRequest.cs" />
+    <Compile Include="Data\Response\CommonResult.cs" />
+    <Compile Include="Data\ETSCheckoutSaleModel.cs" />
+    <Compile Include="Data\Response\ETSCheckoutSaleResult.cs" />
+    <Compile Include="Data\Response\GetInsuranceModel.cs" />
+    <Compile Include="Data\InsuranceModel.cs" />
+    <Compile Include="Data\Response\GetInsuranceResult.cs" />
+    <Compile Include="Data\Response\PassengerSubmissionResultV3.cs" />
+    <Compile Include="Data\Response\UpdateBookingInsuranceResult.cs" />
+    <Compile Include="Data\Response\UpdateKioskStatusResult.cs" />
+    <Compile Include="Data\Response\UpdatePassengerCompiledResultV3.cs" />
+    <Compile Include="Data\UpdateBookingInsuranceModel.cs" />
+    <Compile Include="Data\_ConstantsKtmbWebAPI.cs" />
+    <Compile Include="Data\CounterConfigurationModel.cs" />
+    <Compile Include="Data\CounterModel.cs" />
+    <Compile Include="Data\CreditCardResponseModel.cs" />
+    <Compile Include="Data\ExtendBookingSessionAnswerModel.cs" />
+    <Compile Include="Data\IntercityETSTicketListModel.cs" />
+    <Compile Include="Data\KomuterBookingModel.cs" />
+    <Compile Include="Data\KomuterNewBookingTicketDetailListModel.cs" />
+    <Compile Include="Data\KomuterNewBookingTicketListModel.cs" />
+    <Compile Include="Data\KomuterPackageModel.cs" />
+    <Compile Include="Data\KomuterPaymentModel.cs" />
+    <Compile Include="Data\KomuterPrintTicketModel.cs" />
+    <Compile Include="Data\KomuterSummaryModel.cs" />
+    <Compile Include="Data\KomuterTicketTypeModel.cs" />
+    <Compile Include="Data\OutstandingCardSettlementModel.cs" />
+    <Compile Include="Data\PassengerDetailErrorModel.cs" />
+    <Compile Include="Data\PassengerDetailModel.cs" />
+    <Compile Include="Data\PassengerPNRTicketTypeModel.cs" />
+    <Compile Include="Data\PassengerPrerequisiteModel.cs" />
+    <Compile Include="Data\PassengerResultDetailModel.cs" />
+    <Compile Include="Data\PassengerTicketTypeModel.cs" />
+    <Compile Include="Data\PostRequestParam\BookingSeatRequest.cs" />
+    <Compile Include="Data\PostRequestParam\BookingTimeoutExtensionRequest.cs" />
+    <Compile Include="Data\PostRequestParam\BTnG\AvailablePaymentGatewayRequest.cs" />
+    <Compile Include="Data\BTnGCancelRefundReqInfo.cs" />
+    <Compile Include="Data\PostRequestParam\BTnG\CancelRefundRequest.cs" />
+    <Compile Include="Data\PostRequestParam\CancelBookingRequest.cs" />
+    <Compile Include="Data\PostRequestParam\CardSettlementRequest.cs" />
+    <Compile Include="Data\PostRequestParam\CheckOutstandingCardSettlementRequest.cs" />
+    <Compile Include="Data\PostRequestParam\CompleteKomuterPaymentRequest.cs" />
+    <Compile Include="Data\PostRequestParam\CompletePaymentRequest.cs" />
+    <Compile Include="Data\PostRequestParam\CounterConfigRequest.cs" />
+    <Compile Include="Data\PostRequestParam\GetKomuterPackageRequest.cs" />
+    <Compile Include="Data\PostRequestParam\GetTicketTypeRequest.cs" />
+    <Compile Include="Data\PostRequestParam\IPostRequestParam.cs" />
+    <Compile Include="Data\PostRequestParam\JSonStringParameter.cs" />
+    <Compile Include="Data\PostRequestParam\KomuterBookingCheckoutRequest.cs" />
+    <Compile Include="Data\PostRequestParam\KomuterTicketBookingRequest.cs" />
+    <Compile Include="Data\PostRequestParam\PassengerPNRTicketTypeRequest.cs" />
+    <Compile Include="Data\PostRequestParam\PromoCodeVerifyRequest.cs" />
+    <Compile Include="Data\PostRequestParam\SeatRequest.cs" />
+    <Compile Include="Data\PostRequestParam\TicketETSIntercityRequest.cs" />
+    <Compile Include="Data\PostRequestParam\UpdatePassengerRequest.cs" />
+    <Compile Include="Data\PostRequestParam\UpdatePaymentRequest.cs" />
+    <Compile Include="Data\Response\BookingPaymentResult.cs" />
+    <Compile Include="Data\Response\BookingResult.cs" />
+    <Compile Include="Data\Response\BTnG\BTnGCleanUpSalesResult.cs" />
+    <Compile Include="Data\Response\BTnG\BTnGGetPaymentGatewayResult.cs" />
+    <Compile Include="Data\Response\CancelBookingResult.cs" />
+    <Compile Include="Data\Response\BTnG\BTnGCancelRefundResult.cs" />
+    <Compile Include="Data\Response\CardSettlementResult.cs" />
+    <Compile Include="Data\CheckoutBookingModel.cs" />
+    <Compile Include="Data\Response\CompleteKomuterPaymentResult.cs" />
+    <Compile Include="Data\Response\CompletePaymentCompiledResult.cs" />
+    <Compile Include="Data\Response\CounterConfigCompiledResult.cs" />
+    <Compile Include="Data\Response\ExtendBookingSessionResult.cs" />
+    <Compile Include="Data\GetPassengerModel.cs" />
+    <Compile Include="Data\Response\GetTicketTypeResult.cs" />
+    <Compile Include="Data\Response\IntercityETSTicketListResult.cs" />
+    <Compile Include="Data\Response\KomuterBookingCheckoutResult.cs" />
+    <Compile Include="Data\Response\KomuterBookingResult.cs" />
+    <Compile Include="Data\Response\KomuterTicketTypePackageResult.cs" />
+    <Compile Include="Data\Response\OutstandingCardSettlementResult.cs" />
+    <Compile Include="Data\Response\PassengerPNRTicketTypeResult.cs" />
+    <Compile Include="Data\Response\PaymentSubmissionResult.cs" />
+    <Compile Include="Data\Response\PromoCodeVerifyResult.cs" />
+    <Compile Include="Data\Response\TrainSeatResult.cs" />
+    <Compile Include="Data\Response\TripResult.cs" />
+    <Compile Include="Data\Response\PassengerSubmissionResult.cs" />
+    <Compile Include="Data\Response\UpdatePassengerCompiledResult.cs" />
+    <Compile Include="Data\Response\UpdatePassengerResult.cs" />
+    <Compile Include="Data\SeatLayoutModel.cs" />
+    <Compile Include="Data\StateModel.cs" />
+    <Compile Include="Data\Response\StationResult.cs" />
+    <Compile Include="Data\StationDetailsModel.cs" />
+    <Compile Include="Data\StationMachineConfigModel.cs" />
+    <Compile Include="Data\SystemConfigurationModel.cs" />
+    <Compile Include="Data\TicketTypeModel.cs" />
+    <Compile Include="Data\TrainCoachSeatModel.cs" />
+    <Compile Include="Data\TripModel.cs" />
+    <Compile Include="Data\ValidatePromoCodeModel.cs" />
+    <Compile Include="DummyClass.cs" />
+    <Compile Include="Helper\DateTimeHelper.cs" />
+    <Compile Include="Helper\SecurityHelper.cs" />
+    <Compile Include="Data\PostRequestParam\TripRequest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Backup\Common\WebApi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NssIT.Kiosk.AppDecorator\NssIT.Kiosk.AppDecorator.csproj">
+      <Project>{1cc91bda-e1d3-4eab-9d67-7d04b224f837}</Project>
+      <Name>NssIT.Kiosk.AppDecorator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NssIT.Kiosk.Log.DB\NssIT.Kiosk.Log.DB.csproj">
+      <Project>{92b559f6-ad65-4818-9300-badd7f849853}</Project>
+      <Name>NssIT.Kiosk.Log.DB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

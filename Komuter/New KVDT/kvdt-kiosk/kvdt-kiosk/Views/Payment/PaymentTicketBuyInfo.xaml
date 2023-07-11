@@ -1,0 +1,101 @@
+﻿<UserControl x:Class="kvdt_kiosk.Views.Payment.PaymentTicketBuyInfo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" FontFamily="Inter" Loaded="UserControl_Loaded"
+               d:DesignHeight="1220" d:DesignWidth="430">
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="Transparent" BorderThickness="0" Cursor="Hand" Padding="5" CornerRadius="12" Background="WhiteSmoke">
+                            <ContentPresenter/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <TextBlock x:Name="ProcessingTextBlock" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Visible" Text="Processing..." FontWeight="Bold" FontSize="50" Foreground="White"/>
+        <Grid x:Name="CurrentGrid" Visibility="Hidden" >
+            <Grid Margin="25,5,25,5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+
+                    <RowDefinition Height="auto"></RowDefinition>
+
+                    <RowDefinition Height="*"></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="lblPayment" Text="PAYMENT" FontSize="60" TextWrapping="Wrap" Foreground="#FFFFFF" FontFamily="Segoe UI" FontWeight="Bold"/>
+                <TextBlock x:Name="lblStationInfo" Text="From And To Station Infomation" FontWeight="Bold" TextWrapping="WrapWithOverflow" Grid.Row="1" FontSize="18" Foreground="#FFFFFF" Margin="0,5,0,5"></TextBlock>
+                <TextBlock x:Name="lblDateTypeJourneyInfo" Text="Date And Type Of Journey" Grid.Row="2" FontSize="18" Foreground="#FFFFFF" TextWrapping="WrapWithOverflow" FontWeight="Bold" Margin="0,5,0,5"></TextBlock>
+                <UniformGrid Grid.Row="3" x:Name="GridTicket"  Margin="0,15,0,15" >
+
+                </UniformGrid>
+
+                <UniformGrid x:Name="GridParcel" Grid.Row="6" >
+                </UniformGrid>
+
+                <TextBlock x:Name="lblTotalTicketPrice" Text="MYR 0.00" Grid.Row="7" FontSize="55" Foreground="#FFFFFF" Margin="0,27,10,5" HorizontalAlignment="Right" FontFamily="Segoe UI" FontWeight="Bold"/>
+
+                <UniformGrid Grid.Row="8" Rows="2" Columns="2" Margin="0,25,0,5">
+                    <!--<Button Margin="8" Name="BtnCardWave" Cursor="Hand" Click="BtnCardWave_Click" >
+                <Image Source="/Assets/PaymentByCard.png"/>
+            </Button>-->
+                    <Border Margin="8" Background="White" CornerRadius="10" Height="90" MouseLeftButtonUp="BtnCardWave_Click" Visibility="Visible">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="10"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Card" FontSize="11" VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="TxtPaymentDesc" FontWeight="Bold"/>
+                            <Image Grid.Row="1" Source="/Assets/Master_Visa_Debit_Card01.png" HorizontalAlignment="Center" Tag="" x:Name="imgPaymentType"/>
+                        </Grid>
+                    </Border>
+                    <Border Margin="8" Background="White" CornerRadius="10" Height="90" MouseLeftButtonUp="BtnBoost_Click" Visibility="Visible">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="10"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Boost" FontSize="11" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" />
+                            <Image Grid.Row="1" Source="/Assets/Boost.jpg" HorizontalAlignment="Center" Tag="" Stretch="Fill" Height="45" Width="100" />
+                        </Grid>
+                    </Border>
+                    <Border Margin="8" Background="White" CornerRadius="10" Height="90" MouseLeftButtonUp="BtnTNG_Click" Visibility="Visible">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="10"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Touch N Go" FontSize="11" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" />
+                            <Image Grid.Row="1" Source="/Assets/TNC.jpg" HorizontalAlignment="Center" Tag="" Stretch="Fill" Height="45" Width="100" />
+                        </Grid>
+                    </Border>
+                    <!--<Button Margin="8" Name="BtnBoost" Cursor="Hand" Click="BtnBoost_Click">
+                <Image Source="/Assets/Boost.jpg"></Image>
+            </Button>-->
+                    <!--<Button Margin="8" Name="BtnTNG" Cursor="Hand" Click="BtnTNG_Click">
+                <Image Source="/Assets/TNC.jpg" Stretch="None"></Image>
+            </Button>-->
+                </UniformGrid>
+                <TextBlock x:Name="lblAttention" Text="PLEASE CHECK YOUR SELECTION BEFORE CLICK PAY" FontWeight="Bold" TextWrapping="WrapWithOverflow" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="35" Foreground="#FBD012" Margin="0,35,0,0" ></TextBlock>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

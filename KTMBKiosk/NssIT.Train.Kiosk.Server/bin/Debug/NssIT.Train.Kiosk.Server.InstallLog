@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.InstallLog
+   assemblypath = C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.exe
+Installing service NssIT.Train.Kiosk.Server...
+Service NssIT.Train.Kiosk.Server has been successfully installed.
+Creating EventLog source NssIT.Train.Kiosk.Server in log Application...
+Committing assembly 'C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.InstallLog
+   assemblypath = C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\NssIT.Train.Kiosk.Server\bin\Debug\NssIT.Train.Kiosk.Server.exe

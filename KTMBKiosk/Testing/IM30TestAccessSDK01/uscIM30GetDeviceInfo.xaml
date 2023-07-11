@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="IM30TestAccessSDK01.uscIM30GetDeviceInfo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:IM30TestAccessSDK01"
+             mc:Ignorable="d" Height="190" Width="330">
+    <Grid>
+        <Button Content="Get IM30 Info"
+            Margin="28,28,0,0" Height="108" VerticalAlignment="Top" HorizontalAlignment="Left" Width="193"
+            Click="IM30GetDeviceInfo_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" />
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</UserControl>

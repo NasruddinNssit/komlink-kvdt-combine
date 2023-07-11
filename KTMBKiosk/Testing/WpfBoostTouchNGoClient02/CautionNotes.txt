@@ -1,0 +1,3 @@
+﻿
+private int GetServerPort() => App.SysParam.PrmLocalServerPort;
+_netInterface = new LocalTcpService(App.SysParam.PrmClientPort);

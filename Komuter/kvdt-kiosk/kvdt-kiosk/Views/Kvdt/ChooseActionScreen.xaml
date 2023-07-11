@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="kvdt_kiosk.Views.Kvdt.ChooseActionScreen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:kvdt_kiosk.Views.Kvdt"
+             mc:Ignorable="d" 
+             d:DesignHeight="1920" d:DesignWidth="1080">
+    <UserControl.Resources>
+        <Style x:Key="BtnAction" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="#000000"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="40"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="#FBD012" CornerRadius="11" Height="150" Width="450"  HorizontalAlignment="Stretch" VerticalAlignment="Center">
+                            <ContentPresenter Content="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" ></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <ScrollViewer>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Stretch="UniformToFill" Source="/Assets/kvdtmap.png" ></Image>
+            <Grid Grid.Column="1">
+                <Grid Margin="0,400,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="450"></RowDefinition>
+                        <RowDefinition Height="180"></RowDefinition>
+                        <RowDefinition Height="180"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Please Choose Your Action"></TextBlock>
+                    <Button Grid.Row="1" Style="{StaticResource BtnAction}" Click="Button_Click" >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Purchase" FontSize="45" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Grid.Row="0"></TextBlock>
+                            <TextBlock Text="Ticket" FontSize="45"  HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Grid.Row="1"></TextBlock>
+                        </Grid>
+                    </Button>
+                    <Button Grid.Row="2" Style="{StaticResource BtnAction}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Purchase" FontSize="45" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Grid.Row="0"></TextBlock>
+                            <TextBlock Text="Parcel Only" FontSize="45"  HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" Grid.Row="1"></TextBlock>
+                        </Grid>
+                    </Button>
+                </Grid>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+
+</UserControl>

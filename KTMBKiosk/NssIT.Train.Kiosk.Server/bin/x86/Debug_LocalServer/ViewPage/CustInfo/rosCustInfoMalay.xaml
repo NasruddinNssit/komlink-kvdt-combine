@@ -1,0 +1,56 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.CustInfo">
+
+    <sys:String x:Key="IN_PROGRESS_Label">Kerja sedang dijalankan..</sys:String>
+
+    <sys:String x:Key="PASSENGER_INFO_HEADER_Label">Sila isikan maklumat peribadi berikut</sys:String>
+    <sys:String x:Key="TRAVEL_MODE_Label">Bertolak / Kembali</sys:String>
+
+    <sys:String x:Key="PASSENGER_Label">Penumpang</sys:String>
+    <sys:String x:Key="SEAT_Label">Tempat Duduk :</sys:String>
+    <sys:String x:Key="NAME_Label">Nama</sys:String>
+    <sys:String x:Key="ID_Label">MyKad / Pasport</sys:String>
+    <sys:String x:Key="MOBILE_NO_Label">No.Tel.Bimbit</sys:String>
+    <sys:String x:Key="SCAN_MYKAD_Label">MENGIMBAS MYKAD</sys:String>
+    <sys:String x:Key="SCAN_MYKAD_RESETENTRY_Label">RESET ID</sys:String>
+    <sys:String x:Key="PROMO_APPLY_Label">Guna</sys:String>
+    <sys:String x:Key="PROMO_RESET_Label">Padam</sys:String>
+    <sys:String x:Key="PROMO_CANCEL_Label">Batalkan</sys:String>
+
+    <sys:String x:Key="GENDER_Label">Jantina</sys:String>
+    <sys:String x:Key="TICKET_TYPE_Label">Jenis Tiket</sys:String>
+    <sys:String x:Key="MALE_Label">Lelaki</sys:String>
+    <sys:String x:Key="FEMALE_Label">Perempuan</sys:String>
+    <sys:String x:Key="PROMO_CODE_Label">Kod Promosi</sys:String>
+    <sys:String x:Key="PROMO_CODE_Message_Label">(Jika anda mempunyai Kod Promosi)</sys:String>
+
+    <sys:String x:Key="FULL_NAME_ADVISE_Label">Maklumat penumpang diperlukan untuk tujuan pengesahan</sys:String>
+    <sys:String x:Key="CONFIRM_Label">MENGESAH</sys:String>
+
+    <sys:String x:Key="SCAN_PASSENGER_MYKAD_Label">MENGIMBAS MYKAD: Penumpang</sys:String>
+    <sys:String x:Key="INSERT_MYKAD_FOR_SCAN_Label">Sila masukkan MyKad untuk pengimbasan.</sys:String>
+
+    <sys:String x:Key="REMOVE_MYKAD_Label">Sila keluarkan MyKad </sys:String>
+    <sys:String x:Key="READYFORMOBILE_Label">and isikan Nombor Telefon Bimbit anda.</sys:String>
+
+    <sys:String x:Key="ADVICE_PASSENGER_NAME_Label">Sila isikan nama penuh Penumpang {0}</sys:String>
+    <sys:String x:Key="ADVICE_IC_NO_Label">Sila isikan maklumat kad pengenalan/pasport Penumpang {0}</sys:String>
+    <sys:String x:Key="ADVICE_MOBILE_NO_Label">Sila isikan nombor telefon bimbit Penumpang {0}</sys:String>
+
+    <sys:String x:Key="ADVICE_GENDER_Label">Sila pilih jantina Penumpang {0}</sys:String>
+    <sys:String x:Key="ADVICE_TICKET_TYPE_Label">Sila pilih jenis tiket Penumpang {0}</sys:String>
+
+    <sys:String x:Key="CUST_ERROR_IC_NO_Label">Penumpang {0} - Maklumat kad pengenalan/pasport sekurang-kurangnya 8 rangkaian aksara yang terdiri daripada huruf, angka, dan tanda baca</sys:String>
+    <sys:String x:Key="CUST_ERROR_MOBILE_NO_Label">Penumpang {0} - Nombor telefon bimbit sekurang-kurangnya 10 digit tanpa ruang kosong</sys:String>
+
+    <sys:String x:Key="COMMON_PROMO_CODE_ERROR_Label">Salah Kod Promosi. Sila semak semula</sys:String>
+    <sys:String x:Key="PASSENGER_PROMO_CODE_ERROR_Label">Sila guna Kod Promosi '{0}' untuk Penumpang {1}</sys:String>
+    <sys:String x:Key="PROMO_CODE_APPLY_ERROR_Label">Kod Promosi '{0}' tidak sah</sys:String>
+    <sys:String x:Key="PROMO_CODE_VALIDATION_IN_PROGRESS_Label">Sedang mengesah Kod Promosi ..</sys:String>
+    <sys:String x:Key="PLEASE_ENTER_DEPART_PROMO_CODE_Label">Sila masukkan Kod Promosi Bertolak untuk Penumpang {0}</sys:String>
+    <sys:String x:Key="PLEASE_ENTER_RETURN_PROMO_CODE_Label">Sila masukkan Kod Promosi Pengembalian untuk Penumpang {0}</sys:String>
+
+    <sys:String x:Key="CUST_ERROR_PROMO_CODE_IC_NO_Label">Penumpang {0} - Untuk Kod Promosi pengesahan, maklumat kad pengenalan sekurang-kurangnya 12 rangkaian aksara yang terdiri daripada huruf, angka, dan tanda baca</sys:String>
+</ResourceDictionary>

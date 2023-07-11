@@ -1,0 +1,103 @@
+Last Update : 2020-11-16 10:30am
+
+Error Message : "Low Paper"
+
+	* This error message only available when Parameter.txt for Client having "CheckPrinterPaperLow" parameter set to "Yes".
+
+	Problem : Nippon NP-3611 printer has low paper. (Will happen normally and daily)
+		Or Nippon NP-3611 having Shaft set to wrong chase.
+
+	Advice : 
+		1) Change with a new paper roll. (This should be the solution normally and daily)
+		2) Else, check Shaft's of Nippon NP-3611 printer set to correct chase.
+			This refer to document "NP-3611 Paper Status Calibration.pptx" and "NP-2611_3611_D-F10118-SPEC-R100P1_ENG.pdf"
+
+Error Message : "No Paper"
+
+	Problem : Nippon NP-3611 printer has running out of paper.
+
+Error Message : "Print Head Temp. Error" or "Print Head Open"
+
+	Problem : Print head (Thermal Head) of Nippon NP-3611 printer is failure, 
+			print head getting too hot (over 70 celsius), 
+			print head damaged, 
+			or print head (Thermal Head Cover) not closed properly.
+
+	Advice : Check 'healthy' of the print head, and make sure the print head
+		is closed properly when ready.
+
+Error Message : "Printer offine", "Printer connection error", "Printer communication error" OR "Printer Other Error"
+
+	Problem : Printer not switch on.
+		Or printer connection problem.
+		Or printer connect to wrong port.
+		Or PrinterName parameter of Client's Parameter.txt set to wrong printer name.
+		Or Windows Default Printer set to non Nippon NP-3611 printer.
+		Or Windows Default Printer set to a Nippon NP-3611 printer that is not connected.
+	
+	Advice : Check printer power. Check printer connection with IPC. Check printer connection port to make sure right port is used.
+
+		In case printer has switch on, conneted and still getting this error, 
+		test print the printer (Nippon NP-3611 printer) in Windows
+		to realize the correct printer setting (or which printer setting is actually printing). 
+
+			Option a)
+			Set the expected Nippon NP-3611 printer as Windows Default Printer. Remove 
+			PrinterName parameter in Client's Parameter.txt
+		
+			Option b)
+			In Windows printer setting, get the expected printer name of the Nippon NP-3611 printer, 
+			and use this name in PrinterName parameter of Client's Parameter.txt .
+
+Error Message (Ignored) : "Suspend printer setting; Wrong printer driver; Please check printer setting and parameter setting"
+
+	Problem : Windows Default Printer has set to a non Nippon NP-3611 printer. 
+		Or PrinterName parameter in Client's Parameter.txt has set to a non Nippon NP-3611 printer.
+
+
+Error Message : "Wrong printer driver refer to OS Default Printer setting"
+
+	Problem	: Windows default to a non Nippon NP-3611 printer.
+
+	Advice	: Set the Windows Default printer to a Nippon NP-3611 printer.
+
+Error Message : "No default printer found in operation system"
+
+	Problem : Windows Default Printer is not found.
+
+Error Message : "Wrong printer driver refer to paramter"
+
+	Problem	: Client's Parameter.txt having wrong 
+		setting for PrinterName parameter.
+
+	Advice	: 
+		Option a) 
+			Remove PrinterName parameter in Client's Parameter.txt.
+			This allows Client Kiosk to get the Windows Default Printer setting. 
+			But this Default Printer setting must be a Nippon NP-3611 printer.
+			And do test printing with the setting.
+
+		Option b)  
+			By specifing a printer name using PrinterName parameter in Client's Parameter.txt.
+			This printer name is refer to one of Windows printer setting.
+			The printer name specified in PrinterName parameter must exactly same as the name 
+			defined in the selected Windows printer setting. And 
+			the selected Windows printer must be a Nippon NP-3611 printer.
+			And do test printing with in Windows Printer Setting.
+
+Error Message : "Invalid Printer Name specification;"
+
+	Problem : No default printer found in Windows and PrinterName parameter in Client's Parameter.txt
+			has no value.
+
+	Advice	: 
+		Option a) 
+			Set Windows Default Printer to a Nippon NP-3611 printer. And do test printing with the setting.
+
+		Option b)
+			Specifing a printer name using PrinterName parameter in Client's Parameter.txt.
+			This printer name is refer to one of Windows printer setting.
+			The printer name specified in PrinterName parameter must exactly same as the name 
+			defined in the selected Windows printer setting. And 
+			the selected Windows printer must be a Nippon NP-3611 printer.
+			And do test printing with in Windows Printer Setting.

@@ -1,0 +1,45 @@
+﻿KTMBCTS - WebAPI
+===================
+
+# Add PaymentGatewayURL in KTMBCTS Web API's appsetting.json
+    * appsetting.json
+	    "SystemSettings": 
+      {
+        ..
+        "PaymentGatewayURL": "https://gopayment-api-dev.azurewebsites.net"
+      }
+
+    * If PaymentGatewayURL is null or empty, means Payment Gateway not available.
+
+# Map GoPayment's Payment Gateway to KTMB Payment Type with the table 'PaymentGatewayMappings'.
+    
+    * Table columns of PaymentGatewayMappings's Columns
+        Id : GoPayment.PaymentGateway
+        Description : Name / Description base on GoPayment.PaymentGateway
+        GatewayLogoURL : Logo URL 
+        PaymentMethod : KTMB's Payment Type
+        Version : "1"
+
+    * Leave this table empty may disable all Payment Gateway.
+
+# In Kiosk Machine, set registry value.
+    
+    * Registry Name
+        BTnGSection     : <Web API Section (like Live / Development / Staging / Training)>
+        BTnGCommonCode  : <GoPayment Public Key>
+        BTnGSpecialCode : <GoPayment Private Key>
+    
+    * Setup registry value using "NssIT.Train.Kiosk.Security.Live.AdminUI" or "NssIT.Train.Kiosk.Security.Development.AdminUI"
+        : NssIT.Train.Kiosk.Security.Live.AdminUI -> Live Version setup
+        : NssIT.Train.Kiosk.Security.Development.AdminUI -> Development / Staging / Training Setup.
+
+    * if Registry's BTnGSection is empty or null, Payment Gateway will be disabled with no Payment Gateway listed.
+
+Development
+============
+URL : https://gopayment-api-dev.azurewebsites.net
+
+
+Live Production
+=================
+URL : https://api.gopayment.com.my

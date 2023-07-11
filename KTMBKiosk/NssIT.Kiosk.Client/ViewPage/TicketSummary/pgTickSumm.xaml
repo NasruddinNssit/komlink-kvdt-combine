@@ -1,0 +1,123 @@
+﻿<Page x:Class="NssIT.Kiosk.Client.ViewPage.TicketSummary.pgTickSumm"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.TicketSummary"
+      mc:Ignorable="d" 
+      FontFamily="Roboto" 
+      Stylus.IsPressAndHoldEnabled="False" 
+      d:DesignWidth="1080"
+      Title="Ticket Summary" Loaded="Page_Loaded">
+    <!--Height="380"-->
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="rosTickSummEng.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.Resources>
+            <ResourceDictionary>
+                <Style x:Key="S1" TargetType="Grid">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                <GradientStop Color="#FF064C90" Offset="0"/>
+                                <GradientStop Color="#FF074F92" Offset="0.33" />
+                                <GradientStop Color="#FF0B599B" Offset="0.66" />
+                                <GradientStop Color="#FF0C5D9F" Offset="1" />
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+                <Style x:Key="S2" TargetType="Grid">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            #00000000
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+                <Style x:Key="S3" TargetType="Grid">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                <GradientStop Color="#FF094E8D" Offset="0"/>
+                                <GradientStop Color="#FF094E8D" Offset="0.1"/>
+                                <GradientStop Color="#FF04549F" Offset="0.15" />
+                                <GradientStop Color="#FF0454A1" Offset="0.2"/>
+                                <GradientStop Color="#FF0B65AE" Offset="0.6"/>
+                                <GradientStop Color="#FF1073BA" Offset="0.9"/>
+                                <GradientStop Color="#FF1175BD" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ResourceDictionary>
+        </Grid.Resources>
+
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FF094E8D" Offset="0"/>
+                <GradientStop Color="#FF094E8D" Offset="0.35"/>
+                <GradientStop Color="#FF04549F" Offset="0.45" />
+                <GradientStop Color="#FF0454A1" Offset="0.5"/>
+                <GradientStop Color="#FF0B65AE" Offset="0.7"/>
+                <GradientStop Color="#FF1073BA" Offset="0.9"/>
+                <GradientStop Color="#FF1175BD" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="64"/>
+            <RowDefinition Height="AUTO"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="24"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+
+            <Grid.Background>
+                <ImageBrush ImageSource="/Resources/SummaryHeader1.png" />
+            </Grid.Background>
+
+            <!--<Image Grid.Column="0" Grid.Row="1" Source="/Resources/TickSummTab.png" Stretch="Fill" Width="240" HorizontalAlignment="Left"/>-->
+            <!--<Image Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Grid.RowSpan="2" Source="/Resources/SummaryHeader1.png" Stretch="Fill" Width="240" HorizontalAlignment="Left" Panel.ZIndex="0"/>-->
+            <TextBlock Grid.Column="0" Grid.Row="1" Text="{DynamicResource YOUR_TICKET_Label}" FontSize="28" FontWeight="Bold" Foreground="#FFEEEEEE" TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,5,0,0" Panel.ZIndex="1"/>
+            <TextBlock Grid.Column="1" Grid.Row="1" Text="KUALA LUMPUR  >  GEMAS" FontSize="24" FontWeight="Bold" Foreground="#FF04549F" TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" Panel.ZIndex="1" x:Name="TxtOverralTripDesc"/>
+            <Image Grid.Column="3" Grid.Row="0" Grid.RowSpan="2" Source="/Resources/KTMB_Logo01.png" Panel.ZIndex="1" HorizontalAlignment="Right"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0">
+                <local:uscTripTicketSumm x:Name="TSummDepart1" Margin="0,0,0,2" Visibility="Visible"/>
+            </Border>
+            <Border Grid.Row="1">
+                <local:uscTripTicketSumm x:Name="TSummDepart2" Margin="0,0,0,2" Visibility="Collapsed"/>
+            </Border>
+            <Border Grid.Row="2">
+                <local:uscTripTicketSumm x:Name="TSummReturn1" Margin="0,0,0,2" Visibility="Visible"/>
+            </Border>
+            <Border Grid.Row="3">
+                <local:uscTripTicketSumm x:Name="TSummReturn2" Margin="0,0,0,2" Visibility="Collapsed"/>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

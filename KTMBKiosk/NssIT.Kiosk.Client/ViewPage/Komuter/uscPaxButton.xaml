@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="NssIT.Kiosk.Client.ViewPage.Komuter.uscPaxButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.Komuter"
+             mc:Ignorable="d" FontFamily="Roboto"
+             Height="70" Width="70">
+    <Border Background="#FFCCCCCC" Width="50" Height="60" CornerRadius="10" BorderBrush="#FFBBBBBB" BorderThickness="2" x:Name="BdPaxButton" Margin="0,0,20,10" MouseLeftButtonUp="Pax_Click">
+        <TextBlock FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFEEEEEE" Text="5" x:Name="TxtNoOfPax"/>
+    </Border>
+</UserControl>

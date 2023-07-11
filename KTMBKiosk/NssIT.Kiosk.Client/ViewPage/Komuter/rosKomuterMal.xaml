@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.Komuter">
+
+    <!-- pgMap -->
+    <sys:String x:Key="RESET_Label">MULA SEMULA</sys:String>
+    <sys:String x:Key="BUSY_Label">sibuk..</sys:String>
+
+    <!-- pgMap -->
+    <sys:String x:Key="DESTINATION_Label">DESTINASI</sys:String>
+    <sys:String x:Key="JOURNEY_TYPE_Label">JENIS PERJALANAN</sys:String>
+    <sys:String x:Key="PAYMENT_Label">BAYARAN</sys:String>
+    <sys:String x:Key="CARD_Label">KAD</sys:String>
+    <sys:String x:Key="PAYMENT_ADVISE_MESSAGE_Label">SILA PASTIKAN PILIHAN ANDA SEBELUM MENEKAN BUTANG BAYAR​.</sys:String>
+
+    <!-- pgKomuterPax -->
+    <sys:String x:Key="MAX_PAX_Label">(Tidak melebihi {0} Orang)</sys:String>
+    <sys:String x:Key="PASSENGERS_Label">PENUMPANG</sys:String>
+    <sys:String x:Key="TOTAL_TICKET_SELECTED_Label">Jumlah Tiket Dipilih​ :</sys:String>
+    <sys:String x:Key="TOTAL_AMOUNT_Label">Jumlah :</sys:String>
+    <sys:String x:Key="CANCEL_Label">Batalkan</sys:String>
+
+    <!-- Sales Panel -->
+    <sys:String x:Key="SELECT_DESTINATION_Label">[PILIH DESTINASI]</sys:String>
+
+    <!-- MyKad Scanning -->
+    <sys:String x:Key="SCAN_MYKAD_Label">MENGIMBAS MYKAD</sys:String>
+    
+    <sys:String x:Key="SCAN_PASSENGER_MYKAD_Label">MENGIMBAS MYKAD: Penumpang</sys:String>
+    <sys:String x:Key="INSERT_MYKAD_FOR_SCAN_Label">Sila masukkan MyKad untuk pengimbasan.</sys:String>
+    <sys:String x:Key="REMOVE_MYKAD_Label">Sila keluarkan MyKad</sys:String>
+    <sys:String x:Key="REMOVE_MYKAD2_Label">dan mengimbas MyKad seterusnya</sys:String>
+
+    <sys:String x:Key="UANBLE_TO_READ_IC_Label">Tidak dapat membaca IC anda. Sila masukkan MyKad semula atau beli tiket di kaunter</sys:String>
+    <sys:String x:Key="RESET_SALES_Label">Sila buat semula/mula-semula transaksi anda</sys:String>
+    <sys:String x:Key="IC_DUPLICATED_Label">Pendua No. IC dikesan</sys:String>
+    <sys:String x:Key="AGE_FILTER_0_Label">Tiket</sys:String>
+    <sys:String x:Key="AGE_FILTER_1_Label">hanya tersedia untuk umur</sys:String>
+    <sys:String x:Key="AGE_FILTER_2_Label">hingga</sys:String>
+    <sys:String x:Key="AGE_FILTER_3_Label">tahun.</sys:String>
+
+    <sys:String x:Key="MYKAD_OUTSTANDING_MSG_Label">Masih ada MyKad yang belum diimbaskan</sys:String>
+    
+</ResourceDictionary>

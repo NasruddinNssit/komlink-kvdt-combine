@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.Komuter">
+    <!-- pgMap -->
+    <sys:String x:Key="RESET_Label">RESET</sys:String>
+    <sys:String x:Key="BUSY_Label">busy..</sys:String>
+
+    <!-- pgMap -->
+    <sys:String x:Key="DESTINATION_Label">DESTINATION</sys:String>
+    <sys:String x:Key="JOURNEY_TYPE_Label">JOURNEY TYPE</sys:String>
+    <sys:String x:Key="PAYMENT_Label">PAYMENT</sys:String>
+    <sys:String x:Key="CARD_Label">CARD</sys:String>
+    <sys:String x:Key="PAYMENT_ADVISE_MESSAGE_Label">PLEASE CHECK YOUR SELECTION BEFORE CLICK PAY.</sys:String>
+
+    <!-- pgKomuterPax -->
+    <sys:String x:Key="MAX_PAX_Label">(Max. {0} Person)</sys:String>
+    <sys:String x:Key="PASSENGERS_Label">PASSENGERS</sys:String>
+    <sys:String x:Key="TOTAL_TICKET_SELECTED_Label">Total Ticket Selected :</sys:String>
+    <sys:String x:Key="TOTAL_AMOUNT_Label">Total Amount :</sys:String>
+    <sys:String x:Key="CANCEL_Label">Cancel</sys:String>
+
+    <!-- Sales Panel -->
+    <sys:String x:Key="SELECT_DESTINATION_Label">[SELECT DESTINATION]</sys:String>
+
+    <!-- MyKad Scanning -->
+    <sys:String x:Key="SCAN_MYKAD_Label">SCAN MYKAD</sys:String>
+    
+    <sys:String x:Key="SCAN_PASSENGER_MYKAD_Label">SCAN MYKAD: Passenger</sys:String>
+    <sys:String x:Key="INSERT_MYKAD_FOR_SCAN_Label">Please insert MyKad to scan</sys:String>
+    <sys:String x:Key="REMOVE_MYKAD_Label">Remove MyKad</sys:String>
+    <sys:String x:Key="REMOVE_MYKAD2_Label">and proceed to next MyKad</sys:String>
+    
+    <sys:String x:Key="UANBLE_TO_READ_IC_Label">Unable to read IC. Please re-insert MyKad or proceed to counter</sys:String>
+    <sys:String x:Key="RESET_SALES_Label">Please redo/reset sales transaction</sys:String>
+    <sys:String x:Key="IC_DUPLICATED_Label">Duplicate of IC No. detected</sys:String>
+    <sys:String x:Key="AGE_FILTER_0_Label">*</sys:String>
+    <sys:String x:Key="AGE_FILTER_1_Label">ticket is only available for age from</sys:String>
+    <sys:String x:Key="AGE_FILTER_2_Label">to</sys:String>
+    <sys:String x:Key="AGE_FILTER_3_Label">.</sys:String>
+
+    <sys:String x:Key="MYKAD_OUTSTANDING_MSG_Label">Still have outstanding MyKad to scan</sys:String>
+
+</ResourceDictionary>

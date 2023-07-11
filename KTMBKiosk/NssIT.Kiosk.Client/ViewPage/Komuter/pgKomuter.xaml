@@ -1,0 +1,54 @@
+﻿<Page x:Class="NssIT.Kiosk.Client.ViewPage.Komuter.pgKomuter"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.Komuter"
+    mc:Ignorable="d" 
+    Stylus.IsPressAndHoldEnabled="False"
+    ScrollViewer.CanContentScroll="True"
+    d:DesignHeight="1920" d:DesignWidth="1080"
+    Title="Kiosk Ticketing" 
+    Loaded="Page_Loaded" Unloaded="Page_Unloaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="590*"/>
+            <ColumnDefinition Width="490*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="121"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Panel.ZIndex="1">
+            <Border.Background>
+                <ImageBrush ImageSource="/Resources/Komuter_Header01.png" Stretch="Fill"/>
+            </Border.Background>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="1.5*"/>
+                    <ColumnDefinition Width="1.15*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1.2*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="1.3*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Column="0" Grid.Row="1" FontSize="28" Foreground="#FFEEEEEE" FontWeight="Bold" VerticalAlignment="Bottom" Text="KOMUTER UTARA" Margin="15,0,0,0"/>
+                <Image Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="/Resources/KTMB_Logo01.png" HorizontalAlignment="Right" Height="58"/>
+            </Grid>
+        </Border>
+
+        <Frame Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" x:Name="frmPrinting" NavigationUIVisibility="Hidden" Panel.ZIndex="1"/>
+        <Frame Grid.Column="0" Grid.Row="1" x:Name="frmMap" NavigationUIVisibility="Hidden" Panel.ZIndex="1"/>
+        <Frame Grid.Column="1" Grid.Row="1" x:Name="frmSales" NavigationUIVisibility="Hidden" Panel.ZIndex="1"/>
+
+        <Border x:Name="BdSubFrame" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" Panel.ZIndex="10" Background="#AAFFFFFF" Visibility="Collapsed">
+            <Frame x:Name="FrmSubFrame" VerticalAlignment="Center" HorizontalAlignment="Center" NavigationUIVisibility="Hidden"/>
+        </Border>
+                
+    </Grid>
+</Page>

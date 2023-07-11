@@ -1,0 +1,25 @@
+﻿<Page x:Class="NssIT.Kiosk.Client.ViewPage.CustInfo.pgPromoCodeVerification"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.CustInfo"
+      mc:Ignorable="d"  Stylus.IsPressAndHoldEnabled="False"
+      Height="200" Width="600"
+      FontFamily="Segoe UI"
+      Title="Promo Code Verification" Loaded="Page_Loaded" Unloaded="Page_Unloaded">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="rosCustInfoEnglish.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    
+    <Grid>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+            <TextBlock Text="{DynamicResource PROMO_CODE_VALIDATION_IN_PROGRESS_Label}" FontWeight="Bold" HorizontalAlignment="Center" FontSize="28" x:Name="TxtInProgress" TextWrapping="WrapWithOverflow"/>
+        </StackPanel>
+    </Grid>
+</Page>

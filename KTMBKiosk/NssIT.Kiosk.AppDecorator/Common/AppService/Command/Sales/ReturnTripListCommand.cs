@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NssIT.Kiosk.AppDecorator.Common.AppService.Command.Sales
+{
+	public class ReturnTripListCommand : IAccessDBCommand, IDisposable
+	{
+		public AccessDBCommandCode CommandCode => AccessDBCommandCode.ReturnTripListRequest;
+		public string ProcessId { get; private set; }
+		public Guid? NetProcessId { get; private set; }
+		public bool HasCommand { get => (CommandCode != AccessDBCommandCode.UnKnown); }
+		public bool ProcessDone { get; set; } = false;
+
+		//string date, string from, string to
+
+		public DateTime PassengerDepartDate { get; private set; } = DateTime.Now;
+		public string FromStationCode { get; private set; } = null;
+		public string ToStationCode { get; private set; } = null;
+
+		public ReturnTripListCommand(string processId, Guid? netProcessId, DateTime passengerDepartDate, string fromStationCode, string toStationCode)
+		{
+			ProcessId = processId;
+			NetProcessId = netProcessId;
+			PassengerDepartDate = passengerDepartDate;
+			FromStationCode = fromStationCode;
+			ToStationCode = toStationCode;
+		}
+
+		public void Dispose()
+		{
+			NetProcessId = null;
+		}
+	}
+}

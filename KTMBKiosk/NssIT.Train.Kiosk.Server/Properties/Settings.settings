@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="NssIT.Train.Kiosk.Server.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TVMKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">9eksd92ks9378qwjs92ks92ls02ls02l</Value>
+    </Setting>
+    <Setting Name="AesEncryptKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0a4ef44c211f4c8dbb4f8ca73aabb5d3</Value>
+    </Setting>
+    <Setting Name="HashSecretKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">b7edee98eb074d8eb67b8b20f5a3ab13</Value>
+    </Setting>
+    <Setting Name="TimeZoneId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Singapore Standard Time</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

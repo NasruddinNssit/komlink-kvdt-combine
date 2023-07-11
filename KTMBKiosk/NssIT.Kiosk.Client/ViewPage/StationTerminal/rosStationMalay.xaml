@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.StationTerminal">
+
+    <sys:String x:Key="IN_PROGRESS_Label">Kerja sedang dijalankan..</sys:String>
+    <sys:String x:Key="ALL_STATE_Label">SEMUA</sys:String>
+    <sys:String x:Key="SEARCH_FILTER_Label">Cari</sys:String>
+
+    <sys:String x:Key="ROUTE_MAP_Label">PETA LALUAN</sys:String>
+
+
+    <sys:String x:Key="ORIGIN_INFO_Label">Perjalanan Anda Dari Mana ?</sys:String>
+    <sys:String x:Key="DESTINATION_INFO_Label">Ke manakah anda ingin pergi ?</sys:String>
+
+    <sys:String x:Key="EXITLabel">Keluar</sys:String>
+
+</ResourceDictionary>

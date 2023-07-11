@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\..\KTMBKiosk\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\..\..\..\KTMBKiosk\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="..\..\..\..\KTMBKiosk\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props" Condition="Exists('..\..\..\..\KTMBKiosk\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFA8ADB8-6559-4756-B213-6D999645B4F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>kvdt_kiosk</RootNamespace>
+    <AssemblyName>kvdt-kiosk</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ktm.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CacheManager.Core, Version=1.2.0.0, Culture=neutral, PublicKeyToken=5b450b4fb65c4cdb, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\CacheManager.Core.1.2.0\lib\net45\CacheManager.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Gma.QrCodeNet.Encoding">
+      <HintPath>..\..\..\..\KTMBKiosk\NssIT.Kiosk.Client\DLL\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="LazyCache, Version=2.4.0.174, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\LazyCache.2.4.0\lib\netstandard2.0\LazyCache.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.Extensions.Caching.Abstractions.7.0.0\lib\net462\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.Extensions.Caching.Memory.7.0.0\lib\net462\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.Extensions.DependencyInjection.Abstractions.7.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=7.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.Extensions.Logging.Abstractions.7.0.1\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=7.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.Extensions.Options.7.0.1\lib\net462\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.Extensions.Primitives.7.0.0\lib\net462\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Microsoft.SqlServer.Types.160.1000.6\lib\net462\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Serilog.3.0.1\lib\net471\Serilog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Serilog.Sinks.File, Version=5.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Serilog.Sinks.File.5.0.0\lib\net45\Serilog.Sinks.File.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\System.Data.SQLite.EF6.1.0.118.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\System.Data.SQLite.Linq.1.0.118.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\KTMBKiosk\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Database\ConnectionString.cs" />
+    <Compile Include="Interfaces\ISQLiteServices.cs" />
+    <Compile Include="Interfaces\Komlink\IAPIServices.cs" />
+    <Compile Include="Models\AFCBookingAddOnDetailModel.cs" />
+    <Compile Include="Models\AFCBookingDetailModel.cs" />
+    <Compile Include="Models\AFCPaymentModel.cs" />
+    <Compile Include="Models\AFCPaymentResultModel.cs" />
+    <Compile Include="Models\AFCServiceByCounter.cs" />
+    <Compile Include="Models\CompletePayamentBookingModel.cs" />
+    <Compile Include="Models\AFCPrintTicketModel.cs" />
+    <Compile Include="Models\Komlink\AFCServiceByCounter.cs" />
+    <Compile Include="Models\Komlink\KomlinkCard.cs" />
+    <Compile Include="Models\Komlink\KomlinkCardAddTopUpRequestModel.cs" />
+    <Compile Include="Models\Komlink\KomlinkCardInfoResp.cs" />
+    <Compile Include="Models\Komlink\KomlinkCardTransactionRequestModel.cs" />
+    <Compile Include="Models\Komlink\KomlinkTransaction.cs" />
+    <Compile Include="Models\Komlink\ResultModel.cs" />
+    <Compile Include="Models\Komlink\SystemConfig.cs" />
+    <Compile Include="Models\Komlink\UserSession.cs" />
+    <Compile Include="Models\PaymentOptionModel.cs" />
+    <Compile Include="Models\AFCCheckOutModel.cs" />
+    <Compile Include="Models\AFCSeatInfo.cs" />
+    <Compile Include="Models\AFCBookingModel.cs" />
+    <Compile Include="Models\SystemConfig.cs" />
+    <Compile Include="Models\UpdateAFCBookingResultModel.cs" />
+    <Compile Include="NetClient\NetClientBTnGService.cs" />
+    <Compile Include="NetClient\NetClientService.cs" />
+    <Compile Include="NetClient\ReceivedNetProcessIdTracker.cs" />
+    <Compile Include="Reports\DsMelakaCentralErrorTicketMessage.Designer.cs">
+      <DependentUpon>DsMelakaCentralErrorTicketMessage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DsMelakaCentralErrorTicketMessage1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsMelakaCentralErrorTicketMessage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DsMelakaCentralTicket.Designer.cs">
+      <DependentUpon>DsMelakaCentralTicket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DsMelakaCentralTicket1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsMelakaCentralTicket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ImagePrintingTools.cs" />
+    <Compile Include="Reports\KTMB\DSCreditCardReceipt.Designer.cs">
+      <DependentUpon>DSCreditCardReceipt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\KTMB\DSCreditCardReceipt1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCreditCardReceipt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\KTMB\IntercityETSTicket\DSIntercityETSTicket.cs">
+      <DependentUpon>DSIntercityETSTicket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\KTMB\IntercityETSTicket\DSIntercityETSTicket.Designer.cs">
+      <DependentUpon>DSIntercityETSTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\KTMB\IntercityETSTicket\DSIntercityETSTicket1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSIntercityETSTicket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\KTMB\KomuterTicket\DSKomuterTicket.Designer.cs">
+      <DependentUpon>DSKomuterTicket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\KTMB\KomuterTicket\DSKomuterTicket1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSKomuterTicket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PDFTools.cs" />
+    <Compile Include="Reports\QRGen.cs" />
+    <Compile Include="Reports\RdlcImageRendering.cs" />
+    <Compile Include="Reports\RdlcRendering.cs" />
+    <Compile Include="Reports\ReportDataQuery.cs" />
+    <Compile Include="Reports\ReportPDFFileManager.cs" />
+    <Compile Include="Services\APIServices.cs" />
+    <Compile Include="Services\APISignatureServices.cs" />
+    <Compile Include="Services\APIURLServices.cs" />
+    <Compile Include="Services\ConnectionString.cs" />
+    <Compile Include="Services\Komlink\APIServices.cs" />
+    <Compile Include="Services\Komlink\APISignatureServices.cs" />
+    <Compile Include="Services\Komlink\APIURLServices.cs" />
+    <Compile Include="Services\SQLiteServices.cs" />
+    <Compile Include="Services\WebImageCacheX.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="SystemLocalParam.cs" />
+    <Compile Include="Views\ChooseActionScreen.xaml.cs">
+      <DependentUpon>ChooseActionScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Error\ErrorScreen.xaml.cs">
+      <DependentUpon>ErrorScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Idle\ClosingScreen.xaml.cs">
+      <DependentUpon>ClosingScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\AlertForScanAfterPayment.xaml.cs">
+      <DependentUpon>AlertForScanAfterPayment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\AlertInfo.xaml.cs">
+      <DependentUpon>AlertInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\AlertSuccess.xaml.cs">
+      <DependentUpon>AlertSuccess.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\AlertUnSuccess.xaml.cs">
+      <DependentUpon>AlertUnSuccess.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\AlertUnSuccessScan.xaml.cs">
+      <DependentUpon>AlertUnSuccessScan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\BackButton.xaml.cs">
+      <DependentUpon>BackButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\BigAlert.xaml.cs">
+      <DependentUpon>BigAlert.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\Calendar.xaml.cs">
+      <DependentUpon>Calendar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\CardDetail.xaml.cs">
+      <DependentUpon>CardDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\ConfirmButton.xaml.cs">
+      <DependentUpon>ConfirmButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\DateOption.xaml.cs">
+      <DependentUpon>DateOption.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\ExitButton.xaml.cs">
+      <DependentUpon>ExitButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\KeyPad.xaml.cs">
+      <DependentUpon>KeyPad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\KomlinkCardDetailScreen.xaml.cs">
+      <DependentUpon>KomlinkCardDetailScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\KomlinkCardScanScreen.xaml.cs">
+      <DependentUpon>KomlinkCardScanScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\LanguageScreen.xaml.cs">
+      <DependentUpon>LanguageScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\OnFailureScanEventArgs.cs" />
+    <Compile Include="Views\Komlink\Pass.xaml.cs">
+      <DependentUpon>Pass.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\PaymentAmountOption.xaml.cs">
+      <DependentUpon>PaymentAmountOption.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\PaymentOption.xaml.cs">
+      <DependentUpon>PaymentOption.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\ScanEventArgs.cs" />
+    <Compile Include="Views\Komlink\TableTransaction.xaml.cs">
+      <DependentUpon>TableTransaction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Komlink\TransactionDate.xaml.cs">
+      <DependentUpon>TransactionDate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LanguageScreen.xaml.cs">
+      <DependentUpon>LanguageScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MyKad\MyKadValidationScreen.xaml.cs">
+      <DependentUpon>MyKadValidationScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Parcel\Parcel.xaml.cs">
+      <DependentUpon>Parcel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Parcel\ParcelActionButton.xaml.cs">
+      <DependentUpon>ParcelActionButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Parcel\ParcelLayout.xaml.cs">
+      <DependentUpon>ParcelLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Parcel\ParcelScreen.xaml.cs">
+      <DependentUpon>ParcelScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Passenger\ChildTextBox.xaml.cs">
+      <DependentUpon>ChildTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Passenger\OKUTextBox.xaml.cs">
+      <DependentUpon>OKUTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Passenger\PassengerMyKadScan.xaml.cs">
+      <DependentUpon>PassengerMyKadScan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Passenger\PassengerTemplate.xaml.cs">
+      <DependentUpon>PassengerTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Passenger\SeniorTextBox.xaml.cs">
+      <DependentUpon>SeniorTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Payment\EWallet\AppBTnGSvcEventsHandler.cs" />
+    <Compile Include="Views\Payment\EWallet\pgBTnGPayment.xaml.cs">
+      <DependentUpon>pgBTnGPayment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Payment\EWallet\pgKomuter_BTnGPaymentForParcel.cs" />
+    <Compile Include="Views\Payment\EWallet\pgKomuter_BTnGPayment.cs" />
+    <Compile Include="Views\Payment\Komlink\Ewallet\AppBTnGSvcEventsHandler.cs" />
+    <Compile Include="Views\Payment\Komlink\Ewallet\pgBTnGPayment.xaml.cs">
+      <DependentUpon>pgBTnGPayment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Payment\Komlink\Ewallet\pgKomuter_BTnGPayment.cs" />
+    <Compile Include="Views\Payment\Komlink\PayWave\CardPayWave.xaml.cs">
+      <DependentUpon>CardPayWave.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Payment\Komlink\PayWave\CardPayWaveexe.xaml.cs">
+      <DependentUpon>CardPayWaveexe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Payment\Komlink\PayWave\EndOfPaymentEventArgs.cs" />
+    <Compile Include="Views\Payment\PaymentInfoScreen.xaml.cs">
+      <DependentUpon>PaymentInfoScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Payment\PaymentTicketBuyInfo.xaml.cs">
+      <DependentUpon>PaymentTicketBuyInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Payment\PayWave\CardPayWave.xaml.cs">
+      <DependentUpon>CardPayWave.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Payment\PayWave\CardPayWaveexe.xaml.cs">
+      <DependentUpon>CardPayWaveexe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Payment\PayWave\EndOfPaymentEventArgs.cs" />
+    <Compile Include="Views\Printing\PrintingTemplateScreen.xaml.cs">
+      <DependentUpon>PrintingTemplateScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PurchaseTicket\AllRouteButton.xaml.cs">
+      <DependentUpon>AllRouteButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PurchaseTicket\DestinationScreen.xaml.cs">
+      <DependentUpon>DestinationScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PurchaseTicket\GenericStationButton.xaml.cs">
+      <DependentUpon>GenericStationButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PurchaseTicket\JourneyTypeButton.xaml.cs">
+      <DependentUpon>JourneyTypeButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PurchaseTicket\PurchaseTicketScreen.xaml.cs">
+      <DependentUpon>PurchaseTicketScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PurchaseTicket\StationRouteButton.xaml.cs">
+      <DependentUpon>StationRouteButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PurchaseTicket\ViewMapScreen.xaml.cs">
+      <DependentUpon>ViewMapScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SeatingScreen\KomuterTicket.cs" />
+    <Compile Include="Views\SeatingScreen\KomuterTicketDetail.cs" />
+    <Compile Include="Views\SeatingScreen\NoOfPaxChangedEventArgs.cs" />
+    <Compile Include="Views\SeatingScreen\pgKomuterPax.xaml.cs">
+      <DependentUpon>pgKomuterPax.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SeatingScreen\TicketSelectionChangedEventArgs.cs" />
+    <Compile Include="Views\SeatingScreen\uscKomuterTicketType.xaml.cs">
+      <DependentUpon>uscKomuterTicketType.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SeatingScreen\uscPaxButton.xaml.cs">
+      <DependentUpon>uscPaxButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Welcome\WelcomeScreen.xaml.cs">
+      <DependentUpon>WelcomeScreen.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IAPIServices.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Views\ChooseActionScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Error\ErrorScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Idle\ClosingScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\AlertForScanAfterPayment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\AlertInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\AlertSuccess.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\AlertUnSuccess.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\AlertUnSuccessScan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\BackButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\BigAlert.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\Calendar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\CardDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\ConfirmButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\DateOption.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\ExitButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\KeyPad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\KomlinkCardDetailScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\KomlinkCardScanScreen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Komlink\LanguageScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\Pass.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\PaymentAmountOption.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\PaymentOption.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\TableTransaction.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Komlink\TransactionDate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LanguageScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MyKad\MyKadValidationScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Parcel\Parcel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Parcel\ParcelActionButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Parcel\ParcelLayout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Parcel\ParcelScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Passenger\ChildTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Passenger\OKUTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Passenger\PassengerMyKadScan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Passenger\PassengerTemplate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Passenger\SeniorTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Payment\EWallet\pgBTnGPayment.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Payment\EWallet\rosPaymentEnglish.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Views\Payment\Komlink\Ewallet\pgBTnGPayment.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Payment\Komlink\Ewallet\rosPaymentEnglish.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Views\Payment\Komlink\PayWave\CardPayWave.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Payment\Komlink\PayWave\CardPayWaveexe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Payment\PaymentInfoScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Payment\PaymentTicketBuyInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Payment\PayWave\CardPayWave.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Payment\PayWave\CardPayWaveexe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Printing\PrintingTemplateScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PurchaseTicket\AllRouteButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PurchaseTicket\DestinationScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PurchaseTicket\GenericStationButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PurchaseTicket\JourneyTypeButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PurchaseTicket\PurchaseTicketScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PurchaseTicket\StationRouteButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PurchaseTicket\ViewMapScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SeatingScreen\pgKomuterPax.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SeatingScreen\uscKomuterTicketType.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SeatingScreen\uscPaxButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Welcome\WelcomeScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\AFCAddOn.cs" />
+    <Compile Include="Models\AFCPackage.cs" />
+    <Compile Include="Models\AFCService.cs" />
+    <Compile Include="Models\AFCStation.cs" />
+    <Compile Include="Models\AFCTicketType.cs" />
+    <Compile Include="Models\PassengerInfo.cs" />
+    <Compile Include="Models\UserSession.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Resource Include="Assets\close.png" />
+    <Resource Include="Assets\Komuter_Header01.png" />
+    <Resource Include="Assets\Master_Visa_Debit_Card01.png" />
+    <Resource Include="Assets\CardDetail-bg.png" />
+    <Resource Include="Assets\Tng.png" />
+    <Resource Include="Assets\Boost.png" />
+    <Resource Include="Assets\Visa.png" />
+    <Resource Include="Assets\Testing05.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="Database\db-kvdt-kiosk.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\DsMelakaCentralErrorTicketMessage.xsc">
+      <DependentUpon>DsMelakaCentralErrorTicketMessage.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\DsMelakaCentralErrorTicketMessage.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsMelakaCentralErrorTicketMessage1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\DsMelakaCentralErrorTicketMessage.xss">
+      <DependentUpon>DsMelakaCentralErrorTicketMessage.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\DsMelakaCentralTicket.xsc">
+      <DependentUpon>DsMelakaCentralTicket.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\DsMelakaCentralTicket.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsMelakaCentralTicket1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\DsMelakaCentralTicket.xss">
+      <DependentUpon>DsMelakaCentralTicket.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\KTMB\DSCreditCardReceipt.xsc">
+      <DependentUpon>DSCreditCardReceipt.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\KTMB\DSCreditCardReceipt.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCreditCardReceipt1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\KTMB\DSCreditCardReceipt.xss">
+      <DependentUpon>DSCreditCardReceipt.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\KTMB\IntercityETSTicket\DSIntercityETSTicket.xsc">
+      <DependentUpon>DSIntercityETSTicket.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\KTMB\IntercityETSTicket\DSIntercityETSTicket.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSIntercityETSTicket1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\KTMB\IntercityETSTicket\DSIntercityETSTicket.xss">
+      <DependentUpon>DSIntercityETSTicket.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\KTMB\KomuterTicket\DSKomuterTicket.xsc">
+      <DependentUpon>DSKomuterTicket.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\KTMB\KomuterTicket\DSKomuterTicket.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSKomuterTicket1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\KTMB\KomuterTicket\DSKomuterTicket.xss">
+      <DependentUpon>DSKomuterTicket.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Boost.jpg" />
+    <Resource Include="Assets\CreditCardPayWave01.png" />
+    <Resource Include="Assets\exchange.png" />
+    <Resource Include="Assets\icon-exclamation-light.png" />
+    <Resource Include="Assets\ID-scan-green.png" />
+    <Resource Include="Assets\ID-scan-grey.png" />
+    <Resource Include="Assets\ID-scan-red.png" />
+    <Resource Include="Assets\Kiosk run out of order.png" />
+    <Resource Include="Assets\KTMB_Logo01.png" />
+    <Resource Include="Assets\ktmheader.png" />
+    <Resource Include="Assets\kvdtmap.png" />
+    <Resource Include="Assets\PaymentByCard.png" />
+    <Resource Include="Assets\Paypasscard-black.png" />
+    <Resource Include="Assets\paypasslogo.png" />
+    <Resource Include="Assets\paywavelogo.png" />
+    <Resource Include="Assets\TicketGirl - KTM-TVM-BM-HIJAB.png" />
+    <Resource Include="Assets\TNC.jpg" />
+    <Resource Include="Assets\TVM-bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reports\KTMB\KomuterTicket\AFCTicketReceiptV.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Komlink\Komlink\Komlink\Komlink.csproj">
+      <Project>{899C613E-2A1B-4B60-B0EB-213A4DED01DF}</Project>
+      <Name>Komlink</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\KTMBKiosk\NssIT.Kiosk.AppDecorator\NssIT.Kiosk.AppDecorator.csproj">
+      <Project>{1CC91BDA-E1D3-4EAB-9D67-7D04B224F837}</Project>
+      <Name>NssIT.Kiosk.AppDecorator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\KTMBKiosk\NssIT.Kiosk.Client\NssIT.Kiosk.Client.csproj">
+      <Project>{F6391745-BB0B-46BA-A083-2B531BF61ECB}</Project>
+      <Name>NssIT.Kiosk.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\KTMBKiosk\NssIT.Kiosk.Common.AppService\NssIT.Kiosk.Common.AppService.csproj">
+      <Project>{F66F5F1A-5A2A-44D6-B627-9B4A3CE403ED}</Project>
+      <Name>NssIT.Kiosk.Common.AppService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\KTMBKiosk\NssIT.Kiosk.Device.PAX.IM30.AccessSDK\NssIT.Kiosk.Device.PAX.IM30.AccessSDK.csproj">
+      <Project>{2F6C1134-495D-4721-A581-7DB286BEF131}</Project>
+      <Name>NssIT.Kiosk.Device.PAX.IM30.AccessSDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\KTMBKiosk\NssIT.Kiosk.Device.PAX.IM30.IM30PayApp\NssIT.Kiosk.Device.PAX.IM30.IM30PayApp.csproj">
+      <Project>{5B1B2DD3-D44D-4702-9FD3-40CAFE545A8E}</Project>
+      <Name>NssIT.Kiosk.Device.PAX.IM30.IM30PayApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\KTMBKiosk\NssIT.Kiosk.Log.DB\NssIT.Kiosk.Log.DB.csproj">
+      <Project>{92B559F6-AD65-4818-9300-BADD7F849853}</Project>
+      <Name>NssIT.Kiosk.Log.DB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\KTMBKiosk\NssIT.Kiosk.Tools\NssIT.Kiosk.Tools.csproj">
+      <Project>{2B735ED3-D8F9-4B25-9992-F8D0ABDC4221}</Project>
+      <Name>NssIT.Kiosk.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\KTMBKiosk\NssIT.Train.Kiosk.Common\NssIT.Train.Kiosk.Common.csproj">
+      <Project>{D2204B42-AF4D-44F7-BC66-0186BF9B841B}</Project>
+      <Name>NssIT.Train.Kiosk.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\NSS poweredby logo.png" />
+    <Resource Include="ktm.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\KTMB\IntercityETSTicket\RPTIntercityETS.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\KTMB\IntercityETSTicket\TicketKTMBErrorMessage.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\KTMB\KomuterTicket\RPTOnlineKomuter.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\KTMB\KomuterTicket\RPTOnlineKomuter3iNCH.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\KTMB\RPTCreditCardReceipt.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\TicketMelakaSentralErrorMessage.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\TicketMelakaSentralX1.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\KTMB\KomuterTicket\RPTOnlineAFC3iNCH.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\..\KTMBKiosk\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\KTMBKiosk\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props'))" />
+    <Error Condition="!Exists('..\..\..\..\KTMBKiosk\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\KTMBKiosk\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\..\..\..\KTMBKiosk\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\KTMBKiosk\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\..\..\..\KTMBKiosk\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\KTMBKiosk\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\..\..\..\KTMBKiosk\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\..\..\..\KTMBKiosk\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\..\..\..\KTMBKiosk\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\..\..\..\KTMBKiosk\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

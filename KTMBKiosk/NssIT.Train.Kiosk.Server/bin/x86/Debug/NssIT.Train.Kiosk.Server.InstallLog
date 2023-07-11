@@ -1,0 +1,47 @@
+﻿Uninstalling assembly 'C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.InstallLog
+   assemblypath = C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe
+Removing EventLog source NssIT.Train.Kiosk.Server.
+Service NssIT.Train.Kiosk.Server is being removed from the system...
+Service NssIT.Train.Kiosk.Server was successfully removed from the system.
+Installing assembly 'C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.InstallLog
+   assemblypath = C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe
+Installing service NssIT.Train.Kiosk.Server...
+Service NssIT.Train.Kiosk.Server has been successfully installed.
+Creating EventLog source NssIT.Train.Kiosk.Server in log Application...
+Committing assembly 'C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.InstallLog
+   assemblypath = C:\dev\source code\KTMB_Kiosk\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe
+Installing assembly 'C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.InstallLog
+   assemblypath = C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe
+Installing service NssIT.Train.Kiosk.Server...
+Service NssIT.Train.Kiosk.Server has been successfully installed.
+Creating EventLog source NssIT.Train.Kiosk.Server in log Application...
+Committing assembly 'C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.InstallLog
+   assemblypath = C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe
+Installing assembly 'C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.InstallLog
+   assemblypath = C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe
+Installing service NssIT.Train.Kiosk.Server...
+Service NssIT.Train.Kiosk.Server has been successfully installed.
+Creating EventLog source NssIT.Train.Kiosk.Server in log Application...
+Committing assembly 'C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.InstallLog
+   assemblypath = C:\Users\ArifBinMatNon\source\repos\Kiosk Original\Code\NssIT.Train.Kiosk.Server\bin\x86\Debug\NssIT.Train.Kiosk.Server.exe

@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="NssIT.Kiosk.Client.ViewPage.Komuter.uscKomuterMyKad"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.Komuter" 
+             Width="645" Margin="0,0,0,0">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Column="0" Grid.Row="0" BorderThickness="5,5,5,5" CornerRadius="10" x:Name="BdContainer">
+            <Grid Margin="7,7,7,0">
+                <Grid.Resources>
+                    <ResourceDictionary>
+                        <Style x:Key="MykadButton" TargetType="{x:Type Button}">
+                            <Setter Property="Foreground" Value="#FF444444"/>
+                            <Setter Property="HorizontalAlignment" Value="Right"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="Padding" Value="0 0 0 0"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border CornerRadius="5" Background="#FFFBD012">
+                                            <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ResourceDictionary>
+                </Grid.Resources>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!--<Border Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" VerticalAlignment="Top" Margin="10,0,20,0" BorderThickness="0,2,0,0" BorderBrush="#FF000000" />-->
+
+                <TextBlock Grid.Column="0" Grid.Row="0" 
+                           FontSize="24" 
+                           HorizontalAlignment="Left" VerticalAlignment="Center" 
+                           Foreground="#FFEEEEEE" Text="01" FontWeight="Bold" x:Name="TxtLineNo" Margin="4,3,0,0"/>
+                <!--Foreground="#FFEEEEEE" -->
+
+                <TextBlock Grid.Column="1" Grid.Row="0" 
+                           FontSize="24" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center" 
+                           Foreground="#FFEEEEEE" Text=")"/>
+                <!--Foreground="#FFEEEEEE" -->
+
+                <Border Grid.Column="2" Grid.Row="0" Margin="5,2,0,7"  Background="#FFDDDDDD" BorderThickness="1" BorderBrush="#FFE4E4E4" CornerRadius="5" SnapsToDevicePixels="True" Padding="4">
+                    <TextBox 
+                           FontSize="20" MaxHeight="100" Background="#00FFFFFF" BorderThickness="0,0,0,0"
+                           HorizontalAlignment="Left" VerticalAlignment="Center" 
+                           Foreground="#FF444444" Text="Muhammad Ali 12345678_ 12345678_ 12345678_" x:Name="TxtName"/>
+                    <!--Foreground="#FFEEEEEE"; IsReadOnly="True" -->
+                </Border>
+
+                <!--Style="{StaticResource MykadButton}"-->
+                <Button Grid.Column="3" Grid.Row="0" Style="{StaticResource MykadButton}"
+                        FontSize="16"  Visibility="Visible" Height="38" VerticalAlignment="Top" Margin="7,0,5,0"
+                        Click="ScanMyKad_Click" x:Name="BtnMyKad">
+                    <TextBlock Text="SCAN MYKAD" TextAlignment="Center" Margin="7,0,7,0" x:Name="TxtScanTag"/>
+                    <!-- MENGIMBAS MYKAD // SCAN MYKAD -->
+                </Button>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

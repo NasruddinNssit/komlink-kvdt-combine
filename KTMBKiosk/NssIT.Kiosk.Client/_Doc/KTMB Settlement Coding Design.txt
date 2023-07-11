@@ -1,0 +1,49 @@
+KTMB Settlement Coding Design
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Related Project And Files
+===========================
+
+NssIT.Kiosk.Device.PAX.IM30.AccessSDK
+	# PayECRAccess
+
+NssIT.Kiosk.Device.PAX.IM30.IM30PayApp
+	# PayWaveSettlementScheduler
+	# PayWaveSettlement
+		* delegate string[] RequestOutstandingSettlementInfo (out bool isRequestSuccessful)
+		* delegate bool     UpdateSettlementInfo (string processId, ResponseInfo responseInfo)
+
+NssIT.Kiosk.Client
+	# App.xaml.cs
+	# MainWindow.xaml.cs
+	# pgIntro.xaml.cs
+	# (IMaintenance) pgUnderMaintenance.xaml.cs
+
+New Instants And References
+=============================
+
+App.xaml.cs
+	# (new) PayWaveSettlementScheduler
+		# (refer) _requestOutstandingSettlementInfoHandle <for execution>
+		# (refer) _updateSettlementInfoHandle <for execution>
+		# (new) PayWaveSettlement
+			# (new) PayECRAccess
+
+	# (new) MainWindow
+		# (new) pgIntro
+		# (new) pgUnderMaintenance 
+			# (new) PayWaveSettlement.RequestOutstandingSettlementInfoHandle
+			# (new) PayWaveSettlement.UpdateSettlementInfoHandle
+
+			$$: void InitMaintenance(PayWaveSettlementScheduler scheduler)
+				# (PayWaveSettlementScheduler)_scheduler = scheduler;
+
+		$$: void InitMaintenance(PayWaveSettlementScheduler cardSettScheduler)
+			# pgUnderMaintenance.InitMaintenance(cardSettScheduler);
+
+			# cardSettScheduler.OnRequestSettlement += pgIntro.MaintenanceScheduler_OnRequestSettlement;
+			# cardSettScheduler.OnSettlementDone += pgIntro.MaintenanceScheduler_OnSettlementDone;
+			# cardSettScheduler.OnSettlementDone += pgUnderMaintenance.MaintenanceScheduler_OnSettlementDone;
+
+			# cardSettScheduler.Load(_pgMaintenance.RequestOutstandingSettlementInfoHandle, _pgMaintenance.UpdateSettlementInfoHandle)
+				# ..start PayWaveSettlementScheduler.SchecduleThreadWorking

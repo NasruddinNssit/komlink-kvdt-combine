@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="Komlink.Views.KomlinkCardScanScreen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Komlink.Views"
+             mc:Ignorable="d" 
+             FontFamily="Roboto"
+             d:DesignHeight="1920" d:DesignWidth="1080" Loaded="UserControl_Loaded" >
+    <ScrollViewer VerticalScrollBarVisibility="Hidden">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="113"/>
+                <RowDefinition />
+                <RowDefinition Height="100"/>
+
+            </Grid.RowDefinitions>
+            <Border Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Panel.ZIndex="1">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/Komuter_Header01.png" Stretch="Fill"/>
+                </Border.Background>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="1.5*"/>
+                        <ColumnDefinition Width="1.15*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1.2*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="1.3*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Column="0" Grid.Row="1" FontSize="20" Foreground="#FFEEEEEE" FontWeight="Bold" VerticalAlignment="Bottom" Text="KOMUTER KLANG VALLEY" Margin="15,0,0,0"/>
+                    <Image Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="/Assets/KTMB_Logo01.png" HorizontalAlignment="Right" Height="50"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="BdSubFrame" Grid.Column="0" Grid.Row="1" Background="Transparent" Visibility="Collapsed">
+                <Frame x:Name="FrmSubFrame" VerticalAlignment="Center" HorizontalAlignment="Center" NavigationUIVisibility="Hidden"/>
+
+            </Border>
+            
+            <Grid Grid.Row="2" Name="ExitButtonGrid"/>
+
+
+        </Grid>
+    </ScrollViewer>
+</UserControl>

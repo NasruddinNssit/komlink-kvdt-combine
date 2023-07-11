@@ -1,0 +1,23 @@
+﻿<Window x:Class="kvdt_kiosk.TestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kvdt_kiosk"
+        mc:Ignorable="d"
+        Title="TestWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <RichTextBox x:Name="TxtRichTextBox" Background="AliceBlue"></RichTextBox>
+        <Button x:Name="BtnTest" Grid.Row="1" Grid.Column="0" Content="Test" Click="BtnTest_Click"></Button>
+        <Button x:Name="BtnClear"  Grid.Column="2" Content="CLEAR" Click="BtnClear_Click"></Button>
+    </Grid>
+</Window>

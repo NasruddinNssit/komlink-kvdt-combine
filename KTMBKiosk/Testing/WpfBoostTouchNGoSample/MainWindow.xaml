@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfBoostTouchNGoSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBoostTouchNGoSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="527" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Button HorizontalAlignment="Left" Margin="14,78,0,0" VerticalAlignment="Top" Width="768" Click="GetAllService_Click">
+            <TextBlock Foreground="Red" FontWeight="Bold" Text="3) Get Avaliable Payment Service"/>
+        </Button>
+        <GroupBox Header="New Sale - Directly to GoPayment" HorizontalAlignment="Left" Height="182" Margin="14,113,0,0" VerticalAlignment="Top" Width="525">
+            <Grid>
+                <TextBlock HorizontalAlignment="Left" Margin="10,55,0,0" TextWrapping="Wrap" Text="Ref. Doc No. :" VerticalAlignment="Top" Width="124"/>
+                <TextBox HorizontalAlignment="Left" BorderThickness="1" Height="23" Margin="139,55,0,0" TextWrapping="Wrap" Text="MyDocNo_X0001" VerticalAlignment="Top" Width="295" x:Name="TxtDocNo"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,87,0,0" TextWrapping="Wrap" Text="Amount :" VerticalAlignment="Top" Width="124"/>
+                <TextBox HorizontalAlignment="Left" BorderThickness="1" Height="23" Margin="139,87,0,0" TextWrapping="Wrap" Text="1.25" VerticalAlignment="Top" Width="295" x:Name="TxtAmount"/>
+                <Button Content="Create New Sales" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Width="424" Height="34" Click="CreateNewSale_Click"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,20,0,0" TextWrapping="Wrap" Text="Payment Service. :" VerticalAlignment="Top" Width="124"/>
+            </Grid>
+        </GroupBox>
+
+
+        <Border BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Left" Height="160" Margin="544,128,0,0" VerticalAlignment="Top" Width="160">
+            <Image x:Name="imgBarcode"/>
+        </Border>
+        <GroupBox Header="SignalR (SnR) Test - Request KTMBWebApi To Send Sample Message" HorizontalAlignment="Left" Height="160" Margin="10,330,0,0" VerticalAlignment="Top" Width="525">
+            <Grid>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="129,15,0,0" TextWrapping="Wrap" Text="Test SignalR Message -- XX001yyZ" VerticalAlignment="Top" Width="374" x:Name="TxtSnRTextMessage"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,18,0,0" TextWrapping="Wrap" Text="Test Message :" VerticalAlignment="Top" Width="104"/>
+                <Button Content="Require KTMBWebApi To Send Sample Message" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" Width="493" Height="29" Click="TestReqKTMBWebApiSendSnRMsg_Click"/>
+
+                <TextBlock HorizontalAlignment="Left" Margin="10,51,0,0" TextWrapping="Wrap" Text="Destination Method Name :" VerticalAlignment="Top" Width="104"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="129,60,0,0" TextWrapping="Wrap" Text="deliverMessage" VerticalAlignment="Top" Width="374" x:Name="TxtSnRDestMethodName"/>
+
+            </Grid>
+        </GroupBox>
+        <TextBlock HorizontalAlignment="Left" Margin="14,50,0,0" TextWrapping="Wrap" Foreground="Red" VerticalAlignment="Top" Width="192" FontWeight="Bold" Text="2) Destination SignalR Client Id :"/>
+        <TextBox HorizontalAlignment="Left" BorderThickness="1" Height="23" Margin="211,49,0,0" TextWrapping="Wrap" Text="SignalR_Client__Connection_Id" VerticalAlignment="Top" Width="324" x:Name="TxtSnRClientId"/>
+        <Button HorizontalAlignment="Left" Margin="14,300,0,0" VerticalAlignment="Top" Width="768" Height="25" Click="SimulateSendingPaidReceipt_Click">
+            <TextBlock Text="Simulate GoPayment Server for Sending Paid Receipt" TextWrapping="WrapWithOverflow"/>
+        </Button>
+        <ComboBox x:Name="CboPaymentService" HorizontalAlignment="Left" Margin="155,150,0,0" VerticalAlignment="Top" Width="300"/>
+        <Button x:Name="BtnClearBarcode" HorizontalAlignment="Left" Margin="725,248,0,0" VerticalAlignment="Top" Width="57" Height="40" Click="ClearBarcode_Click">
+            <TextBlock Text="Clear Barcode" TextWrapping="WrapWithOverflow" />
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="14,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" Foreground="Red" FontWeight="Bold" Text="1) KTMBWebAPI URL :"/>
+        <ComboBox HorizontalAlignment="Left" Margin="211,20,0,0" VerticalAlignment="Top" Width="571" SelectedIndex="0" x:Name="CboWebAPIUrl">
+            <ComboBoxItem Content="https://localhost:44305/" />
+            <ComboBoxItem Content="https://ktmb-dev-api.azurewebsites.net/" />
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="540,53,0,0" Text="Copy Id from WFmKTMBWebApiSignalRTest App." VerticalAlignment="Top" FontSize="10" Width="220" TextAlignment="Left"/>
+
+
+
+
+    </Grid>
+</Window>

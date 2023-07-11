@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="NssIT.Kiosk.Client.ViewPage.Seat.uscLegend"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NssIT.Kiosk.Client.ViewPage.Seat"
+             mc:Ignorable="d" 
+             FontFamily="Roboto" 
+             d:DesignHeight="45" d:DesignWidth="155" Margin="0,0,0,10">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="45"/>
+            <ColumnDefinition Width="110"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Border Grid.Column="0" Grid.Row="0" Margin="0,0,0,0" Height="45" Width="45"
+                HorizontalAlignment="Center" VerticalAlignment="Center" 
+                x:Name="BdSeatImg">
+            <Border.Background>
+                <ImageBrush Stretch="Uniform">
+                    <ImageBrush.Transform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="1" ScaleY="1"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="0"/>
+                        </TransformGroup>
+                    </ImageBrush.Transform>
+
+                </ImageBrush>
+            </Border.Background>
+        </Border>
+
+        <StackPanel Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,1,0,0" 
+                   Orientation="Vertical" >
+
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5,2,0,0" 
+                   TextWrapping="WrapWithOverflow" TextAlignment="Center" Text="Standard" x:Name="TxtServiceTypeDesc"/>
+
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5,2,0,0" 
+                   TextWrapping="WrapWithOverflow" TextAlignment="Center" Text="(RM 235.35)" x:Name="TxtPrice"/>
+            
+        </StackPanel>
+        
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,88 @@
+﻿<Window x:Class="IM30TestAPI01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IM30TestAPI01"
+        mc:Ignorable="d"
+        Title="IM30 API - MainWindow" Height="630.088" Width="800" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <TextBlock HorizontalAlignment="Left" FontSize="20"
+                       Margin="10,10,0,0" TextWrapping="Wrap" Text="COM Port :" VerticalAlignment="Top" Height="29"/>
+            <ComboBox HorizontalAlignment="Left" Margin="122,17,0,0" VerticalAlignment="Top" Width="152" x:Name="CboComPort"/>
+            <Button Content="Apply" HorizontalAlignment="Left" Margin="327,17,0,0" VerticalAlignment="Top" Width="89" Height="30" Click="ApplyPortSetting_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5" />
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <Button HorizontalAlignment="Left" Margin="445,0,0,0" VerticalAlignment="Center" Width="180" Height="54" 
+                    Click="SyncCreditDebitSaleToVoidTrans_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5" />
+                    </Style>
+                </Button.Resources>
+                <TextBlock TextAlignment="Center">
+                    <Run Text="Sync" />
+                    <LineBreak />
+                    <Run Text="Last Credit Debit Sale" />
+                    <LineBreak />
+                    <Run Text="To Void Transaction" />
+                </TextBlock>
+            </Button>
+
+        </Grid>
+
+        <TabControl Grid.Row="1">
+            <TabItem Header="Ping">
+                <Grid Background="#FFE5E5E5">
+                    <local:uscIM30Ping HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="UscPing01"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Reboot">
+                <Grid Background="#FFE5E5E5">
+                    <local:uscIM30Reboot HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="UscReboot01"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Get Device Info">
+                <Grid Background="#FFE5E5E5">
+                    <local:uscGetDeviceInfo HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="UscGetDeviceInfo01"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Stop Card Transaction">
+                <Grid Background="#FFE5E5E5">
+                    <local:uscIM30StopCardTransaction HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="UscStopCardTransaction01"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Get Last Transaction">
+                <Grid Background="#FFE5E5E5">
+                    <local:uscIM30GetLastTransaction HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="UscGetLastTrans01"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Card Sale - Credit/Debit/TnG/KomLink">
+                <Grid Background="#FFE5E5E5">
+                    <local:uscIM30CardSale HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="UscCardSale01"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Void Transaction">
+                <Grid Background="#FFE5E5E5">
+                    <local:uscIM30VoidTransaction HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="UscVoidTransaction01"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Card Settlement">
+                <Grid Background="#FFE5E5E5">
+                    <local:uscCardSettlement HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="UscCardSettlement01"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

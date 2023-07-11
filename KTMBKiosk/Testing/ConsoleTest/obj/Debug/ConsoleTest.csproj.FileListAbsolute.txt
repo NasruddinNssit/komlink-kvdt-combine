@@ -1,0 +1,16 @@
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\ConsoleTest\bin\Debug\ConsoleTest.exe
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\ConsoleTest\bin\Debug\ConsoleTest.pdb
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\ConsoleTest\obj\Debug\ConsoleTest.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\ConsoleTest\obj\Debug\ConsoleTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\ConsoleTest\obj\Debug\ConsoleTest.exe
+C:\Users\moham\source\repos\NSSIT\KTMB_KTMBKiosk\KTMBKiosk\Testing\ConsoleTest\obj\Debug\ConsoleTest.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\Testing\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\Testing\ConsoleTest\bin\Debug\ConsoleTest.exe
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\Testing\ConsoleTest\bin\Debug\ConsoleTest.pdb
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\Testing\ConsoleTest\obj\Debug\ConsoleTest.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\Testing\ConsoleTest\obj\Debug\ConsoleTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\Testing\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\Testing\ConsoleTest\obj\Debug\ConsoleTest.exe
+C:\Users\moham\source\repos\NasruddinNssit\kvdt-komlink\KTMBKiosk\Testing\ConsoleTest\obj\Debug\ConsoleTest.pdb
