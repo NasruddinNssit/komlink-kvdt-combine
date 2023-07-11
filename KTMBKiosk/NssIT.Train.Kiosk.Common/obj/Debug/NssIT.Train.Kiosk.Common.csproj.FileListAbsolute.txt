@@ -70,3 +70,27 @@ C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\NssIT.
 C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\obj\Debug\NssIT.Train.Kiosk.Common.csproj.CopyComplete
 C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\obj\Debug\NssIT.Train.Kiosk.Common.dll
 C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\obj\Debug\NssIT.Train.Kiosk.Common.pdb
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\LogDB\NssITKioskLogMaster.db
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\NssIT.Train.Kiosk.Common.dll.config
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\NssIT.Train.Kiosk.Common.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\NssIT.Train.Kiosk.Common.pdb
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\EntityFramework.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\NssIT.Kiosk.AppDecorator.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\NssIT.Kiosk.Log.DB.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\System.Data.SQLite.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\NssIT.Kiosk.AppDecorator.pdb
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\NssIT.Kiosk.Log.DB.pdb
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\NssIT.Kiosk.Log.DB.dll.config
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\EntityFramework.xml
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\bin\Debug\System.Data.SQLite.xml
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\obj\Debug\NssIT.Train.Kiosk.Common.csproj.AssemblyReference.cache
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\obj\Debug\NssIT.Train.Kiosk.Common.csproj.CoreCompileInputs.cache
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\obj\Debug\NssIT.Train.Kiosk.Common.csproj.CopyComplete
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\obj\Debug\NssIT.Train.Kiosk.Common.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Train.Kiosk.Common\obj\Debug\NssIT.Train.Kiosk.Common.pdb

@@ -1,4 +1,5 @@
 ﻿using kvdt_kiosk.Models;
+using kvdt_kiosk.Views.Welcome;
 using System;
 using System.Windows;
 using System.Windows.Controls;
@@ -64,7 +65,12 @@ namespace kvdt_kiosk.Views.Idle
 
         private void BdExit_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            Application.Current.Shutdown();
+            //get parent window
+            Window parentWindow = Window.GetWindow(this);
+            if (parentWindow != null)
+            {
+                parentWindow.Content = new WelcomeScreen();
+            }
         }
     }
 

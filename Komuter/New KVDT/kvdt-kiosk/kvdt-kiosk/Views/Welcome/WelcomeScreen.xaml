@@ -131,7 +131,7 @@
                 <Button x:Name="BtnStart4" Grid.Row="3"  Margin="0,10,0,20" Style="{StaticResource GreenButton}" Click="BtnStart4_Click"  Height="160" Tag="KOMLINK" >
                     <StackPanel Orientation="Vertical">
                         <TextBlock x:Name="TxtShowNormal4"> <Run Text="  KOMLINK"/> <LineBreak/> <Run Text="    CARD"/></TextBlock>
-                        <!--<TextBlock x:Name="TxtDisabled4" Visibility="Collapsed" Text="IN PROGRESS.." />-->
+                        <TextBlock x:Name="TxtDisabled4" Visibility="Collapsed" Text="IN PROGRESS.." />
                     </StackPanel>
                 </Button>
               

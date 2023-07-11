@@ -1,23 +1,33 @@
-﻿C:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\obj\Release\GeneratedInternalTypeHelper.g.cs
+﻿C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\obj\Release\GeneratedInternalTypeHelper.g.cs
 
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\MainWindow.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Error\ErrorWindow.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\BackButton.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\BigAlert.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\Calendar.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\CardDetail.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\ConfirmButton.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\DateOption.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\ExitButton.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\KeyPad.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\KomlinkCardDetailScreen.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\KomlinkCardScanScreen.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\LanguageScreen.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\Pass.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\PaymentAmountOption.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\PaymentOption.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\TableTransaction.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\TopUp.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\TransactionDate.xaml;;
-FC:\Users\moham\Source\Repos\NSSIT\KTMB_KTMBKiosk\Komlink\Komlink\Komlink\Views\Komlink\ValidationScreen.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\MainWindow.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\AlertForScanAfterPayment.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\AlertInfo.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\AlertSuccess.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\AlertUnSuccess.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\AlertUnSuccessScan.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\BackButton.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\BigAlert.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\Calendar.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\CardDetail.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\ConfirmButton.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\DateOption.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\Error\ErrorWindow.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\ExitButton.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\Idle\TimeOutScreen.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\KeyPad.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\KomlinkCardDetailScreen.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\KomlinkCardScanScreen.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\LanguageScreen.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\Pass.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\PaymentAmountOption.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\PaymentOption.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\Payment\Ewallet\pgBTnGPayment.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\Payment\PayWaveTest\CardPayWave.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\Payment\PayWave\CardPayWaveexe.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\Payment\PayWave\CardPayWave.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\PrintingTemplateScreen.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\TableTransaction.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\TopUp.xaml;;
+FC:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komlink\Komlink\Komlink\Views\TransactionDate.xaml;;
 

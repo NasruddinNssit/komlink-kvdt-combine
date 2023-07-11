@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Client\obj\x64\Debug\
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Client\obj\x64\Debug\
 NssIT.Kiosk.Client
 none
 false
 DEBUG;TRACE
-C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Client\App.xaml
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Client\App.xaml
 59-1402553490
-147-353827078
+1471331503465
 220-1422973595
-51409265212
+51-641439744
 Base\ShieldErrorScreen.xaml;MainWindow.xaml;ViewPage\Alert\pgOutofOrder.xaml;ViewPage\Alert\pgUnderMaintenance.xaml;ViewPage\CustInfo\pgCustInfo.xaml;ViewPage\CustInfo\pgMyKad.xaml;ViewPage\CustInfo\pgPromoCodeVerification.xaml;ViewPage\CustInfo\uscPassengerInfo.xaml;ViewPage\CustInfo\uscTicketType.xaml;ViewPage\Date\pgDate.xaml;ViewPage\Info\pgInfo.xaml;ViewPage\Insurance\pgInsurance.xaml;ViewPage\Insurance\pgToAgreeInsurance.xaml;ViewPage\Insurance\pgToDisagreeInsurance.xaml;ViewPage\Insurance\uscCoverage.xaml;ViewPage\Insurance\uscCoverageGroup.xaml;ViewPage\Intro\pgIntro.xaml;ViewPage\Intro\uscIntroEnglish.xaml;ViewPage\Intro\uscIntroMalay.xaml;ViewPage\Komuter\pgKomuter.xaml;ViewPage\Komuter\pgKomuterMyKadScanner.xaml;ViewPage\Komuter\pgKomuterPax.xaml;ViewPage\Komuter\pgKomuterTicketTypeMyKadList.xaml;ViewPage\Komuter\pgMap.xaml;ViewPage\Komuter\pgSalesPanel.xaml;ViewPage\Komuter\uscJourneyTypeButton.xaml;ViewPage\Komuter\uscKomuterMyKad.xaml;ViewPage\Komuter\uscKomuterMyKadGroup.xaml;ViewPage\Komuter\uscKomuterTicketType.xaml;ViewPage\Komuter\uscPaxButton.xaml;ViewPage\Language\pgLanguage.xaml;ViewPage\Menu\pgMenu.xaml;ViewPage\Navigator\pgNavigator.xaml;ViewPage\Payment\pgBTnGPayment.xaml;ViewPage\Payment\pgCash.xaml;ViewPage\Payment\pgCreditCardPayWave.xaml;ViewPage\Payment\pgCreditCardPayWaveV2.xaml;ViewPage\Payment\pgPayment.xaml;ViewPage\Payment\pgPaymentInfo.xaml;ViewPage\Payment\pgPaymentInfo2.xaml;ViewPage\Payment\pgPrintTicket.xaml;ViewPage\Payment\pgPrintTicket2.xaml;ViewPage\Payment\uscPaymentGateway.xaml;ViewPage\Payment\uscSummaryItem.xaml;ViewPage\PickupNDrop\pgPickupNDrop.xaml;ViewPage\PopupWindow\pgTimeout.xaml;ViewPage\Seat\pgSeat2.xaml;ViewPage\Seat\uscCoach.xaml;ViewPage\Seat\uscLegend.xaml;ViewPage\Seat\uscSeatChair.xaml;ViewPage\Seat\uscSeatRecord.xaml;ViewPage\StationTerminal\pgRouteMap.xaml;ViewPage\StationTerminal\pgStation.xaml;ViewPage\TicketSummary\pgTickSumm.xaml;ViewPage\TicketSummary\uscTripTicketSumm.xaml;ViewPage\Trip\pgTimeFilter.xaml;ViewPage\Trip\pgTrip.xaml;ViewPage\uscKeyboard.xaml;WndTestingMonitor.xaml;
 
 False

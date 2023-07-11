@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\Testing\IM30TestAPI01\obj\Debug\
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\Testing\IM30TestAPI01\obj\Debug\
 IM30TestAPI01
 none
 false
 DEBUG;TRACE
-C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\Testing\IM30TestAPI01\App.xaml
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\Testing\IM30TestAPI01\App.xaml
 10594544205
 
 15-199926949
-26-1003300154
+26768058856
 MainWindow.xaml;uscCardSettlement.xaml;uscGetDeviceInfo.xaml;uscIM30CardSale.xaml;uscIM30GetLastTransaction.xaml;uscIM30Ping.xaml;uscIM30Reboot.xaml;uscIM30StopCardTransaction.xaml;uscIM30VoidTransaction.xaml;Window1.xaml;
 
 True

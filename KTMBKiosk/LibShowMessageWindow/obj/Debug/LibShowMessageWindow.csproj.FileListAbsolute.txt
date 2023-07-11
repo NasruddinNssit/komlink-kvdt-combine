@@ -22,3 +22,11 @@ C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\LibSho
 C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\LibShowMessageWindow\obj\Debug\LibShowMessageWindow.csproj.CoreCompileInputs.cache
 C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\LibShowMessageWindow\obj\Debug\LibShowMessageWindow.dll
 C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\LibShowMessageWindow\obj\Debug\LibShowMessageWindow.pdb
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\LibShowMessageWindow\bin\Debug\LibShowMessageWindow.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\LibShowMessageWindow\bin\Debug\LibShowMessageWindow.pdb
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\LibShowMessageWindow\obj\Debug\LibShowMessageWindow.csproj.AssemblyReference.cache
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\LibShowMessageWindow\obj\Debug\LibShowMessageWindow.WFmMessageWindow.resources
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\LibShowMessageWindow\obj\Debug\LibShowMessageWindow.csproj.GenerateResource.cache
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\LibShowMessageWindow\obj\Debug\LibShowMessageWindow.csproj.CoreCompileInputs.cache
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\LibShowMessageWindow\obj\Debug\LibShowMessageWindow.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\LibShowMessageWindow\obj\Debug\LibShowMessageWindow.pdb

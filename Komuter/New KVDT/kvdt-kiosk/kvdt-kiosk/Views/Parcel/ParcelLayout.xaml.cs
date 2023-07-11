@@ -6,6 +6,7 @@ using kvdt_kiosk.Views.Payment;
 using kvdt_kiosk.Views.Payment.EWallet;
 using kvdt_kiosk.Views.Payment.PayWave;
 using kvdt_kiosk.Views.Printing;
+using kvdt_kiosk.Views.Welcome;
 using Microsoft.Reporting.WinForms;
 using Newtonsoft.Json;
 using NssIT.Kiosk.AppDecorator.Common;
@@ -185,14 +186,27 @@ namespace kvdt_kiosk.Views.Parcel
 
         private void BtnExit_Click(object sender, RoutedEventArgs e)
         {
-            Dispatcher.InvokeAsync(() =>
+            Dispatcher.InvokeAsync(async () =>
             {
-                GC.Collect();
-                GC.WaitForPendingFinalizers();
+                UserSession.UserAddons = null;
+                UserSession.isParcelHaveClicked = false;
+                UserSession.IsParcelCheckOut = false;
+                UserSession.TicketOrderTypes = null;
+                UserSession.IsCheckOut = false;
+                UserSession.TotalTicketPrice = 0;
+                UserSession.UpdateAFCBookingResultModel = null;
+                UserSession.CheckoutBookingResultModel = null;
+                PassengerInfo.IcScanned.Clear();
+                PassengerInfo.PassengerName = null;
+                PassengerInfo.ICNumber = null;
+                PassengerInfo.CurrentScanNumberForChild = 0;
+                PassengerInfo.CurrentScanNumberForSenior = 0;
+                PassengerInfo.IsPaxSelected = false;
 
-                App.Language = "";
+                await Task.Delay(500);
 
-                Application.Current.Shutdown();
+                var parentWindow = Window.GetWindow(this);
+                parentWindow.Content = new WelcomeScreen();
 
             });
         }

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\Komuter\New KVDT\kvdt-kiosk\kvdt-kiosk\obj\Debug\
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komuter\New KVDT\kvdt-kiosk\kvdt-kiosk\obj\Debug\
 kvdt_kiosk
 none
 false
 DEBUG;TRACE
-C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\Komuter\New KVDT\kvdt-kiosk\kvdt-kiosk\App.xaml
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komuter\New KVDT\kvdt-kiosk\kvdt-kiosk\App.xaml
 58259858922
-11-1235825700
+11-1616303138
 137-979799608
-59-1168274511
+59-822459128
 MainWindow.xaml;Views\ChooseActionScreen.xaml;Views\Error\ErrorScreen.xaml;Views\Idle\ClosingScreen.xaml;Views\Komlink\AlertForScanAfterPayment.xaml;Views\Komlink\AlertInfo.xaml;Views\Komlink\AlertSuccess.xaml;Views\Komlink\AlertUnSuccess.xaml;Views\Komlink\AlertUnSuccessScan.xaml;Views\Komlink\BackButton.xaml;Views\Komlink\BigAlert.xaml;Views\Komlink\Calendar.xaml;Views\Komlink\CardDetail.xaml;Views\Komlink\ConfirmButton.xaml;Views\Komlink\DateOption.xaml;Views\Komlink\ExitButton.xaml;Views\Komlink\KeyPad.xaml;Views\Komlink\KomlinkCardDetailScreen.xaml;Views\Komlink\KomlinkCardScanScreen.xaml;Views\Komlink\LanguageScreen.xaml;Views\Komlink\Pass.xaml;Views\Komlink\PaymentAmountOption.xaml;Views\Komlink\PaymentOption.xaml;Views\Komlink\TableTransaction.xaml;Views\Komlink\TransactionDate.xaml;Views\LanguageScreen.xaml;Views\MyKad\MyKadValidationScreen.xaml;Views\Parcel\Parcel.xaml;Views\Parcel\ParcelActionButton.xaml;Views\Parcel\ParcelLayout.xaml;Views\Parcel\ParcelScreen.xaml;Views\Passenger\ChildTextBox.xaml;Views\Passenger\OKUTextBox.xaml;Views\Passenger\PassengerMyKadScan.xaml;Views\Passenger\PassengerTemplate.xaml;Views\Passenger\SeniorTextBox.xaml;Views\Payment\EWallet\pgBTnGPayment.xaml;Views\Payment\EWallet\rosPaymentEnglish.xaml;Views\Payment\Komlink\Ewallet\pgBTnGPayment.xaml;Views\Payment\Komlink\Ewallet\rosPaymentEnglish.xaml;Views\Payment\Komlink\PayWave\CardPayWave.xaml;Views\Payment\Komlink\PayWave\CardPayWaveexe.xaml;Views\Payment\PaymentInfoScreen.xaml;Views\Payment\PaymentTicketBuyInfo.xaml;Views\Payment\PayWave\CardPayWave.xaml;Views\Payment\PayWave\CardPayWaveexe.xaml;Views\Printing\PrintingTemplateScreen.xaml;Views\PurchaseTicket\AllRouteButton.xaml;Views\PurchaseTicket\DestinationScreen.xaml;Views\PurchaseTicket\GenericStationButton.xaml;Views\PurchaseTicket\JourneyTypeButton.xaml;Views\PurchaseTicket\PurchaseTicketScreen.xaml;Views\PurchaseTicket\StationRouteButton.xaml;Views\PurchaseTicket\ViewMapScreen.xaml;Views\SeatingScreen\pgKomuterPax.xaml;Views\SeatingScreen\uscKomuterTicketType.xaml;Views\SeatingScreen\uscPaxButton.xaml;Views\Welcome\WelcomeScreen.xaml;
 
 False
