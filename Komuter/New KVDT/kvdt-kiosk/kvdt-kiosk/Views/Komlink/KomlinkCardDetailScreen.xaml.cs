@@ -145,7 +145,7 @@ namespace kvdt_kiosk.Views.Komlink
             alertSuccess.OnYesPrintClicked += AlertSuccess_OnYesPrintClicked;
             alertUnSuccess = AlertUnSuccess.GetUnSuccesAlertPage();
             alertUnSuccess.ButtonScanAgainClicked += AlertScan_ButtonScanClicked;
-
+            paymentAmountOption = new PaymentAmountOption();
             alertUnSuccess.ButtonNotScanAgainClicked += AlertUnSuccess_ButtonNotScanAgainClicked;
 
             bTnGPayment = new pgKomuter_BTnGPayment(frmSubFrame: FrmSubFrame, bdSubFrame: BdSubFrame);
@@ -174,7 +174,7 @@ namespace kvdt_kiosk.Views.Komlink
             if (e.retryCount <= 1) // print receipt for the first fail ettempt
             {
 
-                ValidatePrinterStatus();
+                //ValidatePrinterStatus();
                 if (isPrinterError || isPrinterWarning)
                 {
 
@@ -231,7 +231,7 @@ namespace kvdt_kiosk.Views.Komlink
         {
             SystemConfig.IsResetIdleTimer = true;
 
-            ValidatePrinterStatus();
+            //ValidatePrinterStatus();
 
             cardPayWave.ClearEvents();
             FrmSubFrame.Content = null;
@@ -468,7 +468,7 @@ namespace kvdt_kiosk.Views.Komlink
 
             ConfirmButton.Children.Clear();
             KomlinkToUpSection.Children.Clear();
-            paymentAmountOption = new PaymentAmountOption();
+           
             KomlinkToUpSection.Children.Add(paymentAmountOption);
 
             paymentAmountOption.TextBoxClicked += TextBox_Clicked;

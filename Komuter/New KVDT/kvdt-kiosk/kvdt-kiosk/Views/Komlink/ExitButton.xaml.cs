@@ -67,14 +67,6 @@ namespace kvdt_kiosk.Views.Komlink
             var window = Window.GetWindow(this);
 
             window.Content = welcomeScreen;
-          
-            //UserSession.ClearSession();
-
-           
-           
-            //Application.Current.Shutdown();
-            //ShowWindow(App)
-
         }
 
         private async void StopTransaction()

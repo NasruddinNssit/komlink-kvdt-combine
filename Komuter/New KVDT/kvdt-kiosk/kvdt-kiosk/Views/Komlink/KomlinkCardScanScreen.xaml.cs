@@ -36,6 +36,7 @@ namespace kvdt_kiosk.Views.Komlink
           
             bigAlert = BigAlert.GetBigAlertPage();
 
+            bigAlert.scanFor("KomlinkCard");
             unSuccessScan =  AlertUnSuccessScan.GetUnSuccessScan();
             bigAlert.onFailureScanCard += BigAlert_onFailureScanCard;
 
