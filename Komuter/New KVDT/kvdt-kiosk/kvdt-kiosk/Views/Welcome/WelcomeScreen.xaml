@@ -73,7 +73,7 @@
         </Grid.RowDefinitions>
         <!-- Background -->
         <Image Grid.Column="0" Grid.Row="0" 
-               Source="/Assets/TVM-bg.png" Stretch="Fill" HorizontalAlignment="Left" Margin="-9,-21,0,21" />
+               Source="/Assets/TVM-bg.png" Stretch="Fill" HorizontalAlignment="Left"  />
 
         <Image Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" 
                Margin="5 0 0 0" Source="/Assets/TicketGirl - KTM-TVM-BM-HIJAB.png" />
