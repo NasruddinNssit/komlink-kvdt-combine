@@ -1,0 +1,20 @@
+﻿kvdt-kiosk
+
+
+winexe
+C#
+.cs
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komuter\kvdt-kiosk\kvdt-kiosk\obj\Release\
+kvdt_kiosk
+none
+false
+TRACE
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\Komuter\kvdt-kiosk\kvdt-kiosk\App.xaml
+43-1960803590
+5957568213
+68-1064691940
+28756009363
+MainWindow.xaml;TestWindow.xaml;Views\Error\ErrorWindow.xaml;Views\Kvdt\ChooseActionScreen.xaml;Views\Kvdt\DestinationScreen.xaml;Views\Kvdt\GenericStationButton.xaml;Views\Kvdt\Keyboard\KeyboardPad.xaml;Views\Kvdt\KomuterServiceButton.xaml;Views\Kvdt\KomuterService\AFCServiceButton.xaml;Views\Kvdt\KomuterService\KomuterServiceScreen.xaml;Views\Kvdt\LanguageScreen.xaml;Views\Kvdt\MyKad\MyKadValidationScreen.xaml;Views\Kvdt\Parcel\Parcel.xaml;Views\Kvdt\Parcel\ParcelActionButton.xaml;Views\Kvdt\Parcel\ParcelScreen.xaml;Views\Kvdt\Payment\CardPayWave.xaml;Views\Kvdt\Payment\PaymentInfoScreen.xaml;Views\Kvdt\Payment\PaymentTicketBuyInfo.xaml;Views\Kvdt\SeatingScreen\New\pgKomuterPax.xaml;Views\Kvdt\Printer\PrinterScreen.xaml;Views\Kvdt\PurchaseTicket\AllRouteButton.xaml;Views\Kvdt\PurchaseTicket\JourneyTypeButton.xaml;Views\Kvdt\PurchaseTicket\PurchaseTicketScreen.xaml;Views\Kvdt\PurchaseTicket\StationRouteButton.xaml;Views\Kvdt\ReturnJourney\ChildPassengerInfoTextbox.xaml;Views\Kvdt\ReturnJourney\PassengerReturnJourney.xaml;Views\Kvdt\ReturnJourney\ReturnJourneyScreen.xaml;Views\Kvdt\ReturnJourney\SeniorPassengerInfoTextbox.xaml;Views\Kvdt\SeatingScreen\SeatScreen.xaml;Views\Kvdt\SeatingScreen\UC\AmountSelectedTicketUC.xaml;Views\Kvdt\SeatingScreen\UC\CancelOkButtonUc.xaml;Views\Kvdt\SeatingScreen\UC\SeatAdultUc.xaml;Views\Kvdt\SeatingScreen\UC\SeatChildUc.xaml;Views\Kvdt\SeatingScreen\UC\SeatingResetUc.xaml;Views\Kvdt\SeatingScreen\UC\SeatingTitleUc.xaml;Views\Kvdt\SeatingScreen\UC\SeatSeniorCitizenUc.xaml;Views\Kvdt\SeatingScreen\New\uscKomuterTicketType.xaml;Views\Kvdt\SeatingScreen\New\uscPaxButton.xaml;Views\Windows\MyKadValidationWindow.xaml;Views\Windows\ParcelWindows.xaml;Views\Windows\PaymentWindow.xaml;Views\Windows\ReturnJourneyPassengerWindow.xaml;Views\Windows\ReturnJourneyWindow.xaml;
+
+True
+

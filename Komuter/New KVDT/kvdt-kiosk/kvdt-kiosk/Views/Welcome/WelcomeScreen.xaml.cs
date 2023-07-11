@@ -1,19 +1,6 @@
-﻿using kvdt_kiosk.Views.Komlink;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace kvdt_kiosk.Views.Welcome
 {
@@ -28,19 +15,22 @@ namespace kvdt_kiosk.Views.Welcome
         }
 
 
-        private void BtnStart3_Click(object sender, RoutedEventArgs e)
+        private async void BtnStart3_Click(object sender, RoutedEventArgs e)
         {
-           
+            TxtShowNormal3.Text = "IN PROGRESS...";
+            await Task.Delay(1000);
+
             BtnStart4.IsEnabled = false;
 
             var language = new LanguageScreen();
             Content = language;
         }
 
-        private void BtnStart4_Click(object sender, RoutedEventArgs e)
+        private async void BtnStart4_Click(object sender, RoutedEventArgs e)
         {
-           
-            BtnStart3.IsEnabled = false;
+            TxtShowNormal4.Text = "IN PROGRESS...";
+            await Task.Delay(1000);
+
             var komlinkLanguage = new kvdt_kiosk.Views.Komlink.LanguageScreen();
             Content = komlinkLanguage;
 

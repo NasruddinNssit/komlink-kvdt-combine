@@ -1,6 +1,5 @@
 ﻿using kvdt_kiosk.Models;
 using kvdt_kiosk.Services;
-using kvdt_kiosk.Views;
 using kvdt_kiosk.Views.Idle;
 using kvdt_kiosk.Views.Welcome;
 using LazyCache;
@@ -69,9 +68,9 @@ namespace kvdt_kiosk
             AfcPackages = resultPackageTask.Result.Data;
             AfcStationDetails = resultStationTask.Result.AfcStationModels;
 
-            _afcRoutecache.Add("AFCRoutesCache", AfcRouteModels, DateTimeOffset.Now.AddHours(1));
-            _afcPackagescache.Add("AFCPackagesCache", AfcPackages, DateTimeOffset.Now.AddHours(1));
-            _afcStationscache.Add("AFCStationsCache", AfcStationDetails, DateTimeOffset.Now.AddHours(1));
+            _afcRoutecache.Add("AFCRoutesCache", AfcRouteModels, DateTimeOffset.Now.AddDays(9999));
+            _afcPackagescache.Add("AFCPackagesCache", AfcPackages, DateTimeOffset.Now.AddDays(9999));
+            _afcStationscache.Add("AFCStationsCache", AfcStationDetails, DateTimeOffset.Now.AddDays(9999));
         }
 
         private void StartActivityCheck()
@@ -87,10 +86,20 @@ namespace kvdt_kiosk
             {
                 lastActivity = DateTime.UtcNow;
                 SystemConfig.IsResetIdleTimer = false;
+
+                if (Content is WelcomeScreen)
+                {
+                    return;
+                }
             }
 
-            if (isIdle && DateTime.UtcNow.Subtract(lastActivity).TotalSeconds > 120)
+            if (isIdle && DateTime.UtcNow.Subtract(lastActivity).TotalSeconds > 130)
             {
+                if (Content is WelcomeScreen)
+                {
+                    return;
+                }
+
                 var closingScreen = new ClosingScreen();
 
                 var window = new Window

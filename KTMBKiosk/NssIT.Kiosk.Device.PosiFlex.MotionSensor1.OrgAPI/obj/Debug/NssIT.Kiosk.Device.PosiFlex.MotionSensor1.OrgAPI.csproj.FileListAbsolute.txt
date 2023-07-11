@@ -19,3 +19,10 @@ C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\NssIT.
 C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI\obj\Debug\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI.csproj.CoreCompileInputs.cache
 C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI\obj\Debug\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI.dll
 C:\Users\moham\source\repos\NasruddinNssit\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI\obj\Debug\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI.pdb
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI\bin\Debug\PosiFlexMotionSensorDLL.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI\bin\Debug\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI\bin\Debug\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI.pdb
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI\obj\Debug\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI.csproj.AssemblyReference.cache
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI\obj\Debug\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI.csproj.CoreCompileInputs.cache
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI\obj\Debug\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI.dll
+C:\Users\devel\source\repos\KVDT Combined\komlink-kvdt-combine\KTMBKiosk\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI\obj\Debug\NssIT.Kiosk.Device.PosiFlex.MotionSensor1.OrgAPI.pdb

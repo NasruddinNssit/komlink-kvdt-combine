@@ -9,6 +9,7 @@ using kvdt_kiosk.Views.Payment.EWallet;
 using kvdt_kiosk.Views.Payment.PayWave;
 using kvdt_kiosk.Views.Printing;
 using kvdt_kiosk.Views.SeatingScreen;
+using kvdt_kiosk.Views.Welcome;
 using LazyCache;
 using Microsoft.Reporting.WinForms;
 using Newtonsoft.Json;
@@ -677,16 +678,35 @@ namespace kvdt_kiosk.Views.PurchaseTicket
             SystemConfig.IsResetIdleTimer = true;
         }
 
-        private void BtnExit_Click(object sender, RoutedEventArgs e)
+        private async void BtnExit_Click(object sender, RoutedEventArgs e)
         {
-            IAppCache cache = new CachingService();
-            cache.Remove("AFCRoutesCache");
-            cache.Remove("AFCStationsCache");
-            cache.Remove("AFCPackagesCache");
-            cache.Remove("UserSession.ToStationId");
-            cache.Remove("colorCache");
 
-            Application.Current.Shutdown();
+            //IAppCache cache = new CachingService();
+            //cache.Remove("AFCRoutesCache");
+            //cache.Remove("AFCStationsCache");
+            //cache.Remove("AFCPackagesCache");
+            //cache.Remove("UserSession.ToStationId");
+            //cache.Remove("colorCache");
+
+            UserSession.UserAddons = null;
+            UserSession.isParcelHaveClicked = false;
+            UserSession.IsParcelCheckOut = false;
+            UserSession.TicketOrderTypes = null;
+            UserSession.IsCheckOut = false;
+            UserSession.TotalTicketPrice = 0;
+            UserSession.UpdateAFCBookingResultModel = null;
+            UserSession.CheckoutBookingResultModel = null;
+            PassengerInfo.IcScanned.Clear();
+            PassengerInfo.PassengerName = null;
+            PassengerInfo.ICNumber = null;
+            PassengerInfo.CurrentScanNumberForChild = 0;
+            PassengerInfo.CurrentScanNumberForSenior = 0;
+            PassengerInfo.IsPaxSelected = false;
+
+            await Task.Delay(500);
+
+            var parentWindow = Window.GetWindow(this);
+            parentWindow.Content = new WelcomeScreen();
         }
 
         public void GetAfcRoutesAsync()
